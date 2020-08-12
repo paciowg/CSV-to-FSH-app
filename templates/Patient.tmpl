@@ -1,0 +1,54 @@
+## Observation Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+## 
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+## 
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+## 
+## - Values for global variables are defined in global-variables.csv
+## 
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: Hl7FhirAdminGender  = http://hl7.org/fhir/ValueSet/administrative-gender
+Alias: Hl7V3MS = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
+Alias: LANGVALSET = urn:oid:2.16.840.1.113883.1.11.11526
+Alias: Hl7V2TBL0131 = http://hl7.org/fhir/v2/0131
+Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+<@=
+
+Instance: @@<instance-id-prefix>@@-@<patient.id>@
+InstanceOf: Patient
+* active = true
+
+* name.text = "@<name.given>@ @<name.family>@"
+* name.given = "@<name.given>@"
+* name.family = "@<name.family>@"
+
+* gender = Hl7FhirAdminGender#@<gender>@
+
+* birthDate = "@<birthDate>@"
+
+* maritalStatus = Hl7V3MS#@<maritalStatus>@
+
+* telecom.system = #phone
+* telecom.value = "@<telecom.value>@"
+* telecom.use = #mobile
+
+* address.text = "@<address.text>@"
+
+* communication.language.coding = @<language.coding>@
+* communication.preferred = true
+
+* @<contact>@.name.text = "@<contact.name.text>@"
+* @<contact>@.@<relationship>@.coding = @<relationship>@
+* @<contact>@.address.text = "@<contact.address.text>@"
+* @<contact>@.telecom.system = #phone
+* @<contact>@.telecom.value = "@<contact.telecom.value>@"
+
+* generalPractitioner = Reference(@<generalPractitioner>@)

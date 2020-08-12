@@ -1,0 +1,35 @@
+###
+### This file in YAML format contains key-value pairs to be used by the script during runtime
+###
+
+# Set flag to True/False to generate/suppress debug statements to show in console
+debug: True
+
+# All input CSV files should be located in the folder designated by input_folder
+input_folder: "./input"
+
+# Generated FSH code files will be put to the folder designated by output_folder
+output_folder: "./output"
+
+# Instance templates should be located in the folder designated by templates_folder
+# The convention is to name each template file with the name of the FHIR resource name or resource profile name
+# E.g. To generate FHIR Observation instances, create a template file named Observation.tmpl in the folder
+templates_folder: "./templates"
+
+# Specify name of CSV file containing global variables and their values
+global_vars_file: global-variables.csv
+
+# Specify one or more jobs to run to generate FSH code files
+# To define a job, you specify (1) the resource/profile name, (2) the data file to use, and 
+# optionaly (3) other input files for creating lookup tables
+jobs:
+- resource: Patient
+  dataFile: Patient.data.csv
+  otherInputFiles:
+    - Patient.contact.csv
+
+- resource: Observation
+  dataFile: Observation.data.csv
+  otherInputFiles:
+    - Observation.code.csv
+    - Observation.valueCode.csv
