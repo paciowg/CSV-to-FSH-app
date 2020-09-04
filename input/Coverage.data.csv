@@ -1,0 +1,3 @@
+coverage.id,class.type,class.value,subscriber,beneficiary,period.start,period.end,status,payor,subscriberId
+Coverage-CMS-Medicare,COVCLASS#plan,Medicate Part A,patientBSJ1,patientBSJ1,2019-12-01,2020-11-30,active,Org-CMS,10A3D58WH1600
+Coverage-THHS-Medicaid,COVCLASS#plan,Medicaid,patientBSJ1,patientBSJ1,2019-12-01,2020-11-30,active,Org-THHS,123456789

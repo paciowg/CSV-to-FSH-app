@@ -1,0 +1,34 @@
+## Encounter Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: DRL = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: SNMD = http://snomed.info/sct
+<@=
+
+Instance: @@<instance-id-prefix>@@-@<encounter.id>@
+InstanceOf: Encounter
+* subject = Reference(@<subject>@)
+* status = #finished
+* class.system = "@<class.system>@"
+* class.code = #@<class.code>@
+* class.display = "@<class.display>@"
+* type.coding = @<type.coding>@
+* period.start = "@<period.start>@"
+* period.end = "@<period.end>@"
+* @<diagnosis.condition>@ = Reference(@<encounter.diagnosis.condition>@)
+* @<diagnosis.use.coding>@ = @<encounter.diagnosis.use.coding>@
+* participant.individual = Reference(@<participant.individual>@)

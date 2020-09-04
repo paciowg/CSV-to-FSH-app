@@ -1,0 +1,9 @@
+resource.id,name.given,name.family,title,identifier.system,identifier.value,telecom.value,gender,address.text
+Practitioner-JohnSmith,John,Smith,Primary Care Physician,http://hl7.org/fhir/sid/us-npi,4278275001,(210) 564 1389,male,"177 Deerfield St. San Antonio, TX 78207"
+Practitioner-AndyLavande,Andy,Lavande,Endocrinologist,http://hl7.org/fhir/sid/us-npi,7062383534,(210) 555 1313,male,"9575 E. Water Rd, San Antonio, TX 78240"
+Practitioner-HarryPutter,Harry,Putter,Psychiatrist,http://hl7.org/fhir/sid/us-npi,6636097371,(210) 576 1538,male,"1 Sleepy Hollow Ave, San Antonio, TX 78229"
+Practitioner-LaylaRobbins,Layla,Robbins,Cardiologist,http://hl7.org/fhir/sid/us-npi,815183350,(240) 984 1334,female,"21 James Lane, San Antonio, TX 78247"
+Practitioner-JenniferWhite,Jennifer,White,Nephrologist,http://hl7.org/fhir/sid/us-npi,9226439786,(210) 555 1311,female,"7 Randall Milll Lane, San Antonio TX 78242"
+Practitioner-ShaunLongbottom,Shaun,Longbottom,Opthamologist,http://hl7.org/fhir/sid/us-npi,1984824679,(240) 564 1367,male,"8624 Arlington Road, San Antonio, TX 78232"
+Practitioner-NoraOlogist,Nora,Ologist,Neurologist,http://hl7.org/fhir/sid/us-npi,3668788925,(210) 555 7632,female,"26022 Meadowlark Bay, San Antonio, TX 78260"
+Practitioner-JennyGrant,Jenny,Grant,Nurse Practitioner,http://hl7.org/fhir/sid/us-npi,9098815676,(210) 555 1871,female,"8100 Pinebrook Dr, San Antonio, TX, 78230"

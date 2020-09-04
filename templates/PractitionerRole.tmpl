@@ -1,0 +1,32 @@
+## PractitionerRole Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: NUCC = http://nucc.org/provider-taxonomy
+Alias: PRO-ROLE = http://fhir.org/guides/argonaut-pd/ValueSet/provider-role
+Alias: SPECIALTY = http://fhir.org/guides/argonaut-pd/ValueSet/provider-specialty
+<@=
+
+Instance: @<resource.id>@
+InstanceOf: PractitionerRole
+* code = PRO-ROLE#@<code>@
+* code.coding.display = "@<role.display>@"
+* specialty = SPECIALTY#@<specialty>@
+* specialty.coding.display = "@<specialty.display>@"
+* active = true
+* practitioner = Reference(@<practitioner>@)
+* organization = Reference(@<organization>@)
+* location = Reference(@<location>@)

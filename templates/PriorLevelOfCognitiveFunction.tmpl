@@ -1,0 +1,36 @@
+## PriorLevelOfCognitiveFunction Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: LNC = http://loinc.org
+<@=
+
+Instance: @@<instance-id-prefix>@@-@<resource.id>@
+InstanceOf: PriorLevelOfCognitiveFunction
+* subject = Reference(@<subject>@)
+* status = #final
+
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">@<text>@</div>"
+* text.status = #additional
+* extension[assistance-required].valueCodeableConcept.text = "@<assistance-required>@"
+
+* performer = Reference(@<practitioner>@)
+* performer[1] = Reference(@<practitioner.role>@)
+* performer[2] = Reference(@<organization>@)
+* performer[2].display = "Organization"
+* extension[event-location].valueReference = Reference(@<location>@)
+* effectivePeriod.start = "@<period.start>@"
+* effectivePeriod.end = "@<period.end>@"

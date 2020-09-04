@@ -1,0 +1,18 @@
+resource.id,practitioner,organization,location,code,role.display,specialty,specialty.display
+provider-role-pcp,Practitioner-JohnSmith,provider-org-01,provider-org-loc-01,261QP2300X,Primary care,363LP2300X,Primary Care
+provider-role-endocrinologist,Practitioner-AndyLavande,provider-org-02,provider-org-loc-02,207RE0101X,"Endocrinology, Diabetes & Metabolism",2080P0205X,"Allopathic & Osteopathic Physicians; Pediatrics, Pediatric Endocrinology"
+provider-role-psychiatrist,Practitioner-HarryPutter,provider-org-03,provider-org-loc-03,363LP0808X,Psychiatric/Mental Health,2084A0401X,"Allopathic & Osteopathic Physicians; Psychiatry & Neurology, Addiction Medicine"
+provider-role-retail-pharmacy,retail-pharmacy-Jake-Kale,provider-org-04,provider-org-loc-04,183500000X,"Retail pharmacist, there is also pharmacy",3336C0003X,"Suppliers; Pharmacy, Community/Retail Pharmacy"
+provider-role-cardiologist,Practitioner-LaylaRobbins,provider-org-05,provider-org-loc-05,207RI0011X,Interventional Cardiology,207RI0011X,"Allopathic & Osteopathic Physicians; Internal Medicine, Interventional Cardiology"
+provider-role-nephrologist,Practitioner-JenniferWhite,provider-org-06,provider-org-loc-06,163WN0300X,Nephrology,207RN0300X,"Allopathic & Osteopathic Physicians; Internal Medicine, Nephrology"
+provider-role-opthamologist,Practitioner-ShaunLongbottom,provider-org-07,provider-org-loc-07,152W00000X,Optometrist,152WV0400X,"Eye and Vision Services Providers; Optometrist, Vision Therapy"
+provider-role-lab-services,next-laboratories,provider-org-08,provider-org-loc-08,291U00000X,Labroratory medicine specialist,291U00000X,Laboratories; Clinical Medical Laboratory
+provider-role-eLTSS-support-planner,eLTSS-support-planner,provider-org-09,provider-org-loc-09,104100000X,Social Worker,104100000X,Social Worker
+provider-role-eLTSS-plan-monitor,eLTSS-plan-monitor,provider-org-10,provider-org-loc-10,163WC0400X,Case management,171M00000X,Case Manager/Care Coordinator
+provider-role-transporter,patient-transport,provider-org-11,provider-org-loc-11,2278P4000X,Patient Transport,343900000X,Non-emergency Medical Transport (VAN)
+provider-role-driver,driver-Bill-Driver,provider-org-11,provider-org-loc-11,172A00000X,Driver,172A00000X,Driver
+provider-role-diabetes-educator,diabetes-educator-Lisa-Educator,provider-org-12,provider-org-loc-12,163WD0400X,Diabetes Educator,163WD0400X,Diabetes Educator
+provider-role-physical-therapist,therapeutic-exercise-Norma-Trainer,provider-org-13,provider-org-loc-13,225100000X,Physical Therapist,225100000X,Physical Therapist
+provider-role-home-modifications,eLTSS-home-modifications,provider-org-14,provider-org-loc-14,171WH0202X,Home Modifications,171WH0202X,Home Modifications
+provider-role-nurse-practitioner,Practitioner-JennyGrant,provider-org-15,provider-org-loc-15,363L00000X,Nurse Practitioner,224571005,Nurse Practitioner
+provider-role-neurologist,Practitioner-NoraOlogist,provider-org-16,provider-org-loc-16,2084N0400X,Neurology,2084N0400X,Neurology

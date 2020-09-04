@@ -1,0 +1,2 @@
+encounter.id,class.system,class.code,class.display,type.coding,subject,period.start,period.end,diagnosis.condition[...],diagnosis.use.coding[...],participant.individual
+Encounter-1,http://terminology.hl7.org/CodeSystem/v3-ActCode,IMP,Inpatient encounter,"SNMD#32485007 ""Hospital admission (procedure)""",patientBSJ1,2020-08-01T12:01:00-05:00,2020-08-01T14:01:00-05:00,BSJ-Diagnosis9,"DRL#AD ""Admission diagnosis""",Practitioner-JennyGrant

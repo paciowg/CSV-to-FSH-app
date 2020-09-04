@@ -1,0 +1,4 @@
+resource.id,code,text,assistance-required,subject,practitioner,practitioner.role,organization,location,period.start,period.end
+plocf-observation-1,11332-4,Placeholder for some text description of prior level of cognitive function...,Independent,patientBSJ1,pcp-John-Smith,provider-role-pcp,provider-org-01,provider-org-loc-01,7/1/2019,11/30/2019
+plocf-observation-2,11332-4,Placeholder for some text description of prior level of cognitive function...,Assistance needed,patientBSJ1,pcp-John-Smith,provider-role-pcp,provider-org-01,provider-org-loc-01,12/1/2019,6/30/2020
+plocf-observation-3,11332-4,Placeholder for some text description of prior level of cognitive function...,Assistance needed,patientBSJ1,pcp-John-Smith,provider-role-pcp,provider-org-01,provider-org-loc-01,12/1/2019,6/30/2020

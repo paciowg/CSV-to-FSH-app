@@ -3,7 +3,7 @@ Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 
-Instance: Connectathon-observationBSJ2
+Instance: BSJ-observationBSJ2
 InstanceOf: Observation
 * subject = Reference(patientBSJ1)
 * status = #final
@@ -16,7 +16,7 @@ InstanceOf: Observation
 * valueCodeableConcept.coding.display = "Dependent"
 
 
-Instance: Connectathon-observationBSJ1
+Instance: BSJ-observationBSJ1
 InstanceOf: Observation
 * subject = Reference(patientBSJ1)
 * status = #final

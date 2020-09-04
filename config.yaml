@@ -20,7 +20,7 @@ templates_folder: "./templates"
 global_vars_file: global-variables.csv
 
 # Specify one or more jobs to run to generate FSH code files
-# To define a job, you specify (1) the resource/profile name, (2) the data file to use, and 
+# To define a job, you specify (1) the resource/profile name, (2) the data file to use, and
 # optionaly (3) other input files for creating lookup tables
 jobs:
 - resource: Patient
@@ -33,3 +33,26 @@ jobs:
   otherInputFiles:
     - Observation.code.csv
     - Observation.valueCode.csv
+
+- resource: Condition
+  dataFile: Condition.data.csv
+  otherInputFiles:
+    - Condition.code.csv
+
+- resource: Practitioner
+  dataFile: Practitioner.data.csv
+
+- resource: PractitionerRole
+  dataFile: PractitionerRole.data.csv
+
+- resource: Encounter
+  dataFile: Encounter.data.csv
+
+- resource: Coverage
+  dataFile: Coverage.data.csv
+
+- resource: PriorLevelOfFunction
+  dataFile: PriorLevelOfFunction.data.csv
+
+- resource: PriorLevelOfCognitiveFunction
+  dataFile: PriorLevelOfCognitiveFunction.data.csv
