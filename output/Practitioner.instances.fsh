@@ -1,4 +1,4 @@
-Alias: Hl7FhirAdminGender  = http://hl7.org/fhir/ValueSet/administrative-gender
+Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 
 
 Instance: Practitioner-AndyLavande

@@ -1,4 +1,4 @@
-## PractitionerRole Instance Template
+## Medication Instance Template
 ##
 ## NOTE:
 ## - Any line starts with'##' is a comment line--will be ignored
@@ -15,18 +15,14 @@
 ## - Any lines between '=@>' and '<@=' are head lines that will be output only once
 ##
 =@>
-Alias: NUCC = http://nucc.org/provider-taxonomy
-Alias: PRO-ROLE = http://nucc.org/provider-taxonomy
-Alias: SPECIALTY = http://nucc.org/provider-taxonomy
+Alias: USCOREMED = http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication
+Alias: MEDSTATUS = http://hl7.org/fhir/CodeSystem/medication-status
+Alias: RXNORM = http://www.nlm.nih.gov/research/umls/rxnorm
 <@=
 
 Instance: @<resource.id>@
-InstanceOf: PractitionerRole
-* code = PRO-ROLE#@<code>@
-* code.coding.display = "@<role.display>@"
-* specialty = SPECIALTY#@<specialty>@
-* specialty.coding.display = "@<specialty.display>@"
-* active = true
-* practitioner = Reference(@<practitioner>@)
-* organization = Reference(@<organization>@)
-* location = Reference(@<location>@)
+InstanceOf: USCoreMedicationProfile
+* status = MEDSTATUS#@<status>@
+* code = RXNORM#@<code>@
+* code.text = "@<code.text>@"
+* code.coding.display = "@<code.display>@"

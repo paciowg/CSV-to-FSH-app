@@ -15,6 +15,7 @@
 ## - Any lines between '=@>' and '<@=' are head lines that will be output only once
 ##
 =@>
+Alias: USCCOND = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition
 Alias: COND-CAT = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: ELTSS-CAT = http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code
 Alias: CC = http://terminology.hl7.org/CodeSystem/condition-clinical
@@ -23,7 +24,7 @@ Alias: SCT = http://snomed.info/sct
 <@=
 
 Instance: @@<instance-id-prefix>@@-@<condition.id>@
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(@<condition.subjectRef>@)
 * clinicalStatus = CC#@<condition.clinicalStatus>@
 * verificationStatus = CVS#@<condition.verificationStatus>@

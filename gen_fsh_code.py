@@ -146,7 +146,7 @@ def read_template(template_name, configs):
     return template_obj
 
 
-def read_data(data_file_name, parser_name, configs):
+def read_data(data_file_name, parser_name, resource_name, configs):
     """Return a JSON object containing file data after parsing the given file"""
 
     if debug:
@@ -157,7 +157,7 @@ def read_data(data_file_name, parser_name, configs):
     file_path = os.path.join(input_dir, data_file_name)
     #TODO: verify file actually exists--if not, skip
 
-    json_obj = globals()[parser_name](file_path)
+    json_obj = globals()[parser_name](file_path, resource_name)
 
     if debug:
         pprint(json_obj)
@@ -354,7 +354,7 @@ def run_jobs(context):
         # if no parser is given for parsing the particular resource data, then use a generic CSV parser
         if not parser_name in globals():
             parser_name = 'generic_csv_parser'
-        lookup = read_data(data_file_name, parser_name, configs)
+        lookup = read_data(data_file_name, parser_name, resource_name, configs)
         resource_data_lookup[resource_name] = lookup
 
         # read and parse other input files if any given
@@ -363,7 +363,7 @@ def run_jobs(context):
             if isinstance(other_input_files, list) and len(other_input_files) > 0:
                 parser_name = 'generic_csv_parser'
                 for input_file in other_input_files:
-                    lookup = read_data(input_file, parser_name, configs)
+                    lookup = read_data(input_file, parser_name, '', configs)
                     # store lookup table to context to be used later
                     table_name = input_file[0:len(input_file)-4]
                     context[table_name] = lookup

@@ -1,0 +1,38 @@
+## USCore Observation Lab Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: USCOBLAB = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab
+Alias: LNC = http://loinc.org
+Alias: UOM = http://unitsofmeasure.org
+Alias: USCCAT = http://terminology.hl7.org/CodeSystem/observation-category
+<@=
+
+Instance: @@<instance-id-prefix>@@-@<observationlab.id>@
+InstanceOf: USCoreLaboratoryResultObservationProfile
+* subject = Reference(@<subject.patientRef>@)
+* encounter = Reference(@<encounterRef>@)
+* status = #final
+* category = USCCAT#laboratory "Laboratory"
+* effectiveDateTime = "@<effectiveDateTime>@"
+* code = LNC#@<code>@
+* code.text = "@<observationlab.code.longname>@"
+* code.coding.display = "@<observationlab.code.display>@"
+* valueQuantity.value = @<value>@
+* valueQuantity.unit = "@<ucumCode>@"
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.code = UOM#@<ucumCode>@
+* performer = Reference(@<organizationRef>@)

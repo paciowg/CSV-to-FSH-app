@@ -1,0 +1,2 @@
+allergy.id,allergy.encounter.id,allergy.subjectRef,allergy.onsetDateTime,allergy.asserterRef,allergy.asserter.display,allergy.category,allergy.clinicalStatus,allergy.verificationStatus,code[->],Code System
+Allergy-Intolerance-1,BSJ-Encounter-1,patientBSJ1,2020-07-08T17:28:00-05:00,Practitioner-JohnSmith,PCP John Smith,medication,active,confirmed,409137002,SNOMED

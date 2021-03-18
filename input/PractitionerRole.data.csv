@@ -1,5 +1,5 @@
 resource.id,practitioner,organization,location,code,role.display,specialty,specialty.display
-provider-role-pcp,Practitioner-JohnSmith,provider-org-01,provider-org-loc-01,261QP2300X,Primary care,363LP2300X,Primary Care
+provider-role-pcp,Practitioner-JohnSmith,provider-org-01,provider-org-loc-01,261QP2300X,Primary Care Clinic/Center,363LP2300X,Primary Care Clinic/Center
 provider-role-endocrinologist,Practitioner-AndyLavande,provider-org-02,provider-org-loc-02,207RE0101X,"Endocrinology, Diabetes & Metabolism",2080P0205X,"Allopathic & Osteopathic Physicians; Pediatrics, Pediatric Endocrinology"
 provider-role-psychiatrist,Practitioner-HarryPutter,provider-org-03,provider-org-loc-03,363LP0808X,Psychiatric/Mental Health,2084A0401X,"Allopathic & Osteopathic Physicians; Psychiatry & Neurology, Addiction Medicine"
 provider-role-retail-pharmacy,retail-pharmacy-Jake-Kale,provider-org-04,provider-org-loc-04,183500000X,"Retail pharmacist, there is also pharmacy",3336C0003X,"Suppliers; Pharmacy, Community/Retail Pharmacy"

@@ -1,0 +1,13 @@
+obvitalsigns.id,subject.patientRef,encounterRef,effectiveDateTime,organizationRef,code[->],result,unit,ucumCode
+VitalSign-1,patientBSJ1,BSJ-Encounter-1,2020-07-08T17:28:00-05:00,provider-org-16,9279-1,20,breaths/minute,/min
+VitalSign-2,patientBSJ1,BSJ-Encounter-1,2020-07-08T17:28:00-05:00,provider-org-16,8867-4,88,beats/minute,/min
+VitalSign-3,patientBSJ1,BSJ-Encounter-1,2020-07-08T17:28:00-05:00,provider-org-16,2708-6,99,%,%
+VitalSign-4,patientBSJ1,BSJ-Encounter-1,2020-07-08T17:28:00-05:00,provider-org-16,8310-5,37.4,C,Cel
+VitalSign-5,patientBSJ1,BSJ-Encounter-1,2020-07-08T17:28:00-05:00,provider-org-16,8480-6,135,mmHg,mm[Hg]
+VitalSign-6,patientBSJ1,BSJ-Encounter-1,2020-07-08T17:28:00-05:00,provider-org-16,8462-4,80,mmHg,mm[Hg]
+VitalSign-7,patientBSJ1,BSJ-Encounter-1,2020-07-11T01:16:00-05:00,provider-org-16,9279-1,18,breaths/minute,/min
+VitalSign-8,patientBSJ1,BSJ-Encounter-1,2020-07-11T01:16:00-05:00,provider-org-16,8867-4,75,beats/minute,/min
+VitalSign-9,patientBSJ1,BSJ-Encounter-1,2020-07-11T01:16:00-05:00,provider-org-16,2708-6,100,%,%
+VitalSign-10,patientBSJ1,BSJ-Encounter-1,2020-07-11T01:16:00-05:00,provider-org-16,8310-5,37.4,C,Cel
+VitalSign-11,patientBSJ1,BSJ-Encounter-1,2020-07-11T01:16:00-05:00,provider-org-16,8480-6,120,mmHg,mm[Hg]
+VitalSign-12,patientBSJ1,BSJ-Encounter-1,2020-07-11T01:16:00-05:00,provider-org-16,8462-4,80,mmHg,mm[Hg]

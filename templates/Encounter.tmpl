@@ -1,4 +1,4 @@
-## Encounter Instance Template
+## USCoreEncounterProfile Instance Template
 ##
 ## NOTE:
 ## - Any line starts with'##' is a comment line--will be ignored
@@ -15,14 +15,17 @@
 ## - Any lines between '=@>' and '<@=' are head lines that will be output only once
 ##
 =@>
+Alias: USCOREENT = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
 Alias: DRL = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: ENCSTATUS = http://hl7.org/fhir/encounter-status
+Alias: DIAGPRESENT = http://terminology.hl7.org/CodeSystem/diagnosis-role
 Alias: SNMD = http://snomed.info/sct
 <@=
 
 Instance: @@<instance-id-prefix>@@-@<encounter.id>@
-InstanceOf: Encounter
+InstanceOf: USCoreEncounterProfile
 * subject = Reference(@<subject>@)
-* status = #finished
+* status = ENCSTATUS#finished
 * class.system = "@<class.system>@"
 * class.code = #@<class.code>@
 * class.display = "@<class.display>@"

@@ -1,6 +1,6 @@
 Alias: NUCC = http://nucc.org/provider-taxonomy
-Alias: PRO-ROLE = http://fhir.org/guides/argonaut-pd/ValueSet/provider-role
-Alias: SPECIALTY = http://fhir.org/guides/argonaut-pd/ValueSet/provider-specialty
+Alias: PRO-ROLE = http://nucc.org/provider-taxonomy
+Alias: SPECIALTY = http://nucc.org/provider-taxonomy
 
 
 Instance: provider-role-eLTSS-plan-monitor

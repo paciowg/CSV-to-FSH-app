@@ -1,4 +1,4 @@
 resource.id,code,text,assistance-required,subject,practitioner,practitioner.role,organization,location,period.start,period.end
-plof-observation-1,10158-4,Placeholder for some text description of prior level of function...,Independent,patientBSJ1,pcp-John-Smith,provider-role-pcp,provider-org-01,provider-org-loc-01,2019-07-01,2019-11-30
-plof-observation-2,10158-4,Placeholder for some text description of prior level of function...,Assistance needed,patientBSJ1,pcp-John-Smith,provider-role-pcp,provider-org-01,provider-org-loc-01,2019-12-01,2020-06-30
-plof-observation-3,10158-4,Placeholder for some text description of prior level of function...,Assistance needed,patientBSJ1,pcp-John-Smith,provider-role-pcp,provider-org-01,provider-org-loc-01,2019-12-01,2020-06-30
+Prior-Level-Of-Function-1,10158-4,"Patient is a community ambulator, able to attend desired activites and able to care for herself independently",Independent,patientBSJ1,Practitioner-JohnSmith,provider-role-pcp,provider-org-01,provider-org-loc-01,2019-07-01,2020-11-30
+Prior-Level-Of-Function-2,10158-4,Placeholder for some text description of prior level of function...,Assistance needed,patientBSJ1,Practitioner-JohnSmith,provider-role-pcp,provider-org-01,provider-org-loc-01,2019-12-01,2020-06-30
+Prior-Level-Of-Function-3,10158-4,Placeholder for some text description of prior level of function...,Assistance needed,patientBSJ1,Practitioner-JohnSmith,provider-role-pcp,provider-org-01,provider-org-loc-01,2019-12-01,2020-06-30

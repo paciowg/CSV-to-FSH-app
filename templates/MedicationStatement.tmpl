@@ -1,0 +1,40 @@
+## MedicationStatement Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: MEDSTMCAT = http://terminology.hl7.org/CodeSystem/medication-statement-category
+Alias: MEDSTMSTATUS = http://hl7.org/fhir/CodeSystem/medication-statement-status
+Alias: MEDSTATUS = 	http://hl7.org/fhir/CodeSystem/medication-status
+Alias: RXNORM = http://www.nlm.nih.gov/research/umls/rxnorm
+<@=
+
+Instance: @<resource.id>@
+InstanceOf: MedicationStatement
+* contained.resourceType = "Medication"
+* contained.id = "@<medication>@-1"
+* contained.code = RXNORM#@<code>@
+* contained.code.text = "@<code.text>@"
+* contained.code.coding.display = "@<code.display>@"
+* subject = Reference(@<subject>@)
+* status = MEDSTMSTATUS#@<status>@
+* category = MEDSTMCAT#@<category>@
+* basedOn = Reference(@<basedOn>@)
+* medicationReference.reference = "#@<medication>@-1"
+* dateAsserted = "@<dateAsserted>@"
+* effectiveDateTime = "@<effectiveDateTime>@"
+* informationSource = Reference(@<informationSource>@)
+* reasonReference = Reference(@<reasonReference>@)
+* dosage.text = "@<dosage.text>@"

@@ -1,13 +1,13 @@
 condition.id,condition.subjectRef,condition.onsetDateTime,condition.asserterRef,condition.asserter.display,condition.category,condition.clinicalStatus,condition.verificationStatus,code[->],Code System
-Diagnosis1,patientBSJ1,2020-07-06T12:15:00-05:00,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,38341003,SNOMED
-Diagnosis2,patientBSJ1,2020-07-06T12:15:00-05:01,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,55822004,SNOMED
-Diagnosis3,patientBSJ1,2020-07-06T12:15:00-05:02,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,433144002,SNOMED
-Diagnosis4,patientBSJ1,2020-07-06T12:15:00-05:03,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,414545008,SNOMED
-Diagnosis5,patientBSJ1,2020-07-06T12:15:00-05:04,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,192080009,SNOMED
-Diagnosis6,patientBSJ1,2020-07-06T12:15:00-05:05,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,95722004,SNOMED
-Diagnosis7,patientBSJ1,2020-07-06T12:15:00-05:06,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,396275006,SNOMED
-Diagnosis8,patientBSJ1,2020-07-06T12:15:00-05:07,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,Active,Confirmed,44054006,SNOMED
-Diagnosis9,patientBSJ1,2020-08-01T12:01:00-05:07,Practitioner-NoraOlogist,Neurologist Nora Ologist,COND-CAT#encounter-diagnosis,Active,Confirmed,422504002,SNOMED
-Assessed-Need1,patientBSJ1,2020-07-06T12:15:00-05:07,eLTSS-plan-monitor,Plan Manager Sam Monitor,ELTSS-CAT#assessed-need,Active,Confirmed,713458007,SNOMED
-Assessed-Need2,patientBSJ1,2020-07-06T12:15:00-05:07,eLTSS-plan-monitor,Plan Manager Sam Monitor,ELTSS-CAT#assessed-need,Active,Confirmed,734920002,SNOMED
-Assessed-Need3,patientBSJ1,2020-08-01T12:01:00-05:07,Practitioner-JennyGrant,Nurse Practitioner Jenny Grant,ELTSS-CAT#assessed-need,Active,Confirmed,183301007,SNOMED
+Diagnosis1,patientBSJ1,2020-07-06T12:15:00-05:00,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,38341003,SNOMED
+Diagnosis2,patientBSJ1,2020-07-06T12:15:00-05:01,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,55822004,SNOMED
+Diagnosis3,patientBSJ1,2020-07-06T12:15:00-05:02,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,433144002,SNOMED
+Diagnosis4,patientBSJ1,2020-07-06T12:15:00-05:03,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,414545008,SNOMED
+Diagnosis5,patientBSJ1,2020-07-06T12:15:00-05:04,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,192080009,SNOMED
+Diagnosis6,patientBSJ1,2020-07-06T12:15:00-05:05,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,95722004,SNOMED
+Diagnosis7,patientBSJ1,2020-07-06T12:15:00-05:06,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,396275006,SNOMED
+Diagnosis8,patientBSJ1,2020-07-06T12:15:00-05:07,Practitioner-JohnSmith,PCP John Smith,COND-CAT#encounter-diagnosis,active,confirmed,44054006,SNOMED
+Diagnosis9,patientBSJ1,2020-07-07T15:32:00-05:07,Practitioner-NoraOlogist,Neurologist Nora Ologist,COND-CAT#encounter-diagnosis,active,confirmed,422504002,SNOMED
+Assessed-Need1,patientBSJ1,2020-07-06T12:15:00-05:07,eLTSS-plan-monitor,Plan Manager Sam Monitor,ELTSS-CAT#assessed-need,active,confirmed,713458007,SNOMED
+Assessed-Need2,patientBSJ1,2020-07-06T12:15:00-05:07,eLTSS-plan-monitor,Plan Manager Sam Monitor,ELTSS-CAT#assessed-need,active,confirmed,734920002,SNOMED
+Assessed-Need3,patientBSJ1,2020-08-01T12:01:00-05:07,Practitioner-JennyGrant,Nurse Practitioner Jenny Grant,ELTSS-CAT#assessed-need,active,confirmed,183301007,SNOMED

@@ -56,3 +56,33 @@ jobs:
 
 - resource: PriorLevelOfCognitiveFunction
   dataFile: PriorLevelOfCognitiveFunction.data.csv
+
+- resource: Medication
+  dataFile: Medication.data.csv
+
+- resource: MedicationRequest
+  dataFile: MedicationRequest.data.csv
+
+- resource: MedicationStatement
+  dataFile: MedicationStatement.data.csv
+
+- resource: AllergyIntolerance
+  dataFile: AllergyIntolerance.data.csv
+  otherInputFiles:
+    - AllergyIntolerance.code.csv
+
+- resource: Immunization
+  dataFile: Immunization.data.csv
+  otherInputFiles:
+    - Immunization.cvx.code.csv
+    - Immunization.ndc.code.csv
+
+- resource: ObservationVitalSigns
+  dataFile: ObservationVitalSigns.data.csv
+  otherInputFiles:
+    - ObservationVitalSigns.code.csv
+
+- resource: ObservationLab
+  dataFile: ObservationLab.data.csv
+  otherInputFiles:
+    - ObservationLab.code.csv

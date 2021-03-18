@@ -1,0 +1,7 @@
+observationvitalsigns.code[key],observation.code.display,observation.code.text
+9279-1,Respiratory rate,Respiratory Rate
+8867-4,Heart rate, Heart Rate
+2708-6,SaO2% (BldA) [Mass fraction],Oxygen saturation in Arterial blood
+8310-5,Body temperature,Body Temperature
+8480-6,Systolic blood pressure,Systolic Blood Pressure
+8462-4,Diastolic blood pressure,Diastolic Blood Pressure

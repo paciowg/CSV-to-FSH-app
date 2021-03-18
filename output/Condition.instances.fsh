@@ -1,3 +1,4 @@
+Alias: USCCOND = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition
 Alias: COND-CAT = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: ELTSS-CAT = http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code
 Alias: CC = http://terminology.hl7.org/CodeSystem/condition-clinical
@@ -6,10 +7,10 @@ Alias: SCT = http://snomed.info/sct
 
 
 Instance: BSJ-Diagnosis7
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#396275006
 * code.text = "Osteoarthritis (disorder)"
@@ -20,10 +21,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis6
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#95722004
 * code.text = "Bilateral cataracts (disorder)"
@@ -34,10 +35,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis5
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#192080009
 * code.text = "Chronic depression (disorder)"
@@ -48,10 +49,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis4
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#414545008
 * code.text = "Ischemic heart disease (disorder)"
@@ -62,10 +63,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis3
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#433144002
 * code.text = "Chronic kidney disease stage 3 (disorder)"
@@ -76,10 +77,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis2
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#55822004
 * code.text = "Hyperlipidemia (disorder)"
@@ -90,10 +91,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis1
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#38341003
 * code.text = "Hypertensive disorder, systemic arterial (disorder)"
@@ -104,24 +105,24 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Diagnosis9
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#422504002
 * code.text = "Ischemic stroke (disorder) "
 * code.coding.display = "Ischemic stroke"
-* onsetDateTime = "2020-08-01T12:01:00-05:07"
+* onsetDateTime = "2020-07-07T15:32:00-05:07"
 * asserter = Reference(Practitioner-NoraOlogist)
 * asserter.display = "Neurologist Nora Ologist"
 
 
 Instance: BSJ-Diagnosis8
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
 * code = SCT#44054006
 * code.text = "Diabetes mellitus type 2 (disorder)"
@@ -132,10 +133,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Assessed-Need1
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = ELTSS-CAT#assessed-need
 * code = SCT#713458007
 * code.text = "Lack of access to transportation (finding)"
@@ -146,10 +147,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Assessed-Need2
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = ELTSS-CAT#assessed-need
 * code = SCT#734920002
 * code.text = "Diabetes mellitus education service"
@@ -160,10 +161,10 @@ InstanceOf: Condition
 
 
 Instance: BSJ-Assessed-Need3
-InstanceOf: Condition
+InstanceOf: USCoreCondition
 * subject = Reference(patientBSJ1)
-* clinicalStatus = CC#Active
-* verificationStatus = CVS#Confirmed
+* clinicalStatus = CC#active
+* verificationStatus = CVS#confirmed
 * category = ELTSS-CAT#assessed-need
 * code = SCT#183301007
 * code.text = " Physical exercises (regime/therapy) "

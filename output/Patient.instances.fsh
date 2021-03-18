@@ -1,12 +1,12 @@
-Alias: Hl7FhirAdminGender  = http://hl7.org/fhir/ValueSet/administrative-gender
+Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 Alias: Hl7V3MS = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
-Alias: LANGVALSET = urn:oid:2.16.840.1.113883.1.11.11526
+Alias: LANGVALSET = urn:ietf:bcp:47
 Alias: Hl7V2TBL0131 = http://hl7.org/fhir/v2/0131
 Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 
 Instance: BSJ-patientBSJ1
-InstanceOf: Patient
+InstanceOf: USCorePatientProfile
 * active = true
 
 * name.text = "Betsy Smith-Johnson"
