@@ -1,34 +1,41 @@
 observationlab.code[key],observationlab.code.longname,observationlab.code.display,ucumCode
-72172-0,"Total score [MoCA]","Total score [MoCA]",{score}
-52731-7,"Repetition of three words # [BIMS]","Repetition of three words # [BIMS]",
-52732-5,"Temporal orientation - current year [BIMS]","Temporal orientation - current year [BIMS]",
-52733-3,"Temporal orientation - current month [BIMS]","Temporal orientation - current month [BIMS]",
-54609-3,"Temporal orientation - current day of the week [BIMS]","Temporal orientation - current day of the week [BIMS]",
-52735-8,"Recall - sock [BIMS]","Recall - sock [BIMS]",
-52736-6,"Recall - blue [BIMS]","Recall - blue [BIMS]",
-52737-4,"Recall - bed [BIMS]","Recall - bed [BIMS]",
-54614-3,"Brief Interview for Mental Status - summary score [BIMS]","Brief Interview for Mental Status - summary score [BIMS]",{score}
-54636-6,"Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]","Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54637-4,"Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]","Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54638-2,"Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]","Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54639-0,"Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]","Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54640-8,"Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]","Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54641-6,"Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]","Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54642-4,"Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]","Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54643-2,"Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]","Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54644-0,"Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]","Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54645-7,"Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]","Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54646-5,"Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]","Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54647-3,"Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]","Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54648-1,"Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]","Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54649-9,"Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]","Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54650-7,"Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]","Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54651-5,"Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]","Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54652-3,"Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]","Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]",
-54653-1,"Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]","Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]",
-54654-9,"Mood interview total severity score [Reported PHQ-9 CMS]","Mood interview total severity score [Reported PHQ-9 CMS]",{score}
-72106-8,"Total score [MMSE]","Total score [MMSE]",{score}
-72133-2,"Montreal Cognitive Assessment [MoCA]","Montreal Cognitive Assessment [MoCA]",
-72107-6,"Mini-Mental State Examination [MMSE]","Mini-Mental State Examination [MMSE]",
-52491-8,"Brief interview for mental status [BIMS]","Brief interview for mental status [BIMS]",
-54635-8,"Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]","Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]",
+6690-2,"Leukocytes [#/volume] in Blood by Automated count","WBC Auto (Bld) [#/Vol]",10*3/uL
+718-7,"Hemoglobin [Mass/volume] in Blood","Hemoglobin (Bld) [Mass/Vol]",g/dL
+20570-8,"Hematocrit [Volume Fraction] of Blood","Hematocrit (Bld) [Volume fraction]",%
+26453-1,"Erythrocytes [#/volume] in Blood","RBC (Bld) [#/Vol]",10*6/uL
+30428-7,"MCV [Entitic volume]","MCV (RBC) [Entitic vol]",fL
+28539-5,"MCH [Entitic mass]","MCH (RBC) [Entitic mass]",pg
+28540-3,"MCHC [Mass/volume]","MCHC (RBC) [Mass/Vol]",g/dL
+30384-2,"Erythrocyte distribution width [Entitic volume]","Erythrocyte distribution width (RBC) [Entitic vol]",fL
+30385-9,"Erythrocyte distribution width [Ratio]","Erythrocyte distribution width (RBC) [Ratio]",%
+26515-7,"Platelets [#/volume] in Blood","Platelets (Bld) [#/Vol]",10*3/uL
+28542-9,"Platelet mean volume [Entitic volume] in Blood","Platelet mean volume (Bld) [Entitic vol]",fL
+771-6,"Nucleated erythrocytes [#/volume] in Blood by Automated count","Nucleated RBC Auto (Bld) [#/Vol]",10*3/uL
+2951-2,"Sodium [Moles/volume] in Serum or Plasma","Sodium [Moles/Vol]",mmol/L
+2823-3,"Potassium [Moles/volume] in Serum or Plasma","Potassium [Moles/Vol]",mmol/L
+2075-0,"Chloride [Moles/volume] in Serum or Plasma","Chloride [Moles/Vol]",mmol/L
+2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma","CO2 [Moles/Vol]",mmol/L
+33037-3,"Anion gap in Serum or Plasma","Anion gap [Moles/Vol]",mmol/L
+3094-0,"Urea nitrogen [Mass/volume] in Serum or Plasma","Urea nitrogen [Mass/Vol]",mg/dL
+2160-0,"Creatinine [Mass/volume] in Serum or Plasma","Creatinine [Mass/Vol]",mg/dL
+33914-3,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum or Plasma by Creatinine-based formula (MDRD)","GFR/1.73 sq M.predicted MDRD [Vol rate/Area]",mL/min/{1.73_m2}
+2345-7,"Glucose [Mass/volume] in Serum or Plasma","Glucose [Mass/Vol]",mg/dL
+17861-6,"Calcium [Mass/volume] in Serum or Plasma","Calcium [Mass/Vol]",mg/dL
+2774-8,"Phosphate [Mass/volume] in Blood","Phosphate (Bld) [Mass/Vol]",mg/dL
+21377-7,"Magnesium [Mass/volume] in Blood","Magnesium (Bld) [Mass/Vol]",mg/dL
+5902-2,"Prothrombin time (PT)","PT Coag (PPP) [Time]",s
+6301-6,"INR in Platelet poor plasma by Coagulation assay","INR Coag (PPP) [Relative time]",{INR}
+14979-9,"aPTT in Platelet poor plasma by Coagulation assay","aPTT Coag (PPP) [Time]",s
+3255-7,"Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay","Fibrinogen Coag (PPP) [Mass/Vol]",mg/dL
+91556-1,"Fibrin D-dimer DDU [Mass/volume] in Blood by Immunoassay","Fibrin D-dimer DDU IA (Bld) [Mass/Vol]",ng/mL
+86910-7,"Hemoglobin A1c/Hemoglobin.total goal Blood","Hemoglobin A1c/Hemoglobin.total goal Blood",%
+2093-3,"Cholesterol [Mass/volume] in Serum or Plasma","Cholesterol [Mass/Vol]",mg/dL
+2571-8,"Triglyceride [Mass/volume] in Serum or Plasma","Triglyceride [Mass/Vol]",mg/dL
+2085-9,"Cholesterol in HDL [Mass/volume] in Serum or Plasma","Cholesterol in HDL [Mass/Vol]",mg/dL
+18262-6,"Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay","Cholesterol in LDL Direct assay [Mass/Vol]",mg/dL
+9830-1,"Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma","Cholesterol.total/Cholesterol in HDL [Mass ratio]",{ratio}
+7800-6,"Phospholipid Ab [Units/volume] in Serum","Phospholipid Ab Qn (S)",[GPL'U]
+42757-5,"Troponin I.cardiac [Mass/volume] in Blood","Troponin I.cardiac (Bld) [Mass/Vol]",ng/mL
+30341-2,"Erythrocyte sedimentation rate","ESR (Bld) [Velocity]",mm/h
+63549-0,"Albumin in serum - albumin in peritoneal fluid [Mass concentration difference]","Albumin in serum - albumin in peritoneal fluid (Periton fld+S/P) [Mass conc diff]",g/dL
+71426-1,"C reactive protein [Mass/volume] in Blood by High sensitivity method","CRP High sensitivity method (Bld) [Mass/Vol]",mg/L

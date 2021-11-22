@@ -1,0 +1,42 @@
+## ReassessmentTimepointsEncounter Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+=@>
+Alias: PRATCLASSCS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs
+Alias: PRATENTITYCS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs
+Alias: PRATSRVTYPECS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs
+Alias: ICD10 = http://hl7.org/fhir/sid/icd-10-cm
+<@=
+
+Instance: @<resource.id>@
+InstanceOf: ReassessmentTimepointsEncounter
+Description: "An instance of ReassessmentTimepointsEncounter"
+* identifier.system = "http://hl7.org/fhir/us/pacio-rat"
+* identifier.value = "@<resource.id>@001"
+* status = #@<status>@
+* class = PRATCLASSCS#@<class>@
+* type = PRATENTITYCS#@<type>@
+* serviceType = PRATSRVTYPECS#@<serviceType>@
+* subject = Reference(@<subject>@)
+* episodeOfCare = Reference(@<episodeOfCare>@)
+* @<reasonReference>@ = Reference(@<reassessmenttimepointsencounter.reasonReference>@)
+* @<participant>@.individual = Reference(@<reassessmenttimepointsencounter.participant>@)
+* period.start = "@<period.start>@"
+* period.end = "@<period.end>@"
+* reasonCode = ICD10#@<reasonCode>@
+* location.location = Reference(@<location>@)
+* serviceProvider = Reference(@<serviceProvider>@)
+* partOf = Reference(@<partOf>@)

@@ -14,7 +14,7 @@ from pprint import pprint
 
 debug = True
 
-def generic_csv_parser(path):
+def generic_csv_parser(path, resource_name):
     """Return a lookup table after parsing the input CSV file"""
 
     if debug:
@@ -36,9 +36,16 @@ def generic_csv_parser(path):
             key_name = column_name
             break
 
+    idx = 0
     lookup = {}
     for dict_item in json_list:
         key_value = dict_item[key_name]
+        # when a key is not given, generate a key
+        if key_value is None or key_value == '':
+            idx = idx + 1
+            key_value = resource_name + '-' + str(idx)
+            dict_item[key_name] = key_value
+
         if not key_value in lookup:
             lookup[key_value] = dict_item
         else:

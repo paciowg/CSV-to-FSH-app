@@ -14,5 +14,7 @@ provider-role-driver,driver-Bill-Driver,provider-org-11,provider-org-loc-11,172A
 provider-role-diabetes-educator,diabetes-educator-Lisa-Educator,provider-org-12,provider-org-loc-12,163WD0400X,Diabetes Educator,163WD0400X,Diabetes Educator
 provider-role-physical-therapist,therapeutic-exercise-Norma-Trainer,provider-org-13,provider-org-loc-13,225100000X,Physical Therapist,225100000X,Physical Therapist
 provider-role-home-modifications,eLTSS-home-modifications,provider-org-14,provider-org-loc-14,171WH0202X,Home Modifications,171WH0202X,Home Modifications
-provider-role-nurse-practitioner,Practitioner-JennyGrant,provider-org-15,provider-org-loc-15,363L00000X,Nurse Practitioner,224571005,Nurse Practitioner
 provider-role-neurologist,Practitioner-NoraOlogist,provider-org-16,provider-org-loc-16,2084N0400X,Neurology,2084N0400X,Neurology
+provider-role-nurse-practitioner-LunaBaskins,Practitioner-LunaBaskins,provider-org-15,provider-org-loc-15,363L00000X,Nurse Practitioner,224571005,Nurse Practitioner
+provider-role-nurse-practitioner-JennyGrant,Practitioner-JennyGrant,provider-org-15,provider-org-loc-15,363L00000X,Nurse Practitioner,224571005,Nurse Practitioner
+provider-role-nurse-practitioner-HoneyJones,Practitioner-HoneyJones,provider-org-15,provider-org-loc-15,363L00000X,Nurse Practitioner,224571005,Nurse Practitioner

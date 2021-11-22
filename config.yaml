@@ -56,6 +56,8 @@ jobs:
 
 - resource: PriorLevelOfCognitiveFunction
   dataFile: PriorLevelOfCognitiveFunction.data.csv
+  otherInputFiles:
+    - PriorLevelOfCognitiveFunction.code.csv
 
 - resource: Medication
   dataFile: Medication.data.csv
@@ -86,3 +88,9 @@ jobs:
   dataFile: ObservationLab.data.csv
   otherInputFiles:
     - ObservationLab.code.csv
+
+- resource: ReassessmentTimepointsEncounter
+  dataFile: ReassessmentTimepointsEncounter.data.csv
+
+- resource: EpisodeOfCare
+  dataFile: EpisodeOfCare.data.csv

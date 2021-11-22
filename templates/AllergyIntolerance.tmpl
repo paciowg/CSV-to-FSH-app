@@ -23,6 +23,7 @@ Alias: SCT = http://snomed.info/sct
 
 Instance: @@<instance-id-prefix>@@-@<allergy.id>@
 InstanceOf: USCoreAllergyIntolerance
+Description: "An instance of USCoreAllergyIntolerance"
 * patient = Reference(@<allergy.subjectRef>@)
 * encounter = Reference(@<allergy.encounter.id>@)
 * clinicalStatus = ALLCL#@<allergy.clinicalStatus>@

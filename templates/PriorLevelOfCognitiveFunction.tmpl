@@ -20,17 +20,14 @@ Alias: LNC = http://loinc.org
 
 Instance: @@<instance-id-prefix>@@-@<resource.id>@
 InstanceOf: PriorLevelOfCognitiveFunction
+Description: "An instance of PriorLevelOfCognitiveFunction"
 * subject = Reference(@<subject>@)
 * status = #final
-
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">@<text>@</div>"
-* text.status = #additional
-* extension[assistance-required].valueCodeableConcept.text = "@<assistance-required>@"
-
-* performer = Reference(@<practitioner>@)
-* performer[1] = Reference(@<practitioner.role>@)
-* performer[2] = Reference(@<organization>@)
-* performer[2].display = "Organization"
+* code = LNC#11332-4 "History of Cognitive Function Narrative"
 * extension[event-location].valueReference = Reference(@<location>@)
+* extension[assistance-required].valueCodeableConcept = LNC#@<code>@
+* extension[assistance-required].valueCodeableConcept.coding.display = "@<code.display>@"
+* valueString = "@<text>@"
+* performer = Reference(@<practitioner.role>@)
 * effectivePeriod.start = "@<period.start>@"
 * effectivePeriod.end = "@<period.end>@"

@@ -20,6 +20,7 @@ Alias: LNC = http://loinc.org
 
 Instance: @@<instance-id-prefix>@@-@<resource.id>@
 InstanceOf: PriorLevelOfFunction
+Description: "An instance of PriorLevelOfFunction"
 * subject = Reference(@<subject>@)
 * status = #final
 
@@ -27,10 +28,7 @@ InstanceOf: PriorLevelOfFunction
 * text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "@<assistance-required>@"
 
-* performer = Reference(@<practitioner>@)
-* performer[1] = Reference(@<practitioner.role>@)
-* performer[2] = Reference(@<organization>@)
-* performer[2].display = "Organization"
+* performer = Reference(@<practitioner.role>@)
 * extension[event-location].valueReference = Reference(@<location>@)
 * effectivePeriod.start = "@<period.start>@"
 * effectivePeriod.end = "@<period.end>@"

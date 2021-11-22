@@ -186,6 +186,7 @@ def process_list_case(key_name, variable_list, resource_name, dict, line, fsh_li
         line2 = line2.replace('@<'+key_name+'>@', new_key_name, 1)
 
         # replace the next variable with the appropriate value
+#        var_idx = variable_list.index('@<'+key_name+'>@')
         var_idx = variable_list.index('@<'+resource_name.lower()+'.'+key_name+'>@')
         variable = variable_list[var_idx]
         line2 = line2.replace(variable, key_value)

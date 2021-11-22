@@ -20,11 +20,12 @@ Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 
 Instance: @<resource.id>@
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "@<identifier.system>@"
 * identifier.value = "@<identifier.value>@"
 * name.given = "@<name.given>@"
 * name.family = "@<name.family>@"
-* name.text = "@<title>@"
+* name.text = "@<name.given>@ @<name.family>@"
 * active = true
 * gender = Hl7FhirAdminGender#@<gender>@
 * telecom.system = #phone

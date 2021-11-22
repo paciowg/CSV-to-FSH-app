@@ -1,0 +1,3 @@
+resource.id,status,type,patient,diagnosis.condition,managingOrganization,period.start,period.end,careManager,team
+Episodecare-1-SNF-Stay,finished,pac,patientBSJ1,BSJ-Diagnosis1,Provider-Org-1,"2020-01-01","2020-02-10",provider-role-nurse-Practitioner-SummerJohnson,CareTeam-1
+Episodecare-2-HHA-Stay,finished,hacc,patientBSJ1,BSJ-Diagnosis2,Provider-Org-2,"2020-02-10","2020-06-29",provider-role-nurse-Practitioner-JacobHartwell,CareTeam-2

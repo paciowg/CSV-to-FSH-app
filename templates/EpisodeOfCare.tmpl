@@ -1,4 +1,4 @@
-## Coverage Instance Template
+## EpisodeOfCare Instance Template
 ##
 ## NOTE:
 ## - Any line starts with'##' is a comment line--will be ignored
@@ -15,18 +15,18 @@
 ## - Any lines between '=@>' and '<@=' are head lines that will be output only once
 ##
 =@>
-Alias: COVCLASS = http://hl7.org/fhir/coverage-class
+Alias: EOCTYPECS = http://terminology.hl7.org/CodeSystem/episodeofcare-type
 <@=
 
-Instance: @@<instance-id-prefix>@@-@<coverage.id>@
-InstanceOf: Coverage
-Description: "An instance of Coverage"
-* subscriber = Reference(@<subscriber>@)
-* beneficiary = Reference(@<beneficiary>@)
+Instance: @<resource.id>@
+InstanceOf: EpisodeOfCare
+Description: "An instance of EpisodeOfCare"
 * status = #@<status>@
-* class.type = @<class.type>@
-* class.value = "@<class.value>@"
+* type = EOCTYPECS#@<type>@
+* diagnosis.condition = Reference(@<diagnosis.condition>@)
+* patient = Reference(@<patient>@)
+* managingOrganization = Reference(@<managingOrganization>@)
 * period.start = "@<period.start>@"
 * period.end = "@<period.end>@"
-* payor = Reference(@<payor>@)
-* subscriberId = "@<subscriberId>@"
+* careManager = Reference(@<careManager>@)
+//* team = Reference(@<team>@)
