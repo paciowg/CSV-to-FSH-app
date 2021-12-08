@@ -1,0 +1,4 @@
+observationsplasch.id,subject.patientRef,category[->],effectiveDateTime,organizationRef,performer,code[->],value[->]
+,patientBSJ1,spoken-language-comprehension,2021-12-02T12:28:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-low-demand,0-25-percent-time
+,patientBSJ1,spoken-language-expression,2021-12-02T12:28:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-low-demand,0-25-percent-time
+,patientBSJ1,swallowing,2021-12-02T12:28:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,LA6270-8

@@ -6,6 +6,7 @@ Alias: UOM = http://unitsofmeasure.org
 
 Instance: BSJ-VitalSign-6
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -24,6 +25,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-9
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -42,6 +44,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-8
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -60,6 +63,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-5
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -78,6 +82,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-4
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -96,6 +101,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-7
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -114,6 +120,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-12
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -132,6 +139,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-1
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -150,6 +158,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-3
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -168,6 +177,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-2
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -186,6 +196,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-11
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -204,6 +215,7 @@ InstanceOf: observation-vitalsigns
 
 Instance: BSJ-VitalSign-10
 InstanceOf: observation-vitalsigns
+Description: "An instance of observation-vitalsigns"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final

@@ -5,6 +5,7 @@ Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: BSJ-observationBSJ2
 InstanceOf: Observation
+Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-02T10:00:00-05:00"
@@ -18,6 +19,7 @@ InstanceOf: Observation
 
 Instance: BSJ-observationBSJ1
 InstanceOf: Observation
+Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-02T10:00:00-05:00"

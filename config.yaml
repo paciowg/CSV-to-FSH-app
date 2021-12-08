@@ -89,6 +89,13 @@ jobs:
   otherInputFiles:
     - ObservationLab.code.csv
 
+- resource: ObservationSPLASCH
+  dataFile: ObservationSPLASCH.data.csv
+  otherInputFiles:
+    - ObservationSPLASCH.category.csv
+    - ObservationSPLASCH.code.csv
+    - ObservationSPLASCH.value.csv
+
 - resource: ReassessmentTimepointsEncounter
   dataFile: ReassessmentTimepointsEncounter.data.csv
 

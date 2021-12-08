@@ -1,0 +1,31 @@
+observationsplasch.value[key],value.system,value.display
+0-25-percent-time,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS","0-25% of the time"
+26-49-percent-time,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS","26-49% of the time" "26% to 49% of the time"
+50-75-percent-time,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS","50-75% of the time" "50% to 75% of the time"
+76-90-percent-time,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS","76-90% of the time" "76% to 90% of the time"
+91-100-percent-time,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHTimePercentageCategoryCS","91-100% of the time" "91% to 100% of the time"
+
+LA6270-8,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS","Never"
+LA10066-1,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS","Rarely"
+LA10082-8,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS","Sometimes"
+LA10044-8,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS","Often"
+LA9933-8,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHFrequencyCS","Always"
+
+regular,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS","Regular"
+soft,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS","Soft and bite-sized"
+minced,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS","Minced and moist"
+pureed,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS","Pureed"
+liquidized,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS","Liquidized"
+no-solids,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSolidDietCS","No solids"
+
+thin,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS","Regular"
+slightly-thick,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS","Slightly thick"
+mildly-thick,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS","Mildly thick"
+moderately-thick,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS","Moderately thick"
+extremely-thick,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS","Extremely thick"
+no-liquids,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiquidDietCS","No liquids"
+
+0-25-percent-intake,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS","0-25% of caloric intake"
+26-49-percent-intake,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS","26-49% of caloric intake"
+50-75-percent-intake,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS","50-75% of caloric intake"
+76-100-percent-intake,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS","76-100% of caloric intake"

@@ -3,11 +3,12 @@ Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 
 Instance: Practitioner-AndyLavande
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "7062383534"
 * name.given = "Andy"
 * name.family = "Lavande"
-* name.text = "Endocrinologist"
+* name.text = "Andy Lavande"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
@@ -17,11 +18,12 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-JohnSmith
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "4278275001"
 * name.given = "John"
 * name.family = "Smith"
-* name.text = "Primary Care Physician"
+* name.text = "John Smith"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
@@ -31,11 +33,12 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-ShaunLongbottom
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1984824679"
 * name.given = "Shaun"
 * name.family = "Longbottom"
-* name.text = "Opthamologist"
+* name.text = "Shaun Longbottom"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
@@ -45,11 +48,12 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-NoraOlogist
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "3668788925"
 * name.given = "Nora"
 * name.family = "Ologist"
-* name.text = "Neurologist"
+* name.text = "Nora Ologist"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
@@ -57,13 +61,29 @@ InstanceOf: Practitioner
 * address.text = "26022 Meadowlark Bay, San Antonio, TX 78260"
 
 
+Instance: Practitioner-LunaBaskins
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "9098815676"
+* name.given = "Luna"
+* name.family = "Baskins"
+* name.text = "Luna Baskins"
+* active = true
+* gender = Hl7FhirAdminGender#female
+* telecom.system = #phone
+* telecom.value = "(210) 555 1871"
+* address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
+
+
 Instance: Practitioner-HarryPutter
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "6636097371"
 * name.given = "Harry"
 * name.family = "Putter"
-* name.text = "Psychiatrist"
+* name.text = "Harry Putter"
 * active = true
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
@@ -73,11 +93,12 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-JenniferWhite
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "9226439786"
 * name.given = "Jennifer"
 * name.family = "White"
-* name.text = "Nephrologist"
+* name.text = "Jennifer White"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
@@ -87,11 +108,12 @@ InstanceOf: Practitioner
 
 Instance: Practitioner-LaylaRobbins
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "815183350"
 * name.given = "Layla"
 * name.family = "Robbins"
-* name.text = "Cardiologist"
+* name.text = "Layla Robbins"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
@@ -99,13 +121,29 @@ InstanceOf: Practitioner
 * address.text = "21 James Lane, San Antonio, TX 78247"
 
 
+Instance: Practitioner-HoneyJones
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "9098815678"
+* name.given = "Honey"
+* name.family = "Jones"
+* name.text = "Honey Jones"
+* active = true
+* gender = Hl7FhirAdminGender#female
+* telecom.system = #phone
+* telecom.value = "(210) 555 1871"
+* address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
+
+
 Instance: Practitioner-JennyGrant
 InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "9098815676"
+* identifier.value = "9098815677"
 * name.given = "Jenny"
 * name.family = "Grant"
-* name.text = "Nurse Practitioner"
+* name.text = "Jenny Grant"
 * active = true
 * gender = Hl7FhirAdminGender#female
 * telecom.system = #phone

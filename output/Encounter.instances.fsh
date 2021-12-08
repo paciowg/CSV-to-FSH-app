@@ -7,6 +7,7 @@ Alias: SNMD = http://snomed.info/sct
 
 Instance: BSJ-Encounter-1
 InstanceOf: USCoreEncounterProfile
+Description: "An instance of USCoreEncounterProfile"
 * subject = Reference(patientBSJ1)
 * status = ENCSTATUS#finished
 * class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"

@@ -6,11 +6,12 @@ Alias: SCT = http://snomed.info/sct
 
 Instance: BSJ-Allergy-Intolerance-1
 InstanceOf: USCoreAllergyIntolerance
+Description: "An instance of USCoreAllergyIntolerance"
 * patient = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * clinicalStatus = ALLCL#active
 * verificationStatus = AIVER#confirmed
-* category = ACAT#medication "Medication"
+* category = ACAT#medication
 * code = SCT#409137002
 * code.text = "No known drug allergy (situation)"
 * code.coding.display = "No known drug allergy (situation)"

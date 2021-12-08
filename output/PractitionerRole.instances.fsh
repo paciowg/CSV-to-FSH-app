@@ -5,6 +5,7 @@ Alias: SPECIALTY = http://nucc.org/provider-taxonomy
 
 Instance: provider-role-eLTSS-plan-monitor
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#163WC0400X
 * code.coding.display = "Case management"
 * specialty = SPECIALTY#171M00000X
@@ -15,8 +16,22 @@ InstanceOf: PractitionerRole
 * location = Reference(provider-org-loc-10)
 
 
+Instance: provider-role-nurse-practitioner-JennyGrant
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#363L00000X
+* code.coding.display = "Nurse Practitioner"
+* specialty = SPECIALTY#224571005
+* specialty.coding.display = "Nurse Practitioner"
+* active = true
+* practitioner = Reference(Practitioner-JennyGrant)
+* organization = Reference(provider-org-15)
+* location = Reference(provider-org-loc-15)
+
+
 Instance: provider-role-lab-services
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#291U00000X
 * code.coding.display = "Labroratory medicine specialist"
 * specialty = SPECIALTY#291U00000X
@@ -29,6 +44,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-nephrologist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#163WN0300X
 * code.coding.display = "Nephrology"
 * specialty = SPECIALTY#207RN0300X
@@ -41,6 +57,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-psychiatrist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#363LP0808X
 * code.coding.display = "Psychiatric/Mental Health"
 * specialty = SPECIALTY#2084A0401X
@@ -53,10 +70,11 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-pcp
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#261QP2300X
-* code.coding.display = "Primary care"
+* code.coding.display = "Primary Care Clinic/Center"
 * specialty = SPECIALTY#363LP2300X
-* specialty.coding.display = "Primary Care"
+* specialty.coding.display = "Primary Care Clinic/Center"
 * active = true
 * practitioner = Reference(Practitioner-JohnSmith)
 * organization = Reference(provider-org-01)
@@ -65,6 +83,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-physical-therapist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#225100000X
 * code.coding.display = "Physical Therapist"
 * specialty = SPECIALTY#225100000X
@@ -77,6 +96,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-home-modifications
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#171WH0202X
 * code.coding.display = "Home Modifications"
 * specialty = SPECIALTY#171WH0202X
@@ -89,6 +109,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-cardiologist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#207RI0011X
 * code.coding.display = "Interventional Cardiology"
 * specialty = SPECIALTY#207RI0011X
@@ -101,6 +122,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-opthamologist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#152W00000X
 * code.coding.display = "Optometrist"
 * specialty = SPECIALTY#152WV0400X
@@ -113,6 +135,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-transporter
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#2278P4000X
 * code.coding.display = "Patient Transport"
 * specialty = SPECIALTY#343900000X
@@ -125,6 +148,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-diabetes-educator
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#163WD0400X
 * code.coding.display = "Diabetes Educator"
 * specialty = SPECIALTY#163WD0400X
@@ -137,6 +161,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-endocrinologist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#207RE0101X
 * code.coding.display = "Endocrinology, Diabetes & Metabolism"
 * specialty = SPECIALTY#2080P0205X
@@ -149,6 +174,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-eLTSS-support-planner
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#104100000X
 * code.coding.display = "Social Worker"
 * specialty = SPECIALTY#104100000X
@@ -161,6 +187,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-retail-pharmacy
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#183500000X
 * code.coding.display = "Retail pharmacist, there is also pharmacy"
 * specialty = SPECIALTY#3336C0003X
@@ -173,6 +200,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-neurologist
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#2084N0400X
 * code.coding.display = "Neurology"
 * specialty = SPECIALTY#2084N0400X
@@ -185,6 +213,7 @@ InstanceOf: PractitionerRole
 
 Instance: provider-role-driver
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#172A00000X
 * code.coding.display = "Driver"
 * specialty = SPECIALTY#172A00000X
@@ -195,13 +224,27 @@ InstanceOf: PractitionerRole
 * location = Reference(provider-org-loc-11)
 
 
-Instance: provider-role-nurse-practitioner
+Instance: provider-role-nurse-practitioner-LunaBaskins
 InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
 * code = PRO-ROLE#363L00000X
 * code.coding.display = "Nurse Practitioner"
 * specialty = SPECIALTY#224571005
 * specialty.coding.display = "Nurse Practitioner"
 * active = true
-* practitioner = Reference(Practitioner-JennyGrant)
+* practitioner = Reference(Practitioner-LunaBaskins)
+* organization = Reference(provider-org-15)
+* location = Reference(provider-org-loc-15)
+
+
+Instance: provider-role-nurse-practitioner-HoneyJones
+InstanceOf: PractitionerRole
+Description: "An instance of PractitionerRole"
+* code = PRO-ROLE#363L00000X
+* code.coding.display = "Nurse Practitioner"
+* specialty = SPECIALTY#224571005
+* specialty.coding.display = "Nurse Practitioner"
+* active = true
+* practitioner = Reference(Practitioner-HoneyJones)
 * organization = Reference(provider-org-15)
 * location = Reference(provider-org-loc-15)

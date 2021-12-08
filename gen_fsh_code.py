@@ -384,8 +384,8 @@ def run_jobs(context):
 def main():
     """Main entry point for the script."""
 
-    print "Starting gen_fsh_code script."
-    print "Running in Main..."
+    print("Starting gen_fsh_code script.")
+    print ("Running in Main...")
     global debug
 
     context = {'templateLookup':{}, 'resourceDataLookup':{}}
@@ -406,7 +406,7 @@ def main():
     # run one or more jobs to produce FSH code files
     run_jobs(context)
 
-    print "Exited Main."
+    print ("Exited Main.")
     pass
 
 if __name__ == '__main__':

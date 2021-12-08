@@ -3,6 +3,7 @@ Alias: LNC = http://loinc.org
 
 Instance: BSJ-Prior-Level-Of-Function-1
 InstanceOf: PriorLevelOfFunction
+Description: "An instance of PriorLevelOfFunction"
 * subject = Reference(patientBSJ1)
 * status = #final
 
@@ -10,10 +11,7 @@ InstanceOf: PriorLevelOfFunction
 * text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "Independent"
 
-* performer = Reference(Practitioner-JohnSmith)
-* performer[1] = Reference(provider-role-pcp)
-* performer[2] = Reference(provider-org-01)
-* performer[2].display = "Organization"
+* performer = Reference(provider-role-pcp)
 * extension[event-location].valueReference = Reference(provider-org-loc-01)
 * effectivePeriod.start = "2019-07-01"
 * effectivePeriod.end = "2020-11-30"
@@ -21,6 +19,7 @@ InstanceOf: PriorLevelOfFunction
 
 Instance: BSJ-Prior-Level-Of-Function-2
 InstanceOf: PriorLevelOfFunction
+Description: "An instance of PriorLevelOfFunction"
 * subject = Reference(patientBSJ1)
 * status = #final
 
@@ -28,10 +27,7 @@ InstanceOf: PriorLevelOfFunction
 * text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "Assistance needed"
 
-* performer = Reference(Practitioner-JohnSmith)
-* performer[1] = Reference(provider-role-pcp)
-* performer[2] = Reference(provider-org-01)
-* performer[2].display = "Organization"
+* performer = Reference(provider-role-pcp)
 * extension[event-location].valueReference = Reference(provider-org-loc-01)
 * effectivePeriod.start = "2019-12-01"
 * effectivePeriod.end = "2020-06-30"
@@ -39,6 +35,7 @@ InstanceOf: PriorLevelOfFunction
 
 Instance: BSJ-Prior-Level-Of-Function-3
 InstanceOf: PriorLevelOfFunction
+Description: "An instance of PriorLevelOfFunction"
 * subject = Reference(patientBSJ1)
 * status = #final
 
@@ -46,10 +43,7 @@ InstanceOf: PriorLevelOfFunction
 * text.status = #additional
 * extension[assistance-required].valueCodeableConcept.text = "Assistance needed"
 
-* performer = Reference(Practitioner-JohnSmith)
-* performer[1] = Reference(provider-role-pcp)
-* performer[2] = Reference(provider-org-01)
-* performer[2].display = "Organization"
+* performer = Reference(provider-role-pcp)
 * extension[event-location].valueReference = Reference(provider-org-loc-01)
 * effectivePeriod.start = "2019-12-01"
 * effectivePeriod.end = "2020-06-30"

@@ -7,6 +7,7 @@ Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 Instance: BSJ-patientBSJ1
 InstanceOf: USCorePatientProfile
+Description: "An instance of USCorePatientProfile"
 * active = true
 
 * name.text = "Betsy Smith-Johnson"
@@ -33,10 +34,10 @@ InstanceOf: USCorePatientProfile
 
 * contact[0].name.text = "Charles Johnson"
 * contact[1].name.text = "Debra Johnson"
-* contact[0].relationship[0].coding = V3ROLECODE#SONC
+* contact[0].relationship[0].coding = Hl7V3ROLE#SONC
 * contact[0].relationship[1].coding = Hl7V2TBL0131#C
-* contact[0].relationship[2].coding = V3ROLECODE#GUARD
-* contact[1].relationship[0].coding = V3ROLECODE#DAUC
+* contact[0].relationship[2].coding = Hl7V3ROLE#GUARD
+* contact[1].relationship[0].coding = Hl7V3ROLE#DAUC
 * contact[0].address.text = "100 Montana St., San Antonio, TX 78203"
 * contact[1].address.text = "333 W. Camden St., Baltimore, MD 21201"
 * contact[0].telecom.system = #phone

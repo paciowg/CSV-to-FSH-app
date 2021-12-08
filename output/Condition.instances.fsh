@@ -8,6 +8,7 @@ Alias: SCT = http://snomed.info/sct
 
 Instance: BSJ-Diagnosis7
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -22,6 +23,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis6
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -36,6 +38,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis5
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -50,6 +53,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis4
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -64,6 +68,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis3
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -78,6 +83,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis2
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -92,6 +98,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis1
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -106,6 +113,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis9
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -120,6 +128,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Diagnosis8
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -134,6 +143,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Assessed-Need1
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -148,6 +158,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Assessed-Need2
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -162,6 +173,7 @@ InstanceOf: USCoreCondition
 
 Instance: BSJ-Assessed-Need3
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed

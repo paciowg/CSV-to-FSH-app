@@ -6,6 +6,7 @@ Alias: USCCAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 Instance: BSJ-ObservationLab-73
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -23,6 +24,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-57
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -40,6 +42,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-19
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -57,6 +60,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-13
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -74,6 +78,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-4
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -91,6 +96,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-5
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -108,6 +114,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-6
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -125,6 +132,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-7
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -142,6 +150,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-1
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -159,6 +168,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-2
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -176,6 +186,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-3
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -193,6 +204,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-8
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -210,6 +222,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-9
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -227,6 +240,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-41
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -244,6 +258,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-40
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -261,6 +276,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-43
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -278,6 +294,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-42
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -295,6 +312,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-45
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -312,6 +330,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-62
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -329,6 +348,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-61
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -346,6 +366,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-46
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -363,6 +384,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-49
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -380,6 +402,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-48
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -397,6 +420,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-69
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -414,6 +438,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-68
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -431,6 +456,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-23
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -448,6 +474,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-22
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -465,6 +492,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-21
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -482,6 +510,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-20
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -499,6 +528,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-27
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -516,6 +546,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-26
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -533,6 +564,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-25
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -550,6 +582,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-24
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -567,6 +600,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-15
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -584,6 +618,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-29
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -601,6 +636,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-28
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -618,6 +654,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-67
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -635,6 +672,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-39
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -652,6 +690,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-66
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -669,6 +708,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-65
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -686,6 +726,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-64
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -703,6 +744,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-60
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -720,6 +762,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-63
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -737,6 +780,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-35
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -754,6 +798,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-44
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -771,6 +816,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-52
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -788,6 +834,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-53
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -805,6 +852,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-50
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -822,6 +870,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-51
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -839,6 +888,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-56
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -856,6 +906,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-47
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -873,6 +924,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-54
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -890,6 +942,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-55
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -907,6 +960,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-70
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -924,6 +978,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-17
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -941,6 +996,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-72
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -958,6 +1014,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-59
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -975,6 +1032,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-12
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -992,6 +1050,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-18
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1009,6 +1068,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-10
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1026,6 +1086,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-11
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1043,6 +1104,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-34
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1060,6 +1122,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-16
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1077,6 +1140,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-36
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1094,6 +1158,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-37
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1111,6 +1176,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-30
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1128,6 +1194,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-31
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1145,6 +1212,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-32
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1162,6 +1230,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-33
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1179,6 +1248,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-71
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1196,6 +1266,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-38
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1213,6 +1284,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-14
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final
@@ -1230,6 +1302,7 @@ InstanceOf: USCoreLaboratoryResultObservationProfile
 
 Instance: BSJ-ObservationLab-58
 InstanceOf: USCoreLaboratoryResultObservationProfile
+Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * subject = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)
 * status = #final

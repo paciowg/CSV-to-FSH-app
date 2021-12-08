@@ -3,6 +3,7 @@ Alias: COVCLASS = http://hl7.org/fhir/coverage-class
 
 Instance: BSJ-Coverage-CMS-Medicare
 InstanceOf: Coverage
+Description: "An instance of Coverage"
 * subscriber = Reference(patientBSJ1)
 * beneficiary = Reference(patientBSJ1)
 * status = #active
@@ -16,6 +17,7 @@ InstanceOf: Coverage
 
 Instance: BSJ-Coverage-THHS-Medicaid
 InstanceOf: Coverage
+Description: "An instance of Coverage"
 * subscriber = Reference(patientBSJ1)
 * beneficiary = Reference(patientBSJ1)
 * status = #active
