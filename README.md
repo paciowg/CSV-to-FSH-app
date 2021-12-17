@@ -16,6 +16,6 @@ This app takes data from CSV files to generate FHIR Shorthand (FSH) code files t
 > Ensure required CSV files and templates are present in folders that are specified in config.yaml.
 
 ### Step 3:
-> Run this command: python gen_fsh_code.sh
+> Run this command: python gen_fsh_code.py
 
 After the script is executed, the generated files can be found in the output folder specified in config.yaml.

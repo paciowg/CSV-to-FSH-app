@@ -30,7 +30,7 @@ Description: "An instance of SPLASCH Observation @<observationsplasch.id>@"
 * category = SPLASCHCAT#@<category>@ "@<category.code.display>@"
 
 // Pre-load code @<code>@ - Do Not Remove from template
-* code = @<code.system>@#@<code>@ "@<code.display>@"
+* code = @<code.system>@#@<code.code>@ "@<code.display>@"
 
 * subject = Reference(@@<instance-id-prefix>@@-@<subject.patientRef>@)
 
@@ -38,4 +38,4 @@ Description: "An instance of SPLASCH Observation @<observationsplasch.id>@"
 * performer = Reference(@<performer>@)
 
 // Pre-load value @<value>@ - Do Not Remove from template
-* valueCodeableConcept = @<value.system>@#@<value>@ "@<value.display>@"
+* valueCodeableConcept = @<value.system>@#@<value.code>@ "@<value.display>@"

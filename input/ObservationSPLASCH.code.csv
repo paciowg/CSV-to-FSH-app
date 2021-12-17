@@ -1,19 +1,19 @@
-observationsplasch.code[key],code.system,code.display
-understand-simple-routine-low-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS","Understand simple messages in routine low demand situations"
-understand-complex-low-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS","Understand complex messages in low demand situations"
-understand-simple-routine-high-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS","Understand simple messages in routine high demand situations"
-understand-complex-high-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS","Understand complex messages in high demand situations"
-function-comprehension-without-assistance,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS","Function without assistance due to comprehension deficit"
-communicate-without-assistance,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS","Participate in communication without assistance"
-exhibit-distracting-expression-difficulties,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Expression of distracting spoken language expression difficulties"
-simple-meaningful-word-expression,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Expression of simple meaningful word or phrases"
-verbal-form-low-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Produce verbal messages with appropriate form in low demand situations"
-verbal-content-low-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Produce verbal messages with appropriate content in low demand situations"
-verbal-form-high-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Produce verbal messages with appropriate form in high demand situations"
-verbal-content-high-demand,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Produce verbal messages with appropriate content in high demand situations"
-communicate-without-assistance,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS","Participate in communication without assistance"
-modified-solid-diet,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS","Recommended modified solids diet"
-modified-liquid-diet,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS","Recommended modified liquids diet"
-non-oral-diet-sustenance,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS","Nutrition and hydration diet delivered through non-oral means"
-oral-containment-secretion-difficulty,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS","Difficulties with oral containment or secretion management"
-assistance-swallowing-safety,"http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS","Require assistance or supervision for swallowing safety"
+observationsplasch.code[key],code.code,code.system,code.display
+understand-simple-routine-low-demand,understand-simple-routine-low-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS,Understand simple messages in routine low demand situations
+understand-complex-low-demand,understand-complex-low-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS,Understand complex messages in low demand situations
+understand-simple-routine-high-demand,understand-simple-routine-high-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS,Understand simple messages in routine high demand situations
+understand-complex-high-demand,understand-complex-high-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS,Understand complex messages in high demand situations
+function-comprehension-without-assistance,function-comprehension-without-assistance,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS,Function without assistance due to comprehension deficit
+comprehend-communication-without-assistance,communicate-without-assistance,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechComprehensionObservationCS,Participate in communication without assistance
+exhibit-distracting-expression-difficulties,exhibit-distracting-expression-difficulties,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Expression of distracting spoken language expression difficulties
+simple-meaningful-word-expression,simple-meaningful-word-expression,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Expression of simple meaningful word or phrases
+verbal-form-low-demand,verbal-form-low-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Produce verbal messages with appropriate form in low demand situations
+verbal-content-low-demand,verbal-content-low-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Produce verbal messages with appropriate content in low demand situations
+verbal-form-high-demand,verbal-form-high-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Produce verbal messages with appropriate form in high demand situations
+verbal-content-high-demand,verbal-content-high-demand,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Produce verbal messages with appropriate content in high demand situations
+express-communication-without-assistance,communicate-without-assistance,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSpeechExpressionObservationCS,Participate in communication without assistance
+modified-solid-diet,modified-solid-diet,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Recommended modified solids diet
+modified-liquid-diet,modified-liquid-diet,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Recommended modified liquids diet
+non-oral-diet-sustenance,non-oral-diet-sustenance,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Nutrition and hydration diet delivered through non-oral means
+oral-containment-secretion-difficulty,oral-containment-secretion-difficulty,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Difficulties with oral containment or secretion management
+assistance-swallowing-safety,assistance-swallowing-safety,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Require assistance or supervision for swallowing safety

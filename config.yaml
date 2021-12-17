@@ -22,72 +22,75 @@ global_vars_file: global-variables.csv
 # Specify one or more jobs to run to generate FSH code files
 # To define a job, you specify (1) the resource/profile name, (2) the data file to use, and
 # optionaly (3) other input files for creating lookup tables
+
+
 jobs:
+
 - resource: Patient
   dataFile: Patient.data.csv
   otherInputFiles:
     - Patient.contact.csv
 
-- resource: Observation
-  dataFile: Observation.data.csv
-  otherInputFiles:
-    - Observation.code.csv
-    - Observation.valueCode.csv
+#- resource: Observation
+#  dataFile: Observation.data.csv
+#  otherInputFiles:
+#   - Observation.code.csv
+#    - Observation.valueCode.csv
 
-- resource: Condition
-  dataFile: Condition.data.csv
-  otherInputFiles:
-    - Condition.code.csv
+#- resource: Condition
+#  dataFile: Condition.data.csv
+#  otherInputFiles:
+#    - Condition.code.csv
 
-- resource: Practitioner
-  dataFile: Practitioner.data.csv
+#- resource: Practitioner
+#  dataFile: Practitioner.data.csv
 
-- resource: PractitionerRole
-  dataFile: PractitionerRole.data.csv
+#- resource: PractitionerRole
+#  dataFile: PractitionerRole.data.csv
 
-- resource: Encounter
-  dataFile: Encounter.data.csv
+#- resource: Encounter
+#  dataFile: Encounter.data.csv
 
-- resource: Coverage
-  dataFile: Coverage.data.csv
+#- resource: Coverage
+#  dataFile: Coverage.data.csv
 
-- resource: PriorLevelOfFunction
-  dataFile: PriorLevelOfFunction.data.csv
+#- resource: PriorLevelOfFunction
+#  dataFile: PriorLevelOfFunction.data.csv
 
-- resource: PriorLevelOfCognitiveFunction
-  dataFile: PriorLevelOfCognitiveFunction.data.csv
-  otherInputFiles:
-    - PriorLevelOfCognitiveFunction.code.csv
+#- resource: PriorLevelOfCognitiveFunction
+#  dataFile: PriorLevelOfCognitiveFunction.data.csv
+#  otherInputFiles:
+#    - PriorLevelOfCognitiveFunction.code.csv
 
-- resource: Medication
-  dataFile: Medication.data.csv
+#- resource: Medication
+#  dataFile: Medication.data.csv
 
-- resource: MedicationRequest
-  dataFile: MedicationRequest.data.csv
+#- resource: MedicationRequest
+#  dataFile: MedicationRequest.data.csv
 
-- resource: MedicationStatement
-  dataFile: MedicationStatement.data.csv
+#- resource: MedicationStatement
+#  dataFile: MedicationStatement.data.csv
 
-- resource: AllergyIntolerance
-  dataFile: AllergyIntolerance.data.csv
-  otherInputFiles:
-    - AllergyIntolerance.code.csv
+#- resource: AllergyIntolerance
+#  dataFile: AllergyIntolerance.data.csv
+#  otherInputFiles:
+#    - AllergyIntolerance.code.csv
 
-- resource: Immunization
-  dataFile: Immunization.data.csv
-  otherInputFiles:
-    - Immunization.cvx.code.csv
-    - Immunization.ndc.code.csv
+#- resource: Immunization
+#  dataFile: Immunization.data.csv
+#  otherInputFiles:
+#    - Immunization.cvx.code.csv
+#    - Immunization.ndc.code.csv
 
-- resource: ObservationVitalSigns
-  dataFile: ObservationVitalSigns.data.csv
-  otherInputFiles:
-    - ObservationVitalSigns.code.csv
+#- resource: ObservationVitalSigns
+#  dataFile: ObservationVitalSigns.data.csv
+#  otherInputFiles:
+#    - ObservationVitalSigns.code.csv
 
-- resource: ObservationLab
-  dataFile: ObservationLab.data.csv
-  otherInputFiles:
-    - ObservationLab.code.csv
+#- resource: ObservationLab
+#  dataFile: ObservationLab.data.csv
+#  otherInputFiles:
+#    - ObservationLab.code.csv
 
 - resource: ObservationSPLASCH
   dataFile: ObservationSPLASCH.data.csv
@@ -96,8 +99,8 @@ jobs:
     - ObservationSPLASCH.code.csv
     - ObservationSPLASCH.value.csv
 
-- resource: ReassessmentTimepointsEncounter
-  dataFile: ReassessmentTimepointsEncounter.data.csv
+#- resource: ReassessmentTimepointsEncounter
+#  dataFile: ReassessmentTimepointsEncounter.data.csv
 
-- resource: EpisodeOfCare
-  dataFile: EpisodeOfCare.data.csv
+#- resource: EpisodeOfCare
+#  dataFile: EpisodeOfCare.data.csv
