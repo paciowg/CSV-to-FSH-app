@@ -42,11 +42,11 @@ jobs:
 #  otherInputFiles:
 #    - Condition.code.csv
 
-#- resource: Practitioner
-#  dataFile: Practitioner.data.csv
+- resource: Practitioner
+  dataFile: Practitioner.data.csv
 
-#- resource: PractitionerRole
-#  dataFile: PractitionerRole.data.csv
+- resource: PractitionerRole
+  dataFile: PractitionerRole.data.csv
 
 #- resource: Encounter
 #  dataFile: Encounter.data.csv
@@ -91,6 +91,9 @@ jobs:
 #  dataFile: ObservationLab.data.csv
 #  otherInputFiles:
 #    - ObservationLab.code.csv
+
+#- resource: Organization
+#  dataFile: Organization.data.csv
 
 - resource: ObservationSPLASCH
   dataFile: ObservationSPLASCH.data.csv

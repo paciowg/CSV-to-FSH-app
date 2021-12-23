@@ -1,5 +1,0 @@
-resource.id,status,intent,category,subject,medication,authoredOn,requester,reasonReference,dosageInstruction
-Medication-Request-1,active,order,discharge,patientBSJ1,Medication-Aspirin,2020-07-11T05:42:00-05:00,Practitioner-NoraOlogist,BSJ-Diagnosis9,Take daily
-Medication-Request-2,active,order,discharge,patientBSJ1,Medication-Atorvastatin80mg,2020-07-11T05:42:00-05:00,Practitioner-NoraOlogist,BSJ-Diagnosis2,Take nightly
-Medication-Request-3,active,order,discharge,patientBSJ1,Medication-Plavix,2020-07-11T05:42:00-05:00,Practitioner-NoraOlogist,BSJ-Diagnosis4,Take daily
-Medication-Request-4,stopped,order,discharge,patientBSJ1,Medication-Atorvastatin40mg,2020-07-11T05:42:00-05:00,Practitioner-NoraOlogist,BSJ-Diagnosis2,Take nightly

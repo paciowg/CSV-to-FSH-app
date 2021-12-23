@@ -1,97 +1,107 @@
 observationsplasch.id,subject.patientRef,category[->],effectiveDateTime,organizationRef,performer,code[->],value[->]
-ObservationSPLASCH-01,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10066-1
-ObservationSPLASCH-02,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10066-1
-ObservationSPLASCH-03,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA10066-1
-ObservationSPLASCH-04,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,LA10082-8
-ObservationSPLASCH-05,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,LA10082-8
-ObservationSPLASCH-06,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,LA10082-8
-ObservationSPLASCH-07,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,LA10082-8
-ObservationSPLASCH-08,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,LA10082-8
-ObservationSPLASCH-09,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10066-1
-ObservationSPLASCH-10,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10066-1
-ObservationSPLASCH-11,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA10066-1
-ObservationSPLASCH-12,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,LA10082-8
-ObservationSPLASCH-13,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,LA10082-8
-ObservationSPLASCH-14,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,LA10082-8
-ObservationSPLASCH-15,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,50-75-percent-time
-ObservationSPLASCH-16,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,50-75-percent-time
-ObservationSPLASCH-17,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,26-49-percent-time
-ObservationSPLASCH-18,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,26-49-percent-time
-ObservationSPLASCH-19,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-20,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,50-75-percent-time
-ObservationSPLASCH-21,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,50-75-percent-time
-ObservationSPLASCH-22,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,50-75-percent-time
-ObservationSPLASCH-23,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,LA10044-8
-ObservationSPLASCH-24,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,LA10044-8
-ObservationSPLASCH-25,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA6270-8
-ObservationSPLASCH-26,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA6270-8
-ObservationSPLASCH-27,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA6270-8
-ObservationSPLASCH-28,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,50-75-percent-time
-ObservationSPLASCH-29,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,50-75-percent-time
-ObservationSPLASCH-30,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,50-75-percent-time
-ObservationSPLASCH-31,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,76-90-percent-time
-ObservationSPLASCH-32,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,76-90-percent-time
-ObservationSPLASCH-33,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,26-49-percent-time
-ObservationSPLASCH-34,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,26-49-percent-time
-ObservationSPLASCH-35,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-36,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,26-49-percent-time
-ObservationSPLASCH-37,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,26-49-percent-time
-ObservationSPLASCH-38,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-39,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,50-75-percent-time
-ObservationSPLASCH-40,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,50-75-percent-time
-ObservationSPLASCH-41,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10066-1
-ObservationSPLASCH-42,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10066-1
-ObservationSPLASCH-43,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA10066-1
-ObservationSPLASCH-44,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,26-49-percent-time
-ObservationSPLASCH-45,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,26-49-percent-time
-ObservationSPLASCH-46,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-47,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,LA10082-8
-ObservationSPLASCH-48,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,LA10082-8
-ObservationSPLASCH-49,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10066-1
-ObservationSPLASCH-50,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10066-1
-ObservationSPLASCH-51,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA10066-1
-ObservationSPLASCH-52,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,LA10066-1
-ObservationSPLASCH-53,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,LA10066-1
-ObservationSPLASCH-54,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,LA10066-1
-ObservationSPLASCH-55,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,LA10082-8
-ObservationSPLASCH-56,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,LA10082-8
-ObservationSPLASCH-57,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10066-1
-ObservationSPLASCH-58,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10066-1
-ObservationSPLASCH-59,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA10066-1
-ObservationSPLASCH-60,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,LA10066-1
-ObservationSPLASCH-61,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,LA10066-1
-ObservationSPLASCH-62,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,LA10066-1
-ObservationSPLASCH-63,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,50-75-percent-time
-ObservationSPLASCH-64,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,50-75-percent-time
-ObservationSPLASCH-65,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,26-49-percent-time
-ObservationSPLASCH-66,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,26-49-percent-time
-ObservationSPLASCH-67,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-68,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,26-49-percent-time
-ObservationSPLASCH-69,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,26-49-percent-time
-ObservationSPLASCH-70,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-71,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,26-49-percent-time
-ObservationSPLASCH-72,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,26-49-percent-time
-ObservationSPLASCH-73,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10066-1
-ObservationSPLASCH-74,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10066-1
-ObservationSPLASCH-75,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,26-49-percent-time
-ObservationSPLASCH-76,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,LA10066-1
-ObservationSPLASCH-77,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,LA10066-1
-ObservationSPLASCH-78,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,LA10066-1
-ObservationSPLASCH-79,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,26-49-percent-time
-ObservationSPLASCH-80,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,26-49-percent-time
-ObservationSPLASCH-81,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,50-75-percent-time
-ObservationSPLASCH-82,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,50-75-percent-time
-ObservationSPLASCH-83,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,50-75-percent-time
-ObservationSPLASCH-84,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,50-75-percent-time
-ObservationSPLASCH-85,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,50-75-percent-time
-ObservationSPLASCH-86,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,50-75-percent-time
-ObservationSPLASCH-87,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,26-49-percent-time
-ObservationSPLASCH-88,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,26-49-percent-time
-ObservationSPLASCH-89,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-simple-routine-high-demand,LA10082-8
-ObservationSPLASCH-90,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,understand-complex-high-demand,LA10082-8
-ObservationSPLASCH-91,patientBSJ1,spoken-language-comprehension,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,comprehend-communication-without-assistance,LA10082-8
-ObservationSPLASCH-92,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-form-high-demand,LA10082-8
-ObservationSPLASCH-93,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,verbal-content-high-demand,LA10082-8
-ObservationSPLASCH-94,patientBSJ1,spoken-language-expression,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,express-communication-without-assistance,LA10082-8
-ObservationSPLASCH-95,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,oral-containment-secretion-difficulty,LA10066-1
-ObservationSPLASCH-96,patientBSJ1,swallowing,2020-07-07T15:00:00-05:00,provider-org-16,Practitioner-LunaBaskins,assistance-swallowing-safety,LA10066-1
+ObservationSPLASCH-001,patientBSJ1,spoken-language-comprehension,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-002,patientBSJ1,spoken-language-comprehension,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-003,patientBSJ1,spoken-language-comprehension,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-004,patientBSJ1,spoken-language-expression,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,verbal-form-high-demand,LA10082-8
+ObservationSPLASCH-005,patientBSJ1,spoken-language-expression,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,verbal-content-high-demand,LA10082-8
+ObservationSPLASCH-006,patientBSJ1,spoken-language-expression,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,express-communication-without-assistance,LA10082-8
+ObservationSPLASCH-007,patientBSJ1,swallowing,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,oral-containment-secretion-difficulty,LA10082-8
+ObservationSPLASCH-008,patientBSJ1,swallowing,2020-07-07T19:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,assistance-swallowing-safety,LA10082-8
+ObservationSPLASCH-009,patientBSJ1,spoken-language-comprehension,2020-07-08T08:00:00-05:00,San Antonio General Hospital,Practitioner-RonMarble,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-010,patientBSJ1,spoken-language-comprehension,2020-07-08T08:00:00-05:00,San Antonio General Hospital,Practitioner-RonMarble,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-011,patientBSJ1,spoken-language-comprehension,2020-07-08T08:00:00-05:00,San Antonio General Hospital,Practitioner-RonMarble,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-012,patientBSJ1,spoken-language-expression,2020-07-08T08:00:00-05:00,San Antonio General Hospital,Practitioner-RonMarble,verbal-form-high-demand,LA10066-1
+ObservationSPLASCH-013,patientBSJ1,spoken-language-expression,2020-07-08T08:00:00-05:00,San Antonio General Hospital,Practitioner-RonMarble,verbal-content-high-demand,LA10066-1
+ObservationSPLASCH-014,patientBSJ1,spoken-language-expression,2020-07-08T08:00:00-05:00,San Antonio General Hospital,Practitioner-RonMarble,express-communication-without-assistance,LA10066-1
+ObservationSPLASCH-015,patientBSJ1,spoken-language-comprehension,2020-07-08T08:40:00-05:00,San Antonio General Hospital,Practitioner-LisaGreene,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-016,patientBSJ1,spoken-language-comprehension,2020-07-08T08:40:00-05:00,San Antonio General Hospital,Practitioner-LisaGreene,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-017,patientBSJ1,spoken-language-comprehension,2020-07-08T08:40:00-05:00,San Antonio General Hospital,Practitioner-LisaGreene,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-018,patientBSJ1,spoken-language-expression,2020-07-08T08:40:00-05:00,San Antonio General Hospital,Practitioner-LisaGreene,verbal-form-high-demand,LA10082-8
+ObservationSPLASCH-019,patientBSJ1,spoken-language-expression,2020-07-08T08:40:00-05:00,San Antonio General Hospital,Practitioner-LisaGreene,verbal-content-high-demand,LA10082-8
+ObservationSPLASCH-020,patientBSJ1,spoken-language-expression,2020-07-08T08:40:00-05:00,San Antonio General Hospital,Practitioner-LisaGreene,express-communication-without-assistance,LA10082-8
+ObservationSPLASCH-021,patientBSJ1,spoken-language-comprehension,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,understand-simple-routine-high-demand,26-49-percent-time
+ObservationSPLASCH-022,patientBSJ1,spoken-language-comprehension,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,understand-complex-high-demand,26-49-percent-time
+ObservationSPLASCH-023,patientBSJ1,spoken-language-comprehension,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,comprehend-communication-without-assistance,26-49-percent-time
+ObservationSPLASCH-024,patientBSJ1,spoken-language-expression,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,verbal-form-high-demand,50-75-percent-time
+ObservationSPLASCH-025,patientBSJ1,spoken-language-expression,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,verbal-content-high-demand,50-75-percent-time
+ObservationSPLASCH-026,patientBSJ1,spoken-language-expression,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,express-communication-without-assistance,50-75-percent-time
+ObservationSPLASCH-027,patientBSJ1,swallowing,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,oral-containment-secretion-difficulty,50-75-percent-time
+ObservationSPLASCH-028,patientBSJ1,swallowing,2020-07-08T09:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,assistance-swallowing-safety,50-75-percent-time
+ObservationSPLASCH-029,patientBSJ1,swallowing,2020-07-09T08:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,oral-containment-secretion-difficulty,76-90-percent-time
+ObservationSPLASCH-030,patientBSJ1,swallowing,2020-07-09T08:30:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,assistance-swallowing-safety,76-90-percent-time
+ObservationSPLASCH-031,patientBSJ1,spoken-language-comprehension,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,understand-simple-routine-high-demand,LA6270-8
+ObservationSPLASCH-032,patientBSJ1,spoken-language-comprehension,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,understand-complex-high-demand,LA6270-8
+ObservationSPLASCH-033,patientBSJ1,spoken-language-comprehension,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,comprehend-communication-without-assistance,LA6270-8
+ObservationSPLASCH-034,patientBSJ1,spoken-language-expression,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,verbal-form-high-demand,LA10066-1
+ObservationSPLASCH-035,patientBSJ1,spoken-language-expression,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,verbal-content-high-demand,LA10066-1
+ObservationSPLASCH-036,patientBSJ1,spoken-language-expression,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,express-communication-without-assistance,LA10066-1
+ObservationSPLASCH-037,patientBSJ1,swallowing,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,oral-containment-secretion-difficulty,LA10044-8
+ObservationSPLASCH-038,patientBSJ1,swallowing,2020-07-09T10:30:00-05:00,San Antonio General Hospital,Practitioner-JudySmiley,assistance-swallowing-safety,LA10044-8
+ObservationSPLASCH-039,patientBSJ1,spoken-language-comprehension,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,understand-simple-routine-high-demand,26-49-percent-time
+ObservationSPLASCH-040,patientBSJ1,spoken-language-comprehension,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,understand-complex-high-demand,26-49-percent-time
+ObservationSPLASCH-041,patientBSJ1,spoken-language-comprehension,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,comprehend-communication-without-assistance,26-49-percent-time
+ObservationSPLASCH-042,patientBSJ1,spoken-language-expression,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,verbal-form-high-demand,26-49-percent-time
+ObservationSPLASCH-043,patientBSJ1,spoken-language-expression,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,verbal-content-high-demand,26-49-percent-time
+ObservationSPLASCH-044,patientBSJ1,spoken-language-expression,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,express-communication-without-assistance,26-49-percent-time
+ObservationSPLASCH-045,patientBSJ1,swallowing,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,oral-containment-secretion-difficulty,50-75-percent-time
+ObservationSPLASCH-046,patientBSJ1,swallowing,2020-07-11T11:20:00-05:00,San Antonio General Hospital,Practitioner-JennyGlass,assistance-swallowing-safety,50-75-percent-time
+ObservationSPLASCH-047,patientBSJ1,spoken-language-comprehension,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-048,patientBSJ1,spoken-language-comprehension,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-049,patientBSJ1,spoken-language-comprehension,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-050,patientBSJ1,spoken-language-expression,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,verbal-form-high-demand,LA10066-1
+ObservationSPLASCH-051,patientBSJ1,spoken-language-expression,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,verbal-content-high-demand,LA10066-1
+ObservationSPLASCH-052,patientBSJ1,spoken-language-expression,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,express-communication-without-assistance,LA10066-1
+ObservationSPLASCH-053,patientBSJ1,swallowing,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,oral-containment-secretion-difficulty,LA10082-8
+ObservationSPLASCH-054,patientBSJ1,swallowing,2020-07-12T11:42:00-05:00,San Antonio General Hospital,Practitioner-DonHopmed,assistance-swallowing-safety,LA10082-8
+ObservationSPLASCH-055,patientBSJ1,spoken-language-comprehension,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-056,patientBSJ1,spoken-language-comprehension,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-057,patientBSJ1,spoken-language-comprehension,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-058,patientBSJ1,spoken-language-expression,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,verbal-form-high-demand,LA10066-1
+ObservationSPLASCH-059,patientBSJ1,spoken-language-expression,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,verbal-content-high-demand,LA10066-1
+ObservationSPLASCH-060,patientBSJ1,spoken-language-expression,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,express-communication-without-assistance,LA10066-1
+ObservationSPLASCH-061,patientBSJ1,swallowing,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,oral-containment-secretion-difficulty,LA10082-8
+ObservationSPLASCH-062,patientBSJ1,swallowing,2020-07-12T13:32:00-05:00,Happy Nursing Facility,Practitioner-LiaNguyen,assistance-swallowing-safety,LA10082-8
+ObservationSPLASCH-063,patientBSJ1,spoken-language-comprehension,2020-07-12T15:00:00-05:00,Happy Nursing Facility,Practitioner-DanielGranger,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-064,patientBSJ1,spoken-language-comprehension,2020-07-12T15:00:00-05:00,Happy Nursing Facility,Practitioner-DanielGranger,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-065,patientBSJ1,spoken-language-comprehension,2020-07-12T15:00:00-05:00,Happy Nursing Facility,Practitioner-DanielGranger,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-066,patientBSJ1,spoken-language-expression,2020-07-12T15:00:00-05:00,Happy Nursing Facility,Practitioner-DanielGranger,verbal-form-high-demand,LA10066-1
+ObservationSPLASCH-067,patientBSJ1,spoken-language-expression,2020-07-12T15:00:00-05:00,Happy Nursing Facility,Practitioner-DanielGranger,verbal-content-high-demand,LA10066-1
+ObservationSPLASCH-068,patientBSJ1,spoken-language-expression,2020-07-12T15:00:00-05:00,Happy Nursing Facility,Practitioner-DanielGranger,express-communication-without-assistance,LA10066-1
+ObservationSPLASCH-069,patientBSJ1,spoken-language-comprehension,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,understand-simple-routine-high-demand,26-49-percent-time
+ObservationSPLASCH-070,patientBSJ1,spoken-language-comprehension,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,understand-complex-high-demand,26-49-percent-time
+ObservationSPLASCH-071,patientBSJ1,spoken-language-comprehension,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,comprehend-communication-without-assistance,26-49-percent-time
+ObservationSPLASCH-072,patientBSJ1,spoken-language-expression,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,verbal-form-high-demand,26-49-percent-time
+ObservationSPLASCH-073,patientBSJ1,spoken-language-expression,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,verbal-content-high-demand,26-49-percent-time
+ObservationSPLASCH-074,patientBSJ1,spoken-language-expression,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,express-communication-without-assistance,26-49-percent-time
+ObservationSPLASCH-075,patientBSJ1,swallowing,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,oral-containment-secretion-difficulty,50-75-percent-time
+ObservationSPLASCH-076,patientBSJ1,swallowing,2020-07-12T16:30:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,assistance-swallowing-safety,50-75-percent-time
+ObservationSPLASCH-077,patientBSJ1,spoken-language-comprehension,2020-07-13T10:35:00-05:00,Happy Nursing Facility,Practitioner-CheriseLangford,understand-simple-routine-high-demand,LA10066-1
+ObservationSPLASCH-078,patientBSJ1,spoken-language-comprehension,2020-07-13T10:35:00-05:00,Happy Nursing Facility,Practitioner-CheriseLangford,understand-complex-high-demand,LA10066-1
+ObservationSPLASCH-079,patientBSJ1,spoken-language-comprehension,2020-07-13T10:35:00-05:00,Happy Nursing Facility,Practitioner-CheriseLangford,comprehend-communication-without-assistance,LA10066-1
+ObservationSPLASCH-080,patientBSJ1,spoken-language-expression,2020-07-13T10:35:00-05:00,Happy Nursing Facility,Practitioner-CheriseLangford,verbal-form-high-demand,LA10066-1
+ObservationSPLASCH-081,patientBSJ1,spoken-language-expression,2020-07-13T10:35:00-05:00,Happy Nursing Facility,Practitioner-CheriseLangford,verbal-content-high-demand,LA10066-1
+ObservationSPLASCH-082,patientBSJ1,spoken-language-expression,2020-07-13T10:35:00-05:00,Happy Nursing Facility,Practitioner-CheriseLangford,express-communication-without-assistance,LA10066-1
+ObservationSPLASCH-083,patientBSJ1,spoken-language-comprehension,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,understand-simple-routine-high-demand,50-75-percent-time
+ObservationSPLASCH-084,patientBSJ1,spoken-language-comprehension,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,understand-complex-high-demand,50-75-percent-time
+ObservationSPLASCH-085,patientBSJ1,spoken-language-comprehension,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,comprehend-communication-without-assistance,50-75-percent-time
+ObservationSPLASCH-086,patientBSJ1,spoken-language-expression,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,verbal-form-high-demand,50-75-percent-time
+ObservationSPLASCH-087,patientBSJ1,spoken-language-expression,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,verbal-content-high-demand,50-75-percent-time
+ObservationSPLASCH-088,patientBSJ1,spoken-language-expression,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,express-communication-without-assistance,50-75-percent-time
+ObservationSPLASCH-089,patientBSJ1,swallowing,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,oral-containment-secretion-difficulty,26-49-percent-time
+ObservationSPLASCH-090,patientBSJ1,swallowing,2020-07-26T08:00:00-05:00,Happy Nursing Facility,Practitioner-Alexander-Kuikhoff,assistance-swallowing-safety,26-49-percent-time
+ObservationSPLASCH-091,patientBSJ1,spoken-language-comprehension,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,understand-simple-routine-high-demand,50-75-percent-time
+ObservationSPLASCH-092,patientBSJ1,spoken-language-comprehension,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,understand-complex-high-demand,50-75-percent-time
+ObservationSPLASCH-093,patientBSJ1,spoken-language-comprehension,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,comprehend-communication-without-assistance,50-75-percent-time
+ObservationSPLASCH-094,patientBSJ1,spoken-language-expression,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,verbal-form-high-demand,50-75-percent-time
+ObservationSPLASCH-095,patientBSJ1,spoken-language-expression,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,verbal-content-high-demand,50-75-percent-time
+ObservationSPLASCH-096,patientBSJ1,spoken-language-expression,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,express-communication-without-assistance,50-75-percent-time
+ObservationSPLASCH-097,patientBSJ1,swallowing,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,oral-containment-secretion-difficulty,26-49-percent-time
+ObservationSPLASCH-098,patientBSJ1,swallowing,2020-07-30T15:15:00-05:00,Happy Nursing Facility,Practitioner-MariaGonzalez,assistance-swallowing-safety,26-49-percent-time
+ObservationSPLASCH-099,patientBSJ1,spoken-language-comprehension,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,understand-simple-routine-high-demand,LA10082-8
+ObservationSPLASCH-100,patientBSJ1,spoken-language-comprehension,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,understand-complex-high-demand,LA10082-8
+ObservationSPLASCH-101,patientBSJ1,spoken-language-comprehension,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,comprehend-communication-without-assistance,LA10082-8
+ObservationSPLASCH-102,patientBSJ1,spoken-language-expression,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,verbal-form-high-demand,LA10082-8
+ObservationSPLASCH-103,patientBSJ1,spoken-language-expression,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,verbal-content-high-demand,LA10082-8
+ObservationSPLASCH-104,patientBSJ1,spoken-language-expression,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,express-communication-without-assistance,LA10082-8
+ObservationSPLASCH-105,patientBSJ1,swallowing,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,oral-containment-secretion-difficulty,LA10066-1
+ObservationSPLASCH-106,patientBSJ1,swallowing,2020-07-31T10:20:00-05:00,Happy Nursing Facility,Practitioner-RayMancioni,assistance-swallowing-safety,LA10066-1

@@ -1,2 +1,0 @@
-immunization.id,encounter.id,subjectRef,occurrenceDateTime,performer.orgRef,status,cvx.code[->],ndc.code[->]
-Immunization-1,BSJ-Encounter-1,patientBSJ1,2020-07-08T17:28:00-05:00,provider-org-16,completed,158,49281-0621-15
