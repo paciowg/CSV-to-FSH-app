@@ -92,8 +92,8 @@ jobs:
 #  otherInputFiles:
 #    - ObservationLab.code.csv
 
-- resource: Organization
-  dataFile: Organization.data.csv
+#- resource: Organization
+#  dataFile: Organization.data.csv
 
 - resource: ObservationSPLASCH
   dataFile: ObservationSPLASCH.data.csv
