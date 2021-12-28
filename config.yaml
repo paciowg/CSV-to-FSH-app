@@ -26,10 +26,10 @@ global_vars_file: global-variables.csv
 
 jobs:
 
-- resource: Patient
-  dataFile: Patient.data.csv
-  otherInputFiles:
-    - Patient.contact.csv
+#- resource: Patient
+#  dataFile: Patient.data.csv
+#  otherInputFiles:
+#    - Patient.contact.csv
 
 #- resource: Observation
 #  dataFile: Observation.data.csv
@@ -42,11 +42,11 @@ jobs:
 #  otherInputFiles:
 #    - Condition.code.csv
 
-- resource: Practitioner
-  dataFile: Practitioner.data.csv
+#- resource: Practitioner
+#  dataFile: Practitioner.data.csv
 
-- resource: PractitionerRole
-  dataFile: PractitionerRole.data.csv
+#- resource: PractitionerRole
+#  dataFile: PractitionerRole.data.csv
 
 #- resource: Encounter
 #  dataFile: Encounter.data.csv
