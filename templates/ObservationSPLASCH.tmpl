@@ -35,9 +35,10 @@ Description: "An instance of SPLASCH Observation @<observationsplasch.id>@"
 * subject = Reference(@@<instance-id-prefix>@@-@<subject.patientRef>@)
 
 * effectiveDateTime = "@<effectiveDateTime>@"
-##* performer = Reference(@<performer>@)
+
 * performer[0] = Reference(@<performer.Practitioner>@)
 * performer[1] = Reference(@<performer.PractitionerRole>@)
+* performer[2] = Reference(@<performer.Organization>@)
 
 // Pre-load value @<value>@ - Do Not Remove from template
 * valueCodeableConcept = @<value.system>@#@<value.code>@ "@<value.display>@"
