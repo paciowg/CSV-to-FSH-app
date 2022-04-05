@@ -7,7 +7,7 @@ Alias: SPLASCHCAT = http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHObser
 
 Instance: BSJ-ObservationSPLASCH-012
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-012"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -29,7 +29,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-012"
 
 Instance: BSJ-ObservationSPLASCH-013
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-013"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -51,7 +51,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-013"
 
 Instance: BSJ-ObservationSPLASCH-010
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-010"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -73,7 +73,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-010"
 
 Instance: BSJ-ObservationSPLASCH-011
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-011"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -95,7 +95,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-011"
 
 Instance: BSJ-ObservationSPLASCH-016
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-016"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -117,7 +117,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-016"
 
 Instance: BSJ-ObservationSPLASCH-017
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-017"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -139,7 +139,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-017"
 
 Instance: BSJ-ObservationSPLASCH-014
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-014"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -161,7 +161,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-014"
 
 Instance: BSJ-ObservationSPLASCH-015
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-015"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -183,7 +183,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-015"
 
 Instance: BSJ-ObservationSPLASCH-153
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-153"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -205,7 +205,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-153"
 
 Instance: BSJ-ObservationSPLASCH-152
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-152"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -227,7 +227,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-152"
 
 Instance: BSJ-ObservationSPLASCH-018
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-018"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -249,7 +249,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-018"
 
 Instance: BSJ-ObservationSPLASCH-019
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-019"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -271,7 +271,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-019"
 
 Instance: BSJ-ObservationSPLASCH-157
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-157"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -293,7 +293,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-157"
 
 Instance: BSJ-ObservationSPLASCH-156
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-156"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -315,7 +315,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-156"
 
 Instance: BSJ-ObservationSPLASCH-155
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-155"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -337,7 +337,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-155"
 
 Instance: BSJ-ObservationSPLASCH-154
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-154"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -359,7 +359,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-154"
 
 Instance: BSJ-ObservationSPLASCH-158
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-158"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -381,7 +381,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-158"
 
 Instance: BSJ-ObservationSPLASCH-098
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-098"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -403,7 +403,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-098"
 
 Instance: BSJ-ObservationSPLASCH-099
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-099"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -425,7 +425,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-099"
 
 Instance: BSJ-ObservationSPLASCH-092
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-092"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -447,7 +447,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-092"
 
 Instance: BSJ-ObservationSPLASCH-093
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-093"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -469,7 +469,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-093"
 
 Instance: BSJ-ObservationSPLASCH-090
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-090"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -491,7 +491,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-090"
 
 Instance: BSJ-ObservationSPLASCH-091
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-091"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -513,7 +513,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-091"
 
 Instance: BSJ-ObservationSPLASCH-096
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-096"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -535,7 +535,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-096"
 
 Instance: BSJ-ObservationSPLASCH-097
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-097"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -557,7 +557,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-097"
 
 Instance: BSJ-ObservationSPLASCH-094
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-094"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -579,7 +579,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-094"
 
 Instance: BSJ-ObservationSPLASCH-095
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-095"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -601,7 +601,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-095"
 
 Instance: BSJ-ObservationSPLASCH-151
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-151"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -623,7 +623,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-151"
 
 Instance: BSJ-ObservationSPLASCH-001
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-001"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -645,7 +645,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-001"
 
 Instance: BSJ-ObservationSPLASCH-003
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-003"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -667,7 +667,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-003"
 
 Instance: BSJ-ObservationSPLASCH-150
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-150"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -689,7 +689,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-150"
 
 Instance: BSJ-ObservationSPLASCH-005
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-005"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -711,7 +711,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-005"
 
 Instance: BSJ-ObservationSPLASCH-004
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-004"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -733,7 +733,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-004"
 
 Instance: BSJ-ObservationSPLASCH-007
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-007"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -755,7 +755,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-007"
 
 Instance: BSJ-ObservationSPLASCH-006
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-006"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -777,7 +777,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-006"
 
 Instance: BSJ-ObservationSPLASCH-009
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-009"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -799,7 +799,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-009"
 
 Instance: BSJ-ObservationSPLASCH-008
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-008"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -821,7 +821,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-008"
 
 Instance: BSJ-ObservationSPLASCH-089
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-089"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -843,7 +843,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-089"
 
 Instance: BSJ-ObservationSPLASCH-088
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-088"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -865,7 +865,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-088"
 
 Instance: BSJ-ObservationSPLASCH-081
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-081"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -887,7 +887,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-081"
 
 Instance: BSJ-ObservationSPLASCH-080
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-080"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -909,7 +909,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-080"
 
 Instance: BSJ-ObservationSPLASCH-083
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-083"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -931,7 +931,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-083"
 
 Instance: BSJ-ObservationSPLASCH-082
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-082"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -953,7 +953,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-082"
 
 Instance: BSJ-ObservationSPLASCH-085
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-085"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -975,7 +975,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-085"
 
 Instance: BSJ-ObservationSPLASCH-084
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-084"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -997,7 +997,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-084"
 
 Instance: BSJ-ObservationSPLASCH-087
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-087"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1019,7 +1019,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-087"
 
 Instance: BSJ-ObservationSPLASCH-086
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-086"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1041,7 +1041,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-086"
 
 Instance: BSJ-ObservationSPLASCH-128
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-128"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1063,7 +1063,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-128"
 
 Instance: BSJ-ObservationSPLASCH-129
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-129"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1085,7 +1085,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-129"
 
 Instance: BSJ-ObservationSPLASCH-126
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-126"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1107,7 +1107,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-126"
 
 Instance: BSJ-ObservationSPLASCH-127
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-127"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1129,7 +1129,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-127"
 
 Instance: BSJ-ObservationSPLASCH-124
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-124"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1151,7 +1151,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-124"
 
 Instance: BSJ-ObservationSPLASCH-125
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-125"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1173,7 +1173,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-125"
 
 Instance: BSJ-ObservationSPLASCH-122
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-122"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1195,7 +1195,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-122"
 
 Instance: BSJ-ObservationSPLASCH-123
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-123"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1217,7 +1217,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-123"
 
 Instance: BSJ-ObservationSPLASCH-120
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-120"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1239,7 +1239,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-120"
 
 Instance: BSJ-ObservationSPLASCH-121
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-121"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1261,7 +1261,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-121"
 
 Instance: BSJ-ObservationSPLASCH-038
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-038"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1283,7 +1283,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-038"
 
 Instance: BSJ-ObservationSPLASCH-039
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-039"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -1305,7 +1305,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-039"
 
 Instance: BSJ-ObservationSPLASCH-034
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-034"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1327,7 +1327,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-034"
 
 Instance: BSJ-ObservationSPLASCH-035
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-035"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1349,7 +1349,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-035"
 
 Instance: BSJ-ObservationSPLASCH-036
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-036"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1371,7 +1371,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-036"
 
 Instance: BSJ-ObservationSPLASCH-037
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-037"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1393,7 +1393,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-037"
 
 Instance: BSJ-ObservationSPLASCH-030
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-030"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1415,7 +1415,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-030"
 
 Instance: BSJ-ObservationSPLASCH-031
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-031"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1437,7 +1437,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-031"
 
 Instance: BSJ-ObservationSPLASCH-032
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-032"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1459,7 +1459,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-032"
 
 Instance: BSJ-ObservationSPLASCH-033
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-033"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1481,7 +1481,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-033"
 
 Instance: BSJ-ObservationSPLASCH-063
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-063"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1503,7 +1503,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-063"
 
 Instance: BSJ-ObservationSPLASCH-062
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-062"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1525,7 +1525,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-062"
 
 Instance: BSJ-ObservationSPLASCH-139
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-139"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1547,7 +1547,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-139"
 
 Instance: BSJ-ObservationSPLASCH-138
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-138"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1569,7 +1569,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-138"
 
 Instance: BSJ-ObservationSPLASCH-135
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-135"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1591,7 +1591,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-135"
 
 Instance: BSJ-ObservationSPLASCH-134
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-134"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -1613,7 +1613,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-134"
 
 Instance: BSJ-ObservationSPLASCH-137
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-137"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1635,7 +1635,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-137"
 
 Instance: BSJ-ObservationSPLASCH-136
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-136"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1657,7 +1657,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-136"
 
 Instance: BSJ-ObservationSPLASCH-131
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-131"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1679,7 +1679,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-131"
 
 Instance: BSJ-ObservationSPLASCH-130
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-130"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1701,7 +1701,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-130"
 
 Instance: BSJ-ObservationSPLASCH-133
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-133"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -1723,7 +1723,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-133"
 
 Instance: BSJ-ObservationSPLASCH-132
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-132"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1745,7 +1745,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-132"
 
 Instance: BSJ-ObservationSPLASCH-029
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-029"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1767,7 +1767,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-029"
 
 Instance: BSJ-ObservationSPLASCH-028
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-028"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1789,7 +1789,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-028"
 
 Instance: BSJ-ObservationSPLASCH-023
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-023"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1811,7 +1811,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-023"
 
 Instance: BSJ-ObservationSPLASCH-022
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-022"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1833,7 +1833,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-022"
 
 Instance: BSJ-ObservationSPLASCH-021
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-021"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1855,7 +1855,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-021"
 
 Instance: BSJ-ObservationSPLASCH-020
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-020"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1877,7 +1877,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-020"
 
 Instance: BSJ-ObservationSPLASCH-027
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-027"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1899,7 +1899,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-027"
 
 Instance: BSJ-ObservationSPLASCH-026
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-026"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -1921,7 +1921,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-026"
 
 Instance: BSJ-ObservationSPLASCH-025
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-025"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1943,7 +1943,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-025"
 
 Instance: BSJ-ObservationSPLASCH-024
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-024"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -1965,7 +1965,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-024"
 
 Instance: BSJ-ObservationSPLASCH-069
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-069"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -1987,7 +1987,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-069"
 
 Instance: BSJ-ObservationSPLASCH-068
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-068"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2009,7 +2009,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-068"
 
 Instance: BSJ-ObservationSPLASCH-108
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-108"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2031,7 +2031,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-108"
 
 Instance: BSJ-ObservationSPLASCH-109
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-109"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2053,7 +2053,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-109"
 
 Instance: BSJ-ObservationSPLASCH-100
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-100"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2075,7 +2075,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-100"
 
 Instance: BSJ-ObservationSPLASCH-101
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-101"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2097,7 +2097,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-101"
 
 Instance: BSJ-ObservationSPLASCH-102
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-102"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2119,7 +2119,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-102"
 
 Instance: BSJ-ObservationSPLASCH-103
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-103"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2141,7 +2141,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-103"
 
 Instance: BSJ-ObservationSPLASCH-104
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-104"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2163,7 +2163,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-104"
 
 Instance: BSJ-ObservationSPLASCH-105
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-105"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2185,7 +2185,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-105"
 
 Instance: BSJ-ObservationSPLASCH-106
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-106"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2207,7 +2207,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-106"
 
 Instance: BSJ-ObservationSPLASCH-107
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-107"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2229,7 +2229,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-107"
 
 Instance: BSJ-ObservationSPLASCH-117
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-117"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2251,7 +2251,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-117"
 
 Instance: BSJ-ObservationSPLASCH-116
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-116"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2273,7 +2273,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-116"
 
 Instance: BSJ-ObservationSPLASCH-115
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-115"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2295,7 +2295,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-115"
 
 Instance: BSJ-ObservationSPLASCH-114
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-114"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2317,7 +2317,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-114"
 
 Instance: BSJ-ObservationSPLASCH-113
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-113"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2339,7 +2339,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-113"
 
 Instance: BSJ-ObservationSPLASCH-112
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-112"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2361,7 +2361,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-112"
 
 Instance: BSJ-ObservationSPLASCH-111
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-111"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2383,7 +2383,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-111"
 
 Instance: BSJ-ObservationSPLASCH-110
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-110"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2405,7 +2405,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-110"
 
 Instance: BSJ-ObservationSPLASCH-119
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-119"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2427,7 +2427,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-119"
 
 Instance: BSJ-ObservationSPLASCH-118
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-118"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2449,7 +2449,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-118"
 
 Instance: BSJ-ObservationSPLASCH-058
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-058"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2471,7 +2471,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-058"
 
 Instance: BSJ-ObservationSPLASCH-059
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-059"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2493,7 +2493,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-059"
 
 Instance: BSJ-ObservationSPLASCH-056
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-056"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2515,7 +2515,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-056"
 
 Instance: BSJ-ObservationSPLASCH-057
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-057"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2537,7 +2537,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-057"
 
 Instance: BSJ-ObservationSPLASCH-054
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-054"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2559,7 +2559,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-054"
 
 Instance: BSJ-ObservationSPLASCH-055
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-055"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2581,7 +2581,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-055"
 
 Instance: BSJ-ObservationSPLASCH-052
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-052"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2603,7 +2603,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-052"
 
 Instance: BSJ-ObservationSPLASCH-053
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-053"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2625,7 +2625,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-053"
 
 Instance: BSJ-ObservationSPLASCH-050
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-050"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2647,7 +2647,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-050"
 
 Instance: BSJ-ObservationSPLASCH-051
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-051"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -2669,7 +2669,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-051"
 
 Instance: BSJ-ObservationSPLASCH-162
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-162"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2691,7 +2691,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-162"
 
 Instance: BSJ-ObservationSPLASCH-160
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-160"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2713,7 +2713,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-160"
 
 Instance: BSJ-ObservationSPLASCH-161
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-161"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2735,7 +2735,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-161"
 
 Instance: BSJ-ObservationSPLASCH-159
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-159"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2757,7 +2757,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-159"
 
 Instance: BSJ-ObservationSPLASCH-049
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-049"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2779,7 +2779,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-049"
 
 Instance: BSJ-ObservationSPLASCH-048
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-048"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2801,7 +2801,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-048"
 
 Instance: BSJ-ObservationSPLASCH-045
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-045"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2823,7 +2823,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-045"
 
 Instance: BSJ-ObservationSPLASCH-044
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-044"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2845,7 +2845,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-044"
 
 Instance: BSJ-ObservationSPLASCH-047
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-047"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2867,7 +2867,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-047"
 
 Instance: BSJ-ObservationSPLASCH-046
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-046"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2889,7 +2889,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-046"
 
 Instance: BSJ-ObservationSPLASCH-041
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-041"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2911,7 +2911,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-041"
 
 Instance: BSJ-ObservationSPLASCH-040
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-040"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2933,7 +2933,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-040"
 
 Instance: BSJ-ObservationSPLASCH-043
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-043"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -2955,7 +2955,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-043"
 
 Instance: BSJ-ObservationSPLASCH-042
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-042"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -2977,7 +2977,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-042"
 
 Instance: BSJ-ObservationSPLASCH-002
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-002"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -2999,7 +2999,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-002"
 
 Instance: BSJ-ObservationSPLASCH-078
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-078"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -3021,7 +3021,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-078"
 
 Instance: BSJ-ObservationSPLASCH-079
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-079"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -3043,7 +3043,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-079"
 
 Instance: BSJ-ObservationSPLASCH-070
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-070"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -3065,7 +3065,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-070"
 
 Instance: BSJ-ObservationSPLASCH-071
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-071"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3087,7 +3087,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-071"
 
 Instance: BSJ-ObservationSPLASCH-072
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-072"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3109,7 +3109,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-072"
 
 Instance: BSJ-ObservationSPLASCH-073
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-073"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3131,7 +3131,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-073"
 
 Instance: BSJ-ObservationSPLASCH-074
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-074"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -3153,7 +3153,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-074"
 
 Instance: BSJ-ObservationSPLASCH-075
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-075"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -3175,7 +3175,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-075"
 
 Instance: BSJ-ObservationSPLASCH-076
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-076"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -3197,7 +3197,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-076"
 
 Instance: BSJ-ObservationSPLASCH-077
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-077"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -3219,7 +3219,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-077"
 
 Instance: BSJ-ObservationSPLASCH-067
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-067"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -3241,7 +3241,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-067"
 
 Instance: BSJ-ObservationSPLASCH-066
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-066"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -3263,7 +3263,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-066"
 
 Instance: BSJ-ObservationSPLASCH-065
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-065"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -3285,7 +3285,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-065"
 
 Instance: BSJ-ObservationSPLASCH-064
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-064"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -3307,7 +3307,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-064"
 
 Instance: BSJ-ObservationSPLASCH-148
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-148"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -3329,7 +3329,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-148"
 
 Instance: BSJ-ObservationSPLASCH-149
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-149"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -3351,7 +3351,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-149"
 
 Instance: BSJ-ObservationSPLASCH-061
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-061"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3373,7 +3373,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-061"
 
 Instance: BSJ-ObservationSPLASCH-060
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-060"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3395,7 +3395,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-060"
 
 Instance: BSJ-ObservationSPLASCH-144
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-144"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -3417,7 +3417,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-144"
 
 Instance: BSJ-ObservationSPLASCH-145
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-145"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -3439,7 +3439,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-145"
 
 Instance: BSJ-ObservationSPLASCH-146
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-146"
+Description: "An instance of SPLASCH swallowing observation"
 
 * status = #final
 * category = SPLASCHCAT#swallowing "Swallowing"
@@ -3461,7 +3461,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-146"
 
 Instance: BSJ-ObservationSPLASCH-147
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-147"
+Description: "An instance of SPLASCH multi-modal-communication observation"
 
 * status = #final
 * category = SPLASCHCAT#multi-modal-communication "Multi-modal Communication"
@@ -3483,7 +3483,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-147"
 
 Instance: BSJ-ObservationSPLASCH-140
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-140"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3505,7 +3505,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-140"
 
 Instance: BSJ-ObservationSPLASCH-141
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-141"
+Description: "An instance of SPLASCH spoken-language-comprehension observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-comprehension "Spoken language comprehension"
@@ -3527,7 +3527,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-141"
 
 Instance: BSJ-ObservationSPLASCH-142
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-142"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
@@ -3549,7 +3549,7 @@ Description: "An instance of SPLASCH Observation ObservationSPLASCH-142"
 
 Instance: BSJ-ObservationSPLASCH-143
 InstanceOf: Observation
-Description: "An instance of SPLASCH Observation ObservationSPLASCH-143"
+Description: "An instance of SPLASCH spoken-language-expression observation"
 
 * status = #final
 * category = SPLASCHCAT#spoken-language-expression "Spoken language expression"
