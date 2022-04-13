@@ -1,0 +1,8 @@
+__pycache__
+.venv
+bin
+lib
+*.pyc
+include
+.DS_Store
+.python-version

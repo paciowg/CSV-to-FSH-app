@@ -14,6 +14,8 @@
 ##
 ## - Any lines between '=@>' and '<@=' are head lines that will be output only once
 ##
+## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
+##
 =@>
 Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 Alias: Hl7V3MS = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
@@ -22,7 +24,7 @@ Alias: Hl7V2TBL0131 = http://hl7.org/fhir/v2/0131
 Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 <@=
 
-Instance: @@<instance-id-prefix>@@-@<patient.id>@
+Instance: @@<instance-id-prefix>@@@<patient.id>@
 InstanceOf: USCorePatientProfile
 Description: "An instance of USCorePatientProfile"
 * active = true
@@ -38,21 +40,21 @@ Description: "An instance of USCorePatientProfile"
 
 * birthDate = "@<birthDate>@"
 
-* maritalStatus = Hl7V3MS#@<maritalStatus>@
+* maritalStatus = Hl7V3MS#@<maritalStatus.code>@
 
-* telecom.system = #phone
-* telecom.value = "@<telecom.value>@"
-* telecom.use = #mobile
+* telecom@<index.telecom.value>@.value = "@<telecom.value>@"
+* telecom@<index.telecom.value>@.system = #phone
+* telecom@<index.telecom.value>@.use = #mobile
 
 * address.text = "@<address.text>@"
 
-* communication.language.coding = @<language.coding>@
-* communication.preferred = true
+* communication@<index.language.coding>@.language.coding = @<language.coding>@
+* communication@<index.language.coding>@.preferred = true
 
-* @<contact>@.name.text = "@<contact.name.text>@"
-* @<contact>@.@<relationship>@.coding = @<patient.relationship>@
-* @<contact>@.address.text = "@<contact.address.text>@"
-* @<contact>@.telecom.system = #phone
-* @<contact>@.telecom.value = "@<contact.telecom.value>@"
+* contact@<index.contact>@.name.text = "@<contact.name.text>@"
+* contact@<index.contact>@.relationship@<index.contact.relationship.coding>@.coding = @<contact.relationship.coding>@
+* contact@<index.contact>@.address.text = "@<contact.address.text>@"
+* contact@<index.contact>@.telecom.system = #phone
+* contact@<index.contact>@.telecom.value = "@<contact.telecom.value>@"
 
-* generalPractitioner = Reference(@<generalPractitioner>@)
+* generalPractitioner = Reference(@@<instance-id-prefix>@@@<generalPractitioner.reference>@)

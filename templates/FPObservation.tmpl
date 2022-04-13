@@ -1,0 +1,43 @@
+## Functional Performance Observation Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
+##
+=@>
+Alias: FUNCPERFCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs
+Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs
+Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
+<@=
+
+Instance: @@<instance-id-prefix>@@@<FPObservation.id>@
+InstanceOf: FunctionalPerformanceObservation
+Description: "An instance of Functional Performance Observation"
+* subject = Reference(@@<instance-id-prefix>@@@<subject.reference>@)
+* status = #final
+* category[+] = FUNCTIONINGCAT#functioning "Functioning"
+* category[+] = FUNCPERFCAT#@<category>@ "@<category.display>@"
+* category[+] = OBSCAT#survey
+* effectiveDateTime = "@<effectiveDateTime>@"
+* encounter = Reference(@@<instance-id-prefix>@@@<encounter.reference>@)
+// Pre-load code @<code>@ - Do Not Remove from template
+* code = @<code.system>@#@<code.code>@ "@<code>@"
+* performer@<index.performer.reference>@ = Reference(@@<instance-id-prefix>@@@<performer.reference>@)
+* derivedFrom@<index.derivedFrom.reference>@ = Reference(@@<instance-id-prefix>@@@<derivedFrom.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(@@<instance-id-prefix>@@@<extension-event-location.reference>@)
+// Pre-load code @<valueCodeableConcept>@ - Do Not Remove from template
+* valueCodeableConcept = @<value.system>@#@<value.code>@ "@<value.display>@"
+* valueQuantity = @<valueQuantity>@
+* dataAbsentReason = @<dataAbsentReason>@
