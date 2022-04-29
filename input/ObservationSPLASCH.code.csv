@@ -17,11 +17,53 @@ modified-liquid-diet,modified-liquid-diet,http://hl7.org/fhir/us/pacio-splasch/C
 non-oral-diet-sustenance,non-oral-diet-sustenance,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Nutrition and hydration diet delivered through non-oral means
 oral-containment-secretion-difficulty,oral-containment-secretion-difficulty,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Difficulties with oral containment or secretion management
 assistance-swallowing-safety,assistance-swallowing-safety,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHSwallowingObservationCS,Require assistance or supervision for swallowing safety
-99829-4,99829-4,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?"
+99829-4,99829-4,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,How often does the individual convey simple messages that are meaningful related to routine daily activities in LOW demand situations?
 99830-2,99830-2,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,How often does the individual participate in short structured conversations that are meaningful in LOW demand situations?
-99831-0,99831-0,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"How often does the individual convey complex messages that are meaningful in LOW demand situations?"
-99832-8,99832-8,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?"
-99833-6,99833-6,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?"
-99834-4,99834-4,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"How often does the individual convey complex messages that are meaningful in HIGH demand situations?"
-99835-1,99835-1,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]"
-communicate-without-assistance,communicate-without-assistance,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"Participate in communication exchanges without assistance" "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"
+99831-0,99831-0,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,How often does the individual convey complex messages that are meaningful in LOW demand situations?
+99832-8,99832-8,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,How often does the individual convey simple messages that are meaningful related to routine daily activities in HIGH demand situations?
+99833-6,99833-6,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,How often does the individual participate in short structured conversations that are meaningful in HIGH demand situations?
+99834-4,99834-4,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,How often does the individual convey complex messages that are meaningful in HIGH demand situations?
+99835-1,99835-1,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,Functional Communication Measure - Multi-Modal Functional Communication score [ASHA NOMS]
+communicate-without-assistance,communicate-without-assistance,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHMultiModalCommunicationObservationCS,"Participate in communication exchanges without assistance ""How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner (no more than would be expected for chronological age)?"""
+98421-1,98421-1,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel,Hearing loss type Ear - left
+98426-0,98426-0,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel,Hearing loss type Ear - right
+98422-9,98422-9,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel,Hearing loss degree Ear - left
+98427-8,98427-8,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel,Hearing loss degree Ear - right
+98420-3,98420-3,http://hl7.org/fhir/us/pacio-splasch/ValueSet/SPLASCHDiagnosticAudiologyResultsPanel,Audiology Comment Narrative
+91375-6,91375-6,https://loinc.org/89015-2/,Hearing threshold Ear - left --250 Hz
+89024-4,89024-4,https://loinc.org/89015-2/,Hearing threshold Ear - left --500 Hz
+91379-8,91379-8,https://loinc.org/89015-2/,Hearing threshold Ear - left --750 Hz
+89016-0,89016-0,https://loinc.org/89015-2/,Hearing threshold Ear - left --1000 Hz
+91373-1,91373-1,https://loinc.org/89015-2/,Hearing threshold Ear - left --1500 Hz
+89018-6,89018-6,https://loinc.org/89015-2/,Hearing threshold Ear - left --2000 Hz
+89020-2,89020-2,https://loinc.org/89015-2/,Hearing threshold Ear - left --3000 Hz
+89022-8,89022-8,https://loinc.org/89015-2/,Hearing threshold Ear - left --4000 Hz
+91377-2,91377-2,https://loinc.org/89015-2/,Hearing threshold Ear - left --5000 Hz
+89026-9,89026-9,https://loinc.org/89015-2/,Hearing threshold Ear - left --6000 Hz
+89028-5,89028-5,https://loinc.org/89015-2/,Hearing threshold Ear - left --8000 Hz
+91374-9,91374-9,https://loinc.org/89015-2/,Hearing threshold Ear - right --250 Hz
+89025-1,89025-1,https://loinc.org/89015-2/,Hearing threshold Ear - right --500 Hz
+91378-0,91378-0,https://loinc.org/89015-2/,Hearing threshold Ear - right --750 Hz
+89017-8,89017-8,https://loinc.org/89015-2/,Hearing threshold Ear - right --1000 Hz
+91372-3,91372-3,https://loinc.org/89015-2/,Hearing threshold Ear - right --1500 Hz
+89019-4,89019-4,https://loinc.org/89015-2/,Hearing threshold Ear - right --2000 Hz
+89021-0,89021-0,https://loinc.org/89015-2/,Hearing threshold Ear - right --3000 Hz
+89023-6,89023-6,https://loinc.org/89015-2/,Hearing threshold Ear - right --4000 Hz
+91376-4,91376-4,https://loinc.org/89015-2/,Hearing threshold Ear - right --5000 Hz
+89027-7,89027-7,https://loinc.org/89015-2/,Hearing threshold Ear - right --6000 Hz
+89029-3,89029-3,https://loinc.org/89015-2/,Hearing threshold Ear - right --8000 Hz 
+LA32484-0,LA32484-0,https://loinc.org/LL6015-3/,No hearing loss
+LA32485-7,LA32485-7,https://loinc.org/LL6015-3/,Sensorineural
+LA32486-5,LA32486-5,https://loinc.org/LL6015-3/,Conductive - transient
+LA32487-3,LA32487-3,https://loinc.org/LL6015-3/,Conductive - permanent
+LA32488-1,LA32488-1,https://loinc.org/LL6015-3/,Conductive - undetermined
+LA11840-8,LA11840-8,https://loinc.org/LL6015-3/,Mixed
+LA32489-9,LA32489-9,https://loinc.org/LL6015-3/,Auditory neuropahty/Neural
+LA32490-7,LA32490-7,https://loinc.org/LL6016-1/,Undetermined/Inconclusive
+LA32491-5,LA32491-5,https://loinc.org/LL6016-1/,Slight (16-25 dB HL)
+LA32492-3,LA32492-3,https://loinc.org/LL6016-1/,Mild (26-40 dB HL)
+LA32493-1,LA32493-1,https://loinc.org/LL6016-1/,Moderate (41-55 dB HL)
+LA32494-9,LA32494-9,https://loinc.org/LL6016-1/,Moderately severe (56-70 dB HL)
+LA32495-6,LA32495-6,https://loinc.org/LL6016-1/,Severe (71-90 dB HL)
+LA32496-4,LA32496-4,https://loinc.org/LL6016-1/,Profound (91+ dB HL)
+LA14100-4,LA14100-4,https://loinc.org/LL6016-1/,Undetermined

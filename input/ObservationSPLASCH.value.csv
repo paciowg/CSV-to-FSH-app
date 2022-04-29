@@ -29,3 +29,10 @@ no-liquids,no-liquids,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHLiq
 26-49-percent-intake,26-49-percent,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS,26-49% of caloric intake
 50-75-percent-intake,50-75-percent,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS,50-75% of caloric intake
 76-100-percent-intake,76-100-percent,http://hl7.org/fhir/us/pacio-splasch/CodeSystem/SPLASCHCaloriePercentageCategoryCS,76-100% of caloric intake
+,,,
+LA32485-7,LA32485-7,https://loinc.org/LL6015-3/,Sensorineural
+LA32493-1,LA32493-1,https://loinc.org/LL6016-1/,Moderate (41-55 dB HL)
+40,40,https://example.com,40
+45,45,https://example.com,45
+55,55,https://example.com,55
+60,60,https://example.com,60

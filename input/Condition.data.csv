@@ -1,0 +1,2 @@
+condition.id,condition.subjectRef,condition.onsetDateTime,condition.asserterRef,condition.asserter.display,condition.category,condition.clinicalStatus,condition.verificationStatus,code[->],Code System
+Diagnosis1,patientBSJ1,2021-11-12T15:00:00-05:00,provider-role-audiologist-JillBradley,Jill Bradley,COND-CAT#encounter-diagnosis,active,confirmed,194424005,SNOMED

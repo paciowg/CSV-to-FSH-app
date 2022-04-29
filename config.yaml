@@ -37,10 +37,10 @@ jobs:
 #   - Observation.code.csv
 #    - Observation.valueCode.csv
 
-#- resource: Condition
-#  dataFile: Condition.data.csv
-#  otherInputFiles:
-#    - Condition.code.csv
+- resource: Condition
+  dataFile: Condition.data.csv
+  otherInputFiles:
+    - Condition.code.csv
 
 #- resource: Practitioner
 #  dataFile: Practitioner.data.csv
@@ -95,12 +95,12 @@ jobs:
 #- resource: Organization
 #  dataFile: Organization.data.csv
 
-- resource: ObservationSPLASCH
-  dataFile: ObservationSPLASCH.data.csv
-  otherInputFiles:
-    - ObservationSPLASCH.category.csv
-    - ObservationSPLASCH.code.csv
-    - ObservationSPLASCH.value.csv
+#- resource: ObservationSPLASCH
+#  dataFile: ObservationSPLASCH.data.csv
+#  otherInputFiles:
+#    - ObservationSPLASCH.category.csv
+#    - ObservationSPLASCH.code.csv
+#    - ObservationSPLASCH.value.csv
 
 #- resource: ReassessmentTimepointsEncounter
 #  dataFile: ReassessmentTimepointsEncounter.data.csv
