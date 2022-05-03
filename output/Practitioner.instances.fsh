@@ -1,113 +1,248 @@
 Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 
 
-Instance: Practitioner-AndyLavande
+Instance: P0522-Practitioner-JennyGlass
 InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "7062383534"
-* name.given = "Andy"
-* name.family = "Lavande"
-* name.text = "Endocrinologist"
+Description: "An instance of Practitioner"
+* name.given = "Jenny"
+* name.family = "Glass"
+* name.text = "Jenny Glass"
 * active = true
-* gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
-* telecom.value = "(210) 555 1313"
-* address.text = "9575 E. Water Rd, San Antonio, TX 78240"
 
 
-Instance: Practitioner-JohnSmith
+Instance: P0522-Practitioner-NoraOlogist
 InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "4278275001"
-* name.given = "John"
-* name.family = "Smith"
-* name.text = "Primary Care Physician"
-* active = true
-* gender = Hl7FhirAdminGender#male
-* telecom.system = #phone
-* telecom.value = "(210) 564 1389"
-* address.text = "177 Deerfield St. San Antonio, TX 78207"
-
-
-Instance: Practitioner-ShaunLongbottom
-InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "1984824679"
-* name.given = "Shaun"
-* name.family = "Longbottom"
-* name.text = "Opthamologist"
-* active = true
-* gender = Hl7FhirAdminGender#male
-* telecom.system = #phone
-* telecom.value = "(240) 564 1367"
-* address.text = "8624 Arlington Road, San Antonio, TX 78232"
-
-
-Instance: Practitioner-NoraOlogist
-InstanceOf: Practitioner
+Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "3668788925"
 * name.given = "Nora"
 * name.family = "Ologist"
-* name.text = "Neurologist"
+* name.text = "Nora Ologist"
 * active = true
-* gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
 * telecom.value = "(210) 555 7632"
-* address.text = "26022 Meadowlark Bay, San Antonio, TX 78260"
 
 
-Instance: Practitioner-HarryPutter
+Instance: P0522-Practitioner-LiaNguyen
 InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "6636097371"
-* name.given = "Harry"
-* name.family = "Putter"
-* name.text = "Psychiatrist"
+Description: "An instance of Practitioner"
+* name.given = "Lia"
+* name.family = "Nguyen"
+* name.text = "Lia Nguyen"
 * active = true
-* gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
-* telecom.value = "(210) 576 1538"
-* address.text = "1 Sleepy Hollow Ave, San Antonio, TX 78229"
 
 
-Instance: Practitioner-JenniferWhite
+Instance: P0522-Practitioner-LisaGreene
 InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "9226439786"
-* name.given = "Jennifer"
-* name.family = "White"
-* name.text = "Nephrologist"
+Description: "An instance of Practitioner"
+* name.given = "Lisa"
+* name.family = "Greene"
+* name.text = "Lisa Greene"
 * active = true
-* gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(210) 555 1311"
-* address.text = "7 Randall Milll Lane, San Antonio TX 78242"
 
 
-Instance: Practitioner-LaylaRobbins
+Instance: P0522-Practitioner-JacobHartwell
 InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "815183350"
-* name.given = "Layla"
-* name.family = "Robbins"
-* name.text = "Cardiologist"
+Description: "An instance of Practitioner"
+* name.given = "Jacob"
+* name.family = "Hartwell"
+* name.text = "Jacob Hartwell"
 * active = true
-* gender = Hl7FhirAdminGender#female
 * telecom.system = #phone
-* telecom.value = "(240) 984 1334"
-* address.text = "21 James Lane, San Antonio, TX 78247"
 
 
-Instance: Practitioner-JennyGrant
+Instance: P0522-Practitioner-DonHopmed
 InstanceOf: Practitioner
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "9098815676"
-* name.given = "Jenny"
-* name.family = "Grant"
-* name.text = "Nurse Practitioner"
+Description: "An instance of Practitioner"
+* name.given = "Don"
+* name.family = "Hopmed"
+* name.text = "Don Hopmed"
 * active = true
-* gender = Hl7FhirAdminGender#female
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-SallySmart
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Sally"
+* name.family = "Smart"
+* name.text = "Sally Smart"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-CheriseLangford
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Cherise"
+* name.family = "Langford"
+* name.text = "Cherise Langford"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-DanielGranger
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Daniel"
+* name.family = "Granger"
+* name.text = "Daniel Granger"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-TamaraRodriguez
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Tamara"
+* name.family = "Rodriguez"
+* name.text = "Tamara Rodriguez"
+* active = true
+* telecom.system = #phone
+* telecom.value = "(210) 555 2089"
+
+
+Instance: P0522-Practitioner-AlexanderKuikhoff
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Alexander"
+* name.family = "Kuikhoff"
+* name.text = "Alexander Kuikhoff"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-AnitaChu
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2346547890"
+* name.given = "Anita"
+* name.family = "Chu"
+* name.text = "Anita Chu"
+* active = true
+* telecom.system = #phone
+* telecom.value = "(616) 555-1212"
+
+
+Instance: P0522-Practitioner-JillBradley
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Jill"
+* name.family = "Bradley"
+* name.text = "Jill Bradley"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-JenCadbury
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "1928374650"
+* name.given = "Jen"
+* name.family = "Cadbury"
+* name.text = "Jen Cadbury"
+* active = true
 * telecom.system = #phone
 * telecom.value = "(210) 555 1871"
-* address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
+
+
+Instance: P0522-Practitioner-RonMarble
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Ron"
+* name.family = "Marble"
+* name.text = "Ron Marble"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-HoneyJones
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Honey"
+* name.family = "Jones"
+* name.text = "Honey Jones"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-JudySmiley
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Judy"
+* name.family = "Smiley"
+* name.text = "Judy Smiley"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-SummerJohnson
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "9876543210"
+* name.given = "Summer"
+* name.family = "Johnson"
+* name.text = "Summer Johnson"
+* active = true
+* telecom.system = #phone
+* telecom.value = "(210) 555 7632"
+
+
+Instance: P0522-Practitioner-RayMancioni
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Ray"
+* name.family = "Mancioni"
+* name.text = "Ray Mancioni"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-JohnSmith
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2345678901"
+* name.given = "John"
+* name.family = "Smith"
+* name.text = "John Smith"
+* active = true
+* telecom.system = #phone
+* telecom.value = "(210) 564 1389"
+
+
+Instance: P0522-Practitioner-ScottDumble
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Scott"
+* name.family = "Dumble"
+* name.text = "Scott Dumble"
+* active = true
+* telecom.system = #phone
+* telecom.value = "(210) 555 1399"
+
+
+Instance: P0522-Practitioner-LunaBaskins
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Luna"
+* name.family = "Baskins"
+* name.text = "Luna Baskins"
+* active = true
+* telecom.system = #phone
+
+
+Instance: P0522-Practitioner-MariaGonzalez
+InstanceOf: Practitioner
+Description: "An instance of Practitioner"
+* name.given = "Maria"
+* name.family = "Gonzalez"
+* name.text = "Maria Gonzalez"
+* active = true
+* telecom.system = #phone
