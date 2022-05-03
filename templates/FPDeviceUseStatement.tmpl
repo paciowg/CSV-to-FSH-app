@@ -20,9 +20,9 @@
 Instance: @@<instance-id-prefix>@@@<resource.id>@
 InstanceOf: FunctionalPerformanceUseOfDevice
 Description: "An instance of FunctionalPerformanceUseOfDevice"
-* subject = Reference(@@<instance-id-prefix>@@@<subject.reference>@)
+* subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
 * status = #@<status>@
-* device = Reference(@@<instance-id-prefix>@@@<device.reference>@)
+* device = Reference(Device/@@<instance-id-prefix>@@@<device.reference>@)
 * recordedOn = "@<recordedOn>@"
 * source = Reference(@@<instance-id-prefix>@@@<source.reference>@)
-* derivedFrom@<index.derivedFrom.reference>@ = Reference(@@<instance-id-prefix>@@@<derivedFrom.reference>@)
+* derivedFrom@<index.derivedFrom.reference>@ = Reference(QuestionnaireResponse/@@<instance-id-prefix>@@@<derivedFrom.reference>@)

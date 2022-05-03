@@ -103,14 +103,16 @@ jobs:
   dataFile: FPCollection.data.csv
   otherInputFiles:
     - FPCollection.code.csv
-    - FPCollection.category.csv
+    - FPCollection.category-functioning.csv
+    - FPCollection.performers.csv
 
 - resource: FPObservation
   dataFile: FPObservation.data.csv
   otherInputFiles:
     - FPObservation.code.csv
-    - FPObservation.category.csv
+    - FPObservation.category-functioning.csv
     - FPObservation.valueCodeableConcept.csv
+    - FPObservation.performers.csv
 
 - resource: Device
   dataFile: Device.data.csv

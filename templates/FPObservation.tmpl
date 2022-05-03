@@ -22,21 +22,25 @@ Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functionin
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
 <@=
 
-Instance: @@<instance-id-prefix>@@@<FPObservation.id>@
+Instance: @@<instance-id-prefix>@@@<resource.id>@
 InstanceOf: FunctionalPerformanceObservation
 Description: "An instance of Functional Performance Observation"
-* subject = Reference(@@<instance-id-prefix>@@@<subject.reference>@)
+* subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
-* category[+] = FUNCPERFCAT#@<category>@ "@<category.display>@"
+// Pre-load code @<category-functioning>@ - Do Not Remove from template
+* category[+] = FUNCPERFCAT#@<category-functioning.code>@ "@<category-functioning.display>@"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "@<effectiveDateTime>@"
-* encounter = Reference(@@<instance-id-prefix>@@@<encounter.reference>@)
+* encounter = Reference(Encounter/@@<instance-id-prefix>@@@<encounter.reference>@)
 // Pre-load code @<code>@ - Do Not Remove from template
-* code = @<code.system>@#@<code.code>@ "@<code>@"
-* performer@<index.performer.reference>@ = Reference(@@<instance-id-prefix>@@@<performer.reference>@)
-* derivedFrom@<index.derivedFrom.reference>@ = Reference(@@<instance-id-prefix>@@@<derivedFrom.reference>@)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(@@<instance-id-prefix>@@@<extension-event-location.reference>@)
+* code = @<code.system>@#@<code.code>@ "@<code.display>@"
+// Pre-load code @<performers>@ - Do Not Remove from template
+* performer[+] = Reference(PractitionerRole/@@<instance-id-prefix>@@@<performers.practitionerRole.reference>@)
+* performer[+] = Reference(Practitioner/@@<instance-id-prefix>@@@<performers.practitioner.reference>@)
+* performer[+] = Reference(Organization/@@<instance-id-prefix>@@@<performers.organization.reference>@)
+* derivedFrom@<index.derivedFrom.reference>@ = Reference(QuestionnaireResponse/@@<instance-id-prefix>@@@<derivedFrom.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(Location/@@<instance-id-prefix>@@@<extension-event-location.reference>@)
 // Pre-load code @<valueCodeableConcept>@ - Do Not Remove from template
 * valueCodeableConcept = @<value.system>@#@<value.code>@ "@<value.display>@"
 * valueQuantity = @<valueQuantity>@

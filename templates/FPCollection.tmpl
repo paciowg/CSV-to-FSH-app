@@ -24,21 +24,26 @@ Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functionin
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
 <@=
 
-Instance: @@<instance-id-prefix>@@@<FPCollection.id>@
+Instance: @@<instance-id-prefix>@@@<resource.id>@
 InstanceOf: FunctionalPerformanceCollection
 Description: "An instance of Functional Performance Collection"
-* subject = Reference(@@<instance-id-prefix>@@@<subject.reference>@)
+* subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
+// Pre-load code @<category-functioning>@ - Do Not Remove from template
+* category[+] = FUNCPERFCAT#@<category-functioning.code>@ "@<category-functioning.display>@"
 * category[+] = OBSCAT#survey
-* category[+] = FUNCPERFCAT#@<category>@ "@<category.display>@"
 * effectiveDateTime = "@<effectiveDateTime>@"
-* encounter = Reference(@@<instance-id-prefix>@@@<encounter.reference>@)
+* encounter = Reference(Encounter/@@<instance-id-prefix>@@@<encounter.reference>@)
 // Pre-load code @<code>@ - Do Not Remove from template
 * code = @<code.system>@#@<code.code>@ "@<code.display>@"
 * code.text = "@<code.display>@"
-* performer@<index.performer.reference>@ = Reference(@@<instance-id-prefix>@@@<performer.reference>@)
-* hasMember@<index.hasMember.reference>@ = Reference(@@<instance-id-prefix>@@@<hasMember.reference>@)
-* derivedFrom@<index.derivedFrom.reference>@ = Reference(@@<instance-id-prefix>@@@<derivedFrom.reference>@)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(@@<instance-id-prefix>@@@<extension-event-location.reference>@)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used]@<index.extension-device-patient-used.reference>@.valueReference = Reference(@@<instance-id-prefix>@@@<extension-device-patient-used.reference>@)
+// Pre-load code @<performers>@ - Do Not Remove from template
+* performer[+] = Reference(PractitionerRole/@@<instance-id-prefix>@@@<performers.practitionerRole.reference>@)
+* performer[+] = Reference(Practitioner/@@<instance-id-prefix>@@@<performers.practitioner.reference>@)
+* performer[+] = Reference(Organization/@@<instance-id-prefix>@@@<performers.organization.reference>@)
+* hasMember@<index.hasMember.reference>@ = Reference(Observation/@@<instance-id-prefix>@@@<hasMember.reference>@)
+* derivedFrom@<index.derivedFrom.reference>@ = Reference(QuestionnaireResponse/@@<instance-id-prefix>@@@<derivedFrom.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(Location/@@<instance-id-prefix>@@@<extension-event-location.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used]@<index.extension-device-patient-used.reference>@.valueReference = Reference(DeviceUseStatement/@@<instance-id-prefix>@@@<extension-device-patient-used.reference>@)
+* valueQuantity = @<valueQuantity>@
