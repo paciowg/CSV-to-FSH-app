@@ -1,0 +1,6 @@
+practitionerRole.specialtyCode[key],specialtyCode.code,specialtyCode.system,specialtyCode.display
+225100000X,225100000X,https://taxonomy.nucc.org/,Clinical physiology
+163W00000X,163W00000X,https://taxonomy.nucc.org/,General medical practice
+2084N0400X,2084N0400X,https://taxonomy.nucc.org/,Neurology
+261QP2300X,261QP2300X,https://taxonomy.nucc.org/,Internal medicine
+163WH0200X,163WH0200X,https://taxonomy.nucc.org/,General medical practice
