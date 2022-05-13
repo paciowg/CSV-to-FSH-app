@@ -97,6 +97,14 @@ Use and logic is slightly different for list and lookup columns
 - list columns: Uses FSH soft indexing. When combined with the column variable, the next iteration will be specified (`[+]`). It may also be the only variable in the row, in which case the same iteration will be specified (`[=]`), which allows fixed values to be added to the repetition (e.g., for telecom use and type).
 - lookup columns, when intended to support multiple response: The instantiation interleaves the subfields of the different repetitions, so hard indexing is used. If actually only a single response, no index is specified.
 
+##### Pre-loading
+
+When additional input files are used (`[->]` columns), the variable associated with the column must be present prior to any usage of columns from the linked file. Sometimes the FSH syntax will not support this or the main column value is not actually used. To resolve this issue you can add pre-load lines to the template before the use of the column from the linked file:
+```
+// Pre-load code @<___>@ - Do Not Remove from template
+```
+Here `___` should be replaced with the name of the `[->]` column. These lines get stripped when generating the FSH output.
+
 #### Header Lines
 
 In FSH, you can define abbreviations for your files. Unlike the lines of the instance itself which will be repeated for each row in the corresponding data table, these alias definitions should be included only once.
@@ -131,3 +139,25 @@ The following header should be added to all templates to provide a title (replac
 ## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
 ##
 ```
+
+## Reverse Mapping of JSON to CSV
+
+In some cases, it may be helpful to create CSV files from JSON. A ruby script for accomplishing this in a limited case for Cognitive Status / Functional Status / SPLASCH / Functional Performance observations and related data (e.g., organizations, practitioners). While not fully general, it is included here for use and adaptation.
+
+### Instructions for using the ruby script
+
+#### Execution
+
+```rb
+irb -r ./utils.rb
+Utils::directoryToCSVs("/path/to/directory/with/json/resource/files")
+```
+
+If you want to assume that observations encountered follow the functional performance spec rather than looking to meta.profile, specify a second function input of `true`.
+
+#### Output
+
+Executing the function will list all of the files that were processed. Some that the script didn't know how to turn into csv will be skipped.
+
+Generated csv files will be created as siblings of the input folder. If the files already exist, data will be appended, so delete existing csv files if old data should not be included.
+
