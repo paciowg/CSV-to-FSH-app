@@ -1,4 +1,4 @@
-## Practitioner Instance Template
+## Functional Performance DeviceUseStatement Instance Template
 ##
 ## NOTE:
 ## - Any line starts with'##' is a comment line--will be ignored
@@ -16,20 +16,13 @@
 ##
 ## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
 ##
-=@>
-Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
-<@=
 
 Instance: @@<instance-id-prefix>@@@<resource.id>@
-InstanceOf: Practitioner
-Description: "An instance of Practitioner"
-* identifier.system = "@<identifier.system>@"
-* identifier.value = "@<identifier.value>@"
-* name.given = "@<name.given>@"
-* name.family = "@<name.family>@"
-* name.text = "@<name.given>@ @<name.family>@"
-* active = true
-* gender = Hl7FhirAdminGender#@<gender.code>@
-* telecom.system = #phone
-* telecom.value = "@<telecom.value>@"
-* address.text = "@<address.text>@"
+InstanceOf: FunctionalPerformanceUseOfDevice
+Description: "An instance of FunctionalPerformanceUseOfDevice"
+* subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
+* status = #@<status>@
+* device = Reference(Device/@@<instance-id-prefix>@@@<device.reference>@)
+* recordedOn = "@<recordedOn>@"
+* source = Reference(@@<instance-id-prefix>@@@<source.reference>@)
+* derivedFrom@<index.derivedFrom.reference>@ = Reference(QuestionnaireResponse/@@<instance-id-prefix>@@@<derivedFrom.reference>@)

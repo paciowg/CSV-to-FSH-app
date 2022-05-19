@@ -1,0 +1,9 @@
+resource.id,name,address.text,status
+Home-Loc-01,In Home,"111 Maple Ct, San Antonio, TX 78212",active
+org-Loc-Hosp-San-Antonio-General,San Antonio General Hospital,"26022 Meadowlark Bay, San Antonio, TX 78260",active
+org-Loc-SNF-Happy-Nursing-Facility,Happy Nursing Facility,"8100 Pinebrook Dr, San Antonio, TX, 78230",active
+org-Loc-HH-Sky-Harbor-Home-Health,Sky Harbor Home Health Services,"8810 Old Sky Harbor, San Antonio, TX 78242",active
+org-Loc-Audiology-Advanced-Hearing-Care,Advanced Hearing Care,"1901 Pillbug St, San Antonio, TX 78242",active
+org-Loc-PC-Primary-Care-Texas,"Primary Care of Texas, Inc.","177 Deerfield St. San Antonio, TX 78207",active
+org-Loc-PC-Primary-Care-Michigan,Michigan Primary Health Care Associates,"123 Spruce Dr. Grand Rapids, MI 49503",active
+org-Loc-Neuro-Care-Inc,Neuro Care Inc.,"26100 Meadowlark Bay, San Antonio, TX 78260",active

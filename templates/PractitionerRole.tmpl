@@ -14,20 +14,23 @@
 ##
 ## - Any lines between '=@>' and '<@=' are head lines that will be output only once
 ##
+## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
+##
+
 =@>
 Alias: NUCC = http://nucc.org/provider-taxonomy
 Alias: PRO-ROLE = http://nucc.org/provider-taxonomy
 Alias: SPECIALTY = http://nucc.org/provider-taxonomy
 <@=
 
-Instance: @<resource.id>@
+Instance: @@<instance-id-prefix>@@@<resource.id>@
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#@<code>@
-* code.coding.display = "@<role.display>@"
-* specialty = SPECIALTY#@<specialty>@
-* specialty.coding.display = "@<specialty.display>@"
+// Pre-load @<code>@ - do not remove from template
+* code = @<code.system>@#@<code.code>@ "@<code.display>@"
+// Pre-load @<specialtyCode>@ - do not remove from template
+* specialty = @<specialtyCode.system>@#@<specialtyCode.code>@ "@<specialtyCode.display>@"
 * active = true
-* practitioner = Reference(@<practitioner>@)
-* organization = Reference(@<organization>@)
-* location = Reference(@<location>@)
+* practitioner = Reference(@@<instance-id-prefix>@@@<practitioner.reference>@)
+* organization = Reference(@@<instance-id-prefix>@@@<organization.reference>@)
+* location = Reference(@@<instance-id-prefix>@@@<location.reference>@)

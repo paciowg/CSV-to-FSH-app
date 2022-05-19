@@ -1,0 +1,49 @@
+## Functional Performance Collection Observation Instance Template
+##
+## NOTE:
+## - Any line starts with'##' is a comment line--will be ignored
+##
+## - A local variable starts with '@<' and ends with '>@'
+## - A global variable starts with '@@<' and ends with '>@@'
+## - A variable name (local or global) should contain only letters, numbers, dots, underscores, or dashes
+##
+## - Values for local variables come from data provided in input CSV files
+## - Make sure local variable names match column names in input CSV files
+##
+## - Values for global variables are defined in global-variables.csv
+##
+## - Any lines between '=@>' and '<@=' are head lines that will be output only once
+##
+## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
+##
+## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
+##
+=@>
+Alias: FUNCPERFCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs
+Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs
+Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
+<@=
+
+Instance: @@<instance-id-prefix>@@@<resource.id>@
+InstanceOf: FunctionalPerformanceCollection
+Description: "An instance of Functional Performance Collection"
+* subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
+* status = #final
+* category[+] = FUNCTIONINGCAT#functioning "Functioning"
+// Pre-load code @<category-functioning>@ - Do Not Remove from template
+* category[+] = FUNCPERFCAT#@<category-functioning.code>@ "@<category-functioning.display>@"
+* category[+] = OBSCAT#survey
+* effectiveDateTime = "@<effectiveDateTime>@"
+* encounter = Reference(Encounter/@@<instance-id-prefix>@@@<encounter.reference>@)
+// Pre-load code @<code>@ - Do Not Remove from template
+* code = @<code.system>@#@<code.code>@ "@<code.display>@"
+* code.text = "@<code.display>@"
+// Pre-load code @<performers>@ - Do Not Remove from template
+* performer[+] = Reference(PractitionerRole/@@<instance-id-prefix>@@@<performers.practitionerRole.reference>@)
+* performer[+] = Reference(Practitioner/@@<instance-id-prefix>@@@<performers.practitioner.reference>@)
+* performer[+] = Reference(Organization/@@<instance-id-prefix>@@@<performers.organization.reference>@)
+* hasMember@<index.hasMember.reference>@ = Reference(Observation/@@<instance-id-prefix>@@@<hasMember.reference>@)
+* derivedFrom@<index.derivedFrom.reference>@ = Reference(QuestionnaireResponse/@@<instance-id-prefix>@@@<derivedFrom.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(Location/@@<instance-id-prefix>@@@<extension-event-location.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used]@<index.extension-device-patient-used.reference>@.valueReference = Reference(DeviceUseStatement/@@<instance-id-prefix>@@@<extension-device-patient-used.reference>@)
+* valueQuantity = @<valueQuantity>@

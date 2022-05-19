@@ -1,0 +1,8 @@
+resource.id,name,taxonomy code,taxonomy code display,taxonomy code system
+org-Hosp-San-Antonio-General,San Antonio General Hospital,282N00000X,General Acute Care Hospital,https://taxonomy.nucc.org/
+org-SNF-Happy-Nursing-Facility,Happy Nursing Facility,314000000X,Skilled Nursing Facility,https://taxonomy.nucc.org/
+org-HH-Sky-Harbor-Home-Health,Sky Harbor Home Health Services,251E00000X,Home Health Agency,https://taxonomy.nucc.org/
+org-Audiology-Advanced-Hearing-Care,Advanced Hearing Care,261QH0700X,Hearing and Speech Clinic/Center,https://taxonomy.nucc.org/
+org-PC-Primary-Care-Texas,"Primary Care of Texas, Inc.",261QP2300X,Primary Care Clinic/Center,https://taxonomy.nucc.org/
+org-Neuro-Care-Inc,Neuro Care Inc.,261QM2500X,Medical Specialty Clinic/Center,https://taxonomy.nucc.org/
+org-PC-Primary-Care-Michigan,Michigan Primary Health Care Associates,261QP2300X,Primary Care Clinic/Center,https://taxonomy.nucc.org/

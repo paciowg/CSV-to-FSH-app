@@ -27,6 +27,7 @@ jobs:
   dataFile: Patient.data.csv
   otherInputFiles:
     - Patient.contact.csv
+    - Patient.gender.csv
 
 - resource: Observation
   dataFile: Observation.data.csv
@@ -44,6 +45,9 @@ jobs:
 
 - resource: PractitionerRole
   dataFile: PractitionerRole.data.csv
+  otherInputFiles:
+    - PractitionerRole.code.csv
+    - PractitionerRole.specialty.csv
 
 - resource: Encounter
   dataFile: Encounter.data.csv
@@ -94,3 +98,30 @@ jobs:
 
 - resource: EpisodeOfCare
   dataFile: EpisodeOfCare.data.csv
+
+- resource: FPCollection
+  dataFile: FPCollection.data.csv
+  otherInputFiles:
+    - FPCollection.code.csv
+    - FPCollection.category-functioning.csv
+    - FPCollection.performers.csv
+
+- resource: FPObservation
+  dataFile: FPObservation.data.csv
+  otherInputFiles:
+    - FPObservation.code.csv
+    - FPObservation.category-functioning.csv
+    - FPObservation.valueCodeableConcept.csv
+    - FPObservation.performers.csv
+
+- resource: Device
+  dataFile: Device.data.csv
+
+- resource: FPDeviceUseStatement
+  dataFile: FPDeviceUseStatement.data.csv
+
+- resource: Organization
+  dataFile: Organization.data.csv
+
+- resource: Location
+  dataFile: Location.data.csv

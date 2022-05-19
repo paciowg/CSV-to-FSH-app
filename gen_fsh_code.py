@@ -155,7 +155,9 @@ def read_data(data_file_name, parser_name, resource_name, configs):
     folder_path = configs['input_folder']
     input_dir = os.path.abspath(folder_path)
     file_path = os.path.join(input_dir, data_file_name)
-    #TODO: verify file actually exists--if not, skip
+    if (not(os.path.exists(file_path))):
+        print('No data file - skipping!')
+        return None
 
     json_obj = globals()[parser_name](file_path, resource_name)
 
@@ -169,7 +171,7 @@ def process_list_case(key_name, variable_list, resource_name, dict, line, fsh_li
     print('Enter process_list_case: key_name = ' + key_name)
     pprint(variable_list)
 
-    item_list = dict[key_name+'[...]'].split('/')
+    item_list = dict[key_name+'[...]'].split('||')
     pprint(item_list)
 
     for idx, item in enumerate(item_list):
@@ -178,69 +180,94 @@ def process_list_case(key_name, variable_list, resource_name, dict, line, fsh_li
 
         print('process_list_case: item = ' + item)
 
-        new_key_name = key_name + '[' + str(idx) + ']'
-        key_value = item
-
-        # create a new line and then replace first variable with appropriate name and index in brackets
+        # create a new line
         line2 = (line + ' ')[:-1]
-        line2 = line2.replace('@<'+key_name+'>@', new_key_name, 1)
+        variable = '@<' + key_name + '>@'
 
-        # replace the next variable with the appropriate value
-#        var_idx = variable_list.index('@<'+key_name+'>@')
-        var_idx = variable_list.index('@<'+resource_name.lower()+'.'+key_name+'>@')
-        variable = variable_list[var_idx]
-        line2 = line2.replace(variable, key_value)
+        # use soft indexing 
+        # increment (+) unless key_name isn't there
+        if (variable in line):
+            softIndex = '[+]'
+        else:
+            softIndex = '[=]'
+        line2 = line2.replace('@<index.' + key_name + '>@', softIndex, 1)
+
+        # replace the key with the appropriate value
+        # escape double quotes in display values
+        # this is a heuristic, and may not always work, 
+        # so can also use an explicity flag
+        if (".display" in variable) or ("-escapequotes" in variable): 
+            item = item.replace('"', "'")
+        line2 = line2.replace(variable, item)
 
         fsh_lines.append(line2)
 
 
 def process_data_lookup_case(key_name, variable_list, resource_name, instance_data, context, line, fsh_lines):
+    if debug:
+        print('process_data_lookup_case: ' + resource_name + '.' + key_name)
+    
+    # check if we actually have data to lookup
+    key_value = instance_data[key_name + '[->]']
+    if debug:
+        print('process_data_lookup_case: key_value = ' + key_value)
+    if (key_value == ''):
+        return []
+
     # use key_value to get the dict for providing lookup values
     lookup_table_name = resource_name + '.' + key_name
     lookup_table = context[lookup_table_name]
-    key_value = instance_data[key_name + '[->]']
     lookup_data = lookup_table[key_value]
 
     other_lookup_data = []
     if isinstance(lookup_data, list):
+        isMulti = True
         for idx, item in enumerate(lookup_data):
-            item[key_name] = key_name + '[' + str(idx) + ']'
+            item["index." + key_name] = '[' + str(idx) + ']'
         other_lookup_data = lookup_data
     else:
+        isMulti = False
         temp_key_name = lookup_table_name.lower() + '[key]'
         if temp_key_name in lookup_data:
             lookup_data[key_name] = lookup_data[temp_key_name]
         else:
             lookup_data[key_name] = key_name
+        lookup_data["index." + key_name] = "" # remove index
         other_lookup_data.append(lookup_data)
 
-    for lookup_data_dict in other_lookup_data:
-        # create a new line each time
-        line2 = (line + ' ')[:-1]
-        idx = variable_list.index('@<'+key_name+'>@')
-        skip_line = False
-        for variable in variable_list[idx:]:
-            key_name2 = variable[2:-2]
-            if key_name2 in lookup_data_dict:
-                key_value = lookup_data_dict[key_name2]
-                line2 = line2.replace(variable, key_value)
-            elif (key_name2 + '[->]') in lookup_data_dict:
-                # TODO: need testing
-                #process_data_lookup_case(key_name2, variable_list[idx:], resource_name, lookup_data_dict, context, line2, fsh_lines)
-                print('process_data_lookup_case: level 2: key_name2 + [->]')
-            elif (key_name2 + '[...]') in lookup_data_dict:
-                process_list_case(key_name2, variable_list[idx:], resource_name, lookup_data_dict, line2, fsh_lines)
-                skip_line = True
+    # skip if this is a comment line
+    if (not(line.startswith("// Pre-load"))):
+        
+        for lookup_data_dict in other_lookup_data:
+            # create a new line each time
+            line2 = (line + ' ')[:-1]
+            skip_line = False
+            for variable in variable_list: 
+                key_name2 = variable[2:-2]
+                if debug:
+                    print('process_data_lookup_case: key_name2 - ' + key_name2)
+                if key_name2 in lookup_data_dict:
+                    key_value = lookup_data_dict[key_name2]
+                    line2 = line2.replace(variable, key_value)
+                elif (key_name2 + '[->]') in lookup_data_dict:
+                    # TODO: need testing
+                    #process_data_lookup_case(key_name2, variable_list[idx:], resource_name, lookup_data_dict, context, line2, fsh_lines)
+                    print('process_data_lookup_case: level 2: key_name2 + [->]')
+                elif (key_name2 + '[...]') in lookup_data_dict:
+                    process_list_case(key_name2, variable_list, resource_name, lookup_data_dict, line2, fsh_lines)
+                    skip_line = True
 
-        if not skip_line:
-            fsh_lines.append(line2)
-
+            if not skip_line:
+                fsh_lines.append(line2)
+    else:
+        print("loaded comment line: " + resource_name + '.' + key_name)
     if debug:
         print('process_data_lookup_case: fsh_lines:')
         pprint(fsh_lines)
 
+    if (isMulti):
+        return []  # Never add multi-lookup data to the cache
     return other_lookup_data
-
 
 def gen_fshInstances(resource_name, context):
     instances = {}
@@ -281,11 +308,20 @@ def gen_fshInstances(resource_name, context):
                     lookup_data_dicts = process_data_lookup_case(key_name, variable_list, resource_name, instance_data, context, line, fsh_lines)
                     other_lookup_data = other_lookup_data + lookup_data_dicts
                     skip_line = True
-
+                    break # don't process any more variables, they should all be handled
+                elif (key_name.startswith("index.") and ((key_name.split("index.",1)[1] + '[->]') in instance_data)):
+                    lookup_data_dicts = process_data_lookup_case(key_name.split("index.",1)[1], variable_list, resource_name, instance_data, context, line, fsh_lines)
+                    other_lookup_data = other_lookup_data + lookup_data_dicts
+                    skip_line = True
+                    break # don't process any more variables, they should all be handled
                 elif (key_name + '[...]') in instance_data:
                     process_list_case(key_name, variable_list, resource_name, instance_data, line, fsh_lines)
                     skip_line = True
-
+                    break # don't process any more variables, they should all be handled
+                elif (key_name.startswith("index.") and ((key_name.split("index.",1)[1] + '[...]') in instance_data)):
+                    process_list_case(key_name.split("index.",1)[1], variable_list, resource_name, instance_data, line, fsh_lines)
+                    skip_line = True
+                    break # don't process any more variables, they should all be handled
                 if skip_line is False and key_value == '':
                     for lookup_data_dict in other_lookup_data:
                         if key_name in lookup_data_dict:
@@ -295,7 +331,12 @@ def gen_fshInstances(resource_name, context):
                 if key_value == '':
                     skip_line = True
                     continue
-
+                
+                # escape double quotes in display values
+                # this is a heuristic, and may not always work, 
+                # so can also use an explicity flag
+                if (".display" in variable) or ("-escapequotes" in variable): 
+                    key_value = key_value.replace('"', "'")
                 line = line.replace(variable, key_value)
 
             if not skip_line:
@@ -356,6 +397,8 @@ def run_jobs(context):
         if not parser_name in globals():
             parser_name = 'generic_csv_parser'
         lookup = read_data(data_file_name, parser_name, resource_name, configs)
+        if (lookup is None):
+            continue
         resource_data_lookup[resource_name] = lookup
 
         # read and parse other input files if any given
@@ -365,6 +408,8 @@ def run_jobs(context):
                 parser_name = 'generic_csv_parser'
                 for input_file in other_input_files:
                     lookup = read_data(input_file, parser_name, '', configs)
+                    if (lookup is None):
+                        continue
                     # store lookup table to context to be used later
                     table_name = input_file[0:len(input_file)-4]
                     context[table_name] = lookup
@@ -384,8 +429,8 @@ def run_jobs(context):
 def main():
     """Main entry point for the script."""
 
-    print "Starting gen_fsh_code script."
-    print "Running in Main..."
+    print ("Starting gen_fsh_code script.")
+    print ("Running in Main...")
     global debug
 
     context = {'templateLookup':{}, 'resourceDataLookup':{}}
@@ -406,7 +451,7 @@ def main():
     # run one or more jobs to produce FSH code files
     run_jobs(context)
 
-    print "Exited Main."
+    print ("Exited Main.")
     pass
 
 if __name__ == '__main__':
