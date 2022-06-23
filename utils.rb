@@ -275,7 +275,7 @@ module Utils
     # encounter
     encounter = ""
     if (observation.encounter)
-      encounter = observation.encounter.partition('/').last
+      encounter = observation.encounter.reference.partition('/').last
     end
 
     # performer (PracitionerRole)
@@ -421,7 +421,7 @@ module Utils
     # encounter
     encounter = ""
     if (observation.encounter)
-      encounter = observation.encounter.partition('/').last
+      encounter = observation.encounter.reference.partition('/').last
     end
 
     # performer (PracitionerRole)
@@ -605,7 +605,7 @@ module Utils
     # encounter
     encounter = ""
     if (observation.encounter)
-      encounter = observation.encounter.partition('/').last
+      encounter = observation.encounter.reference.partition('/').last
     end
 
     CSV.open(outputFilepath, "ab") do |csv|
