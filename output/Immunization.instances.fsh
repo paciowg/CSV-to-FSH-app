@@ -4,7 +4,7 @@ Alias: USCNDC = http://hl7.org/fhir/sid/ndc
 Alias: IMMSTATUS = http://hl7.org/fhir/event-status
 
 
-Instance: BSJ-Immunization-1
+Instance: P0723--Immunization-1
 InstanceOf: USCoreImmunizationProfile
 * patient = Reference(patientBSJ1)
 * encounter = Reference(BSJ-Encounter-1)

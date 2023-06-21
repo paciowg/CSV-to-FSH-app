@@ -1,30 +1,22 @@
 
 
-Instance: P0522-org-Loc-PC-Primary-Care-Texas
+Instance: P0723-org-Loc-SpeechLanguage-Clarity-Speech-Center
 InstanceOf: Location
 Description: "An instance of Location"
-* name = "Primary Care of Texas, Inc."
-* address.text = "177 Deerfield St. San Antonio, TX 78207"
+* name = "Clarity Speech Language Center"
+* address.text = "1901 Pillbug St, Grand Rapids, MI 49506"
 * status = #active
 
 
-Instance: P0522-Home-Loc-01
+Instance: P0723-Home-Loc-01
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "In Home"
-* address.text = "111 Maple Ct, San Antonio, TX 78212"
+* address.text = "111 Maple Ct, Grand Rapids, MI 49503"
 * status = #active
 
 
-Instance: P0522-org-Loc-Audiology-Advanced-Hearing-Care
-InstanceOf: Location
-Description: "An instance of Location"
-* name = "Advanced Hearing Care"
-* address.text = "1901 Pillbug St, San Antonio, TX 78242"
-* status = #active
-
-
-Instance: P0522-org-Loc-PC-Primary-Care-Michigan
+Instance: P0723-org-Loc-PC-Primary-Care-Michigan
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Michigan Primary Health Care Associates"
@@ -32,33 +24,41 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0522-org-Loc-HH-Sky-Harbor-Home-Health
+Instance: P0723-org-Loc-Radiology-Prism-Radiology-Associates
+InstanceOf: Location
+Description: "An instance of Location"
+* name = "Prism Radiology Associates"
+* address.text = "290 Rescue St NE, Grand Rapids, MI 49503"
+* status = #active
+
+
+Instance: P0723-org-Loc-HH-Sky-Harbor-Home-Health
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Sky Harbor Home Health Services"
-* address.text = "8810 Old Sky Harbor, San Antonio, TX 78242"
+* address.text = "8810 Old Sky Harbor, Grand Rapids, MI 49504"
 * status = #active
 
 
-Instance: P0522-org-Loc-Hosp-San-Antonio-General
-InstanceOf: Location
-Description: "An instance of Location"
-* name = "San Antonio General Hospital"
-* address.text = "26022 Meadowlark Bay, San Antonio, TX 78260"
-* status = #active
-
-
-Instance: P0522-org-Loc-SNF-Happy-Nursing-Facility
+Instance: P0723-org-Loc-SNF-Happy-Nursing-Facility
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Happy Nursing Facility"
-* address.text = "8100 Pinebrook Dr, San Antonio, TX, 78230"
+* address.text = "8100 Pinebrook Dr, Grand Rapids, MI 49504"
 * status = #active
 
 
-Instance: P0522-org-Loc-Neuro-Care-Inc
+Instance: P0723-org-Loc-PSC-Prism-General-Hospital
 InstanceOf: Location
 Description: "An instance of Location"
-* name = "Neuro Care Inc."
-* address.text = "26100 Meadowlark Bay, San Antonio, TX 78260"
+* name = "Prism General Hospital"
+* address.text = "290 Rescue St NE, Grand Rapids, MI 49503"
+* status = #active
+
+
+Instance: P0723-org-Loc-Lifeway-Ground-Transport
+InstanceOf: Location
+Description: "An instance of Location"
+* name = "Lifeway Ground Transport Inc."
+* address.text = "111 Business Street, Wyoming, MI 49509"
 * status = #active

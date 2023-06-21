@@ -19,7 +19,7 @@
 ## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
 ##
 =@>
-Alias: FUNCPERFCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs
+Alias: FUNCPERFCAT =  http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
 Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
 <@=
@@ -30,8 +30,8 @@ Description: "An instance of Functional Performance Collection"
 * subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
-// Pre-load code @<category-functioning>@ - Do Not Remove from template
-* category[+] = FUNCPERFCAT#@<category-functioning.code>@ "@<category-functioning.display>@"
+// Pre-load code @<category-PFEDomain>@ - Do Not Remove from template
+* category[+] = FUNCPERFCAT#@<category-PFEDomain.code>@ "@<category-PFEDomain.display>@"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "@<effectiveDateTime>@"
 * encounter = Reference(Encounter/@@<instance-id-prefix>@@@<encounter.reference>@)

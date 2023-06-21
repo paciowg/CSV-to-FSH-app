@@ -6,8 +6,9 @@ Alias: CVS = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: SCT = http://snomed.info/sct
 
 
-Instance: BSJ-Diagnosis7
+Instance: P0723--Diagnosis7
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -20,8 +21,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis6
+Instance: P0723--Diagnosis6
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -34,8 +36,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis5
+Instance: P0723--Diagnosis5
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -48,8 +51,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis4
+Instance: P0723--Diagnosis4
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -62,8 +66,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis3
+Instance: P0723--Diagnosis3
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -76,8 +81,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis2
+Instance: P0723--Diagnosis2
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -90,8 +96,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis1
+Instance: P0723--Diagnosis1
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -104,8 +111,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Diagnosis9
+Instance: P0723--Diagnosis9
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -118,8 +126,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "Neurologist Nora Ologist"
 
 
-Instance: BSJ-Diagnosis8
+Instance: P0723--Diagnosis8
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -132,8 +141,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "PCP John Smith"
 
 
-Instance: BSJ-Assessed-Need1
+Instance: P0723--Assessed-Need1
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -146,8 +156,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "Plan Manager Sam Monitor"
 
 
-Instance: BSJ-Assessed-Need2
+Instance: P0723--Assessed-Need2
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
@@ -160,8 +171,9 @@ InstanceOf: USCoreCondition
 * asserter.display = "Plan Manager Sam Monitor"
 
 
-Instance: BSJ-Assessed-Need3
+Instance: P0723--Assessed-Need3
 InstanceOf: USCoreCondition
+Description: "An instance of USCoreCondition"
 * subject = Reference(patientBSJ1)
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed

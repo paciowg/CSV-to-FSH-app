@@ -3,8 +3,9 @@ Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 
-Instance: BSJ-observationBSJ2
+Instance: P0723--observationBSJ2
 InstanceOf: Observation
+Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-02T10:00:00-05:00"
@@ -16,8 +17,9 @@ InstanceOf: Observation
 * valueCodeableConcept.coding.display = "Dependent"
 
 
-Instance: BSJ-observationBSJ1
+Instance: P0723--observationBSJ1
 InstanceOf: Observation
+Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-02T10:00:00-05:00"

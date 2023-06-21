@@ -17,9 +17,10 @@
 ## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
 ##
 =@>
-Alias: FUNCPERFCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-category-cs
-Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs
+Alias: FUNCPERFCAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
+Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: SDOH = http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes
 <@=
 
 Instance: @@<instance-id-prefix>@@@<resource.id>@
@@ -28,9 +29,13 @@ Description: "An instance of Functional Performance Observation"
 * subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
-// Pre-load code @<category-functioning>@ - Do Not Remove from template
-* category[+] = FUNCPERFCAT#@<category-functioning.code>@ "@<category-functioning.display>@"
+// Pre-load code @<category-PFEDomain>@ - Do Not Remove from template
+* category[+] = FUNCPERFCAT#@<category-PFEDomain.code>@ "@<category-PFEDomain.display>@"
 * category[+] = OBSCAT#survey
+// Pre-load code @<category-SocialHistory>@ - Do Not Remove from template
+* category[+] = OBSCAT#@<category-SocialHistory.code>@ "@<category-SocialHistory.display>@"
+// Pre-load code @<category-SDOH>@ - Do Not Remove from template
+* category[+] = SDOH#@<category-SDOH.code>@ "@<category-SDOH.display>@"
 * effectiveDateTime = "@<effectiveDateTime>@"
 * encounter = Reference(Encounter/@@<instance-id-prefix>@@@<encounter.reference>@)
 // Pre-load code @<code>@ - Do Not Remove from template

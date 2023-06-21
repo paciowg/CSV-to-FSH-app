@@ -1,3 +1,3 @@
-patient.id,contact.name.text,relationship[...],contact.address.text,contact.telecom.value
+patient.id,contact.name.text,contact.relationship.coding,contact.address.text,contact.telecom.value
 patientBSJ1,Charles Johnson,V3ROLECODE#SONC/Hl7V2TBL0131#C/V3ROLECODE#GUARD,"100 Montana St., San Antonio, TX 78203",(210) 222-3333
 patientBSJ1,Debra Johnson,V3ROLECODE#DAUC,"333 W. Camden St., Baltimore, MD 21201",(410) 444-5555

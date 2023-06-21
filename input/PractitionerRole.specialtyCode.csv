@@ -4,3 +4,18 @@ practitionerRole.specialtyCode[key],specialtyCode.code,specialtyCode.system,spec
 2084N0400X,2084N0400X,https://taxonomy.nucc.org/,Neurology
 261QP2300X,261QP2300X,https://taxonomy.nucc.org/,Internal medicine
 163WH0200X,163WH0200X,https://taxonomy.nucc.org/,General medical practice
+225100000X,225100000X,https://taxonomy.nucc.org/,Physical Therapist
+163W00000X,163W00000X,https://taxonomy.nucc.org/,Registered Nurse
+261QP2300X,261QP2300X,https://taxonomy.nucc.org/,Primary Care Clinic/Center
+163WH0200X,163WH0200X,https://taxonomy.nucc.org/,Home Health Registered Nurse
+163W00000X,163W00000X,https://taxonomy.nucc.org/,Registered Nurse
+225X00000X,225X00000X,https://taxonomy.nucc.org/,Occupational therapist
+104100000X,104100000X,https://taxonomy.nucc.org/,Social Worker
+235Z00000X,235Z00000X,https://taxonomy.nucc.org/,Speech-Language Pathologist
+207R00000X,207R00000X,https://taxonomy.nucc.org/,Internal Medicine Physician
+163WC0400X,163WC0400X,https://taxonomy.nucc.org/,Case Management Registered Nurse
+172A00000X,172A00000X,https://taxonomy.nucc.org/,Driver
+208M00000X,208M00000X,https://taxonomy.nucc.org/,Hospitalist Physician
+225X00000X,225X00000X,https://taxonomy.nucc.org/,Occupational Therapist
+1041C0700X,1041C0700X,https://taxonomy.nucc.org/,Clinical Social Worker
+163WD0400X,163WD0400X,https://taxonomy.nucc.org/,Diabetes Educator Registered Nurse

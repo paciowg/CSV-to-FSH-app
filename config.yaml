@@ -104,6 +104,8 @@ jobs:
   otherInputFiles:
     - FPCollection.code.csv
     - FPCollection.category-functioning.csv
+    - FPCollection.category-PFEDomain.csv
+    - FPCollection.category-survey.csv
     - FPCollection.performers.csv
 
 - resource: FPObservation
@@ -111,11 +113,19 @@ jobs:
   otherInputFiles:
     - FPObservation.code.csv
     - FPObservation.category-functioning.csv
+    - FPObservation.category-PFEDomain.csv
+    - FPObservation.category-survey.csv
+    - FPObservation.category-SocialHistory.csv
+    - FPObservation.category-SDOH.csv
     - FPObservation.valueCodeableConcept.csv
+    - FPObservation.valueQuantity.csv
     - FPObservation.performers.csv
 
 - resource: Device
   dataFile: Device.data.csv
+
+- resource: DiagnosticReport
+  dataFile: DiagnosticReport.data.csv
 
 - resource: FPDeviceUseStatement
   dataFile: FPDeviceUseStatement.data.csv

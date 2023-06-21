@@ -1,8 +1,18 @@
 resource.id,name,taxonomy code,taxonomy code display,taxonomy code system
-org-Hosp-San-Antonio-General,San Antonio General Hospital,282N00000X,General Acute Care Hospital,https://taxonomy.nucc.org/
+org-PSC-Prism-General-Hospital,Prism General Hospital,284300000X,Special Hospital,https://taxonomy.nucc.org/
 org-SNF-Happy-Nursing-Facility,Happy Nursing Facility,314000000X,Skilled Nursing Facility,https://taxonomy.nucc.org/
 org-HH-Sky-Harbor-Home-Health,Sky Harbor Home Health Services,251E00000X,Home Health Agency,https://taxonomy.nucc.org/
-org-Audiology-Advanced-Hearing-Care,Advanced Hearing Care,261QH0700X,Hearing and Speech Clinic/Center,https://taxonomy.nucc.org/
-org-PC-Primary-Care-Texas,"Primary Care of Texas, Inc.",261QP2300X,Primary Care Clinic/Center,https://taxonomy.nucc.org/
+org-SpeechLanguage-Clarity-Speech-Center,Clarity Speech Language Center,261QH0700X,Hearing and Speech Clinic/Center,https://taxonomy.nucc.org/
+org-Radiology-Prism-Radiology-Associates,Prism Radiology Associates,261QR0200X,Radiology Clinic/Center,https://taxonomy.nucc.org/
 org-Neuro-Care-Inc,Neuro Care Inc.,261QM2500X,Medical Specialty Clinic/Center,https://taxonomy.nucc.org/
 org-PC-Primary-Care-Michigan,Michigan Primary Health Care Associates,261QP2300X,Primary Care Clinic/Center,https://taxonomy.nucc.org/
+org-Lifeway-Ground-Transport,Lifeway Ground Transport Inc.,343900000X,Non-emergency Medical Transport (VAN),https://taxonomy.nucc.org/
+org-custodian-Advance-Directives-1,MyDirectives.com,,,
+org-assembler-Advance-Directives-1,"ADVault, Inc.",,,
+org-food-meals-on-wheels,Meals on Wheels,332U00000X,Home Delivered Meals,https://taxonomy.nucc.org/
+org-eLTSS-Support-Planner-Services,Support Planner Services LLC,251B00000X,Case Management Agency,https://taxonomy.nucc.org/
+org-eLTSS-CaseManaging4U,Case Managing 4 U,251B00000X,Case Management Agency,https://taxonomy.nucc.org/
+org-eLTSS-Health-Educators-Inc,"Health Educators, Inc.",251J00000X,Nursing Care Agency,https://taxonomy.nucc.org/
+org-eLTSS-Therapists-To-Go,Therapists To Go,261QP2000X,Physical Therapy Clinic/Center,https://taxonomy.nucc.org/
+org-eLTSS-Stronger-Everyday-Inc,Stronger Every Day Inc,251E00000X,Home Health Agency,https://taxonomy.nucc.org/
+org-eLTSS-Home-Contractor-LLC,Home Contractor LLC,,,
