@@ -14,7 +14,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * class = PRATCLASSCS#SNF
 * type = PRATENTITYCS#payer
 * serviceType = PRATSRVTYPECS#mds
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * episodeOfCare = Reference(Episodecare-1-SNF-Stay)
 * SNF-PF-MDS-5-Day-NC-1A/SNF-SC-AP-MDS-5-Day-NC-1B/SNF-SC-DG-MDS-5-Day-NC-1C/SNF-MOB-AP-MDS-5-Day-NC-1A/SNF-MOB-DG-MDS-5-Day-NC-1B = Reference(@<reassessmenttimepointsencounter.reasonReference>@)
 * Practitioner-SummerJohnson/Practitioner-JenCadbury.individual = Reference(@<reassessmenttimepointsencounter.participant>@)
@@ -35,7 +35,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * class = PRATCLASSCS#SNF
 * type = PRATENTITYCS#payer
 * serviceType = PRATSRVTYPECS#mds
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * episodeOfCare = Reference(Episodecare-1-SNF-Stay)
 * SNF-SC-IP-MDS-IPA-1D/SNF-MOB-IP-MDS-IPA-1C/SNF-SC-DP-MDS-Discharge-ND-1E/SNF-MOB-DP-MDS-Discharge-ND-1D = Reference(@<reassessmenttimepointsencounter.reasonReference>@)
 * Practitioner-SummerJohnson/Practitioner-JenCadbury.individual = Reference(@<reassessmenttimepointsencounter.participant>@)
@@ -56,7 +56,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * class = PRATCLASSCS#HH
 * type = PRATENTITYCS#payer
 * serviceType = PRATSRVTYPECS#oasis
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
 * HHA-SC-FU-120-OASIS-2E/HHA-MOB-FU-120-OASIS-2D = Reference(@<reassessmenttimepointsencounter.reasonReference>@)
 * Practitioner-LunaBaskins/Practitioner-JacobHartwell/Practitioner-ScottDumble.individual = Reference(@<reassessmenttimepointsencounter.participant>@)
@@ -77,7 +77,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * class = PRATCLASSCS#HH
 * type = PRATENTITYCS#payer
 * serviceType = PRATSRVTYPECS#oasis
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
 * HHA-SC-DC-OASIS-2F/HHA-MOB-DC-OASIS-2E = Reference(@<reassessmenttimepointsencounter.reasonReference>@)
 * Practitioner-LunaBaskins/Practitioner-JacobHartwell/Practitioner-ScottDumble.individual = Reference(@<reassessmenttimepointsencounter.participant>@)
@@ -98,7 +98,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * class = PRATCLASSCS#HH
 * type = PRATENTITYCS#payer
 * serviceType = PRATSRVTYPECS#oasis
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
 * HHA-PF-SOC-OASIS-2A/HHA-SC-SOC-Perf-OASIS-2B/HHA-SC-DG-OASIS-2C/HHA-MOB-SOC-Perf-OASIS-2A/HHA-MOB-DG-OASIS-2B/HHA-SC-FU-60-OASIS-2D/HHA-MOB-FU-60-OASIS-2C = Reference(@<reassessmenttimepointsencounter.reasonReference>@)
 * Practitioner-LunaBaskins/Practitioner-JacobHartwell/Practitioner-ScottDumble.individual = Reference(@<reassessmenttimepointsencounter.participant>@)

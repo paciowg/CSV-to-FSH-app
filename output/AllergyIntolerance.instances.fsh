@@ -4,11 +4,11 @@ Alias: AIVER = http://terminology.hl7.org/CodeSystem/allergyintolerance-verifica
 Alias: SCT = http://snomed.info/sct
 
 
-Instance: P0723--Allergy-Intolerance-1
+Instance: CMS2023-Allergy-Intolerance-1
 InstanceOf: USCoreAllergyIntolerance
 Description: "An instance of USCoreAllergyIntolerance"
-* patient = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* patient = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * clinicalStatus = ALLCL#active
 * verificationStatus = AIVER#confirmed
 * category = ACAT#medication
@@ -16,5 +16,5 @@ Description: "An instance of USCoreAllergyIntolerance"
 * code.text = "No known drug allergy (situation)"
 * code.coding.display = "No known drug allergy (situation)"
 * onsetDateTime = "2020-07-08T17:28:00-05:00"
-* asserter = Reference(Practitioner-JohnSmith)
-* asserter.display = "PCP John Smith"
+* asserter = Reference(CMS2023-Practitioner-AnitaChu)
+* asserter.display = "PCP Anita Chu"

@@ -3,10 +3,10 @@ Alias: FUNCTIONINGCAT = http://terminology.hl7.org/CodeSystem/v2-0074
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/v2-0074
 
 
-Instance: P0723-BSJ-MBSS-Lab-Data-1
+Instance: CMS2023-BSJ-MBSS-Lab-Data-1
 InstanceOf: DiagnosticReport
 Description: "An instance of US Core DiagnosticReport"
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#LP29684-5 "radiology"
 // Pre-load code @<category:us-core>@ - Do Not Remove from template
@@ -15,10 +15,10 @@ Description: "An instance of US Core DiagnosticReport"
 * text = @<Conclusion [string]>@
 
 
-Instance: P0723-BSJ-MBSS-Lab-Data-2
+Instance: CMS2023-BSJ-MBSS-Lab-Data-2
 InstanceOf: DiagnosticReport
 Description: "An instance of US Core DiagnosticReport"
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#LP29684-5 "radiology"
 // Pre-load code @<category:us-core>@ - Do Not Remove from template

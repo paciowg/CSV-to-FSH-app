@@ -3,10 +3,10 @@ Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 
-Instance: P0723--observationBSJ2
+Instance: CMS2023-observationBSJ2
 InstanceOf: Observation
 Description: "An instance of Observation"
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-02T10:00:00-05:00"
 * code = LNC#83210-5
@@ -17,10 +17,10 @@ Description: "An instance of Observation"
 * valueCodeableConcept.coding.display = "Dependent"
 
 
-Instance: P0723--observationBSJ1
+Instance: CMS2023-observationBSJ1
 InstanceOf: Observation
 Description: "An instance of Observation"
-* subject = Reference(patientBSJ1)
+* subject = Reference(CMS2023-patientBSJ1)
 * status = #final
 * effectiveDateTime = "2020-04-02T10:00:00-05:00"
 * code = LNC#83218-8

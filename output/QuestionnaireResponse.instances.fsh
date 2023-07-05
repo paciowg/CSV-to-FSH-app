@@ -2,11 +2,11 @@ Alias: LNC = http://loinc.org
 
 
 
-Instance: P0723-OASIS_Like.QuestionaireResponse_Followup-1
+Instance: CMS2023-OASIS_Like.QuestionaireResponse_Followup-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/OASIS_Like.QuestionaireResponse_Followup
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = OASIS_Like.QuestionaireResponse_Followup
@@ -36,11 +36,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-OASIS.QuestionaireResponse_SoC-1
+Instance: CMS2023-OASIS.QuestionaireResponse_SoC-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/OASIS_SoC_E
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = Outcome and assessment information set (OASIS) form - version E - Start of Care [CMS Assessment]
@@ -80,11 +80,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-PRAPARE.QuestionaireResponse-1
+Instance: CMS2023-PRAPARE.QuestionaireResponse-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/PRAPARE.QuestionaireResponse_Followup
 * questionnaire.extension.valueString = PRAPARE
 * authored = 2023-06-13T15:00:00-04:00
@@ -98,11 +98,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-OASIS.QuestionaireResponse_Followup-1
+Instance: CMS2023-OASIS.QuestionaireResponse_Followup-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/OASIS.QuestionaireResponse_Followup
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = OASIS.QuestionaireResponse_Followup
@@ -122,11 +122,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-Swallowing_Local.QuestionaireResponse_initial-1
+Instance: CMS2023-Swallowing_Local.QuestionaireResponse_initial-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/Swallowing_Local.QuestionaireResponse_initial
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = Swallowing_Local.QuestionaireResponse_initial-1
@@ -169,11 +169,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-SwallowingPanel_ASHA_NOMS.QuestionaireResponse_initial-1
+Instance: CMS2023-SwallowingPanel_ASHA_NOMS.QuestionaireResponse_initial-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/SwallowingPanel_ASHA_NOMS.QuestionaireResponse_initial
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = SwallowingPanel_ASHA_NOMS.QuestionaireResponse_initial
@@ -203,11 +203,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-SwallowingPanel_ASHA_NOMS.QuestionaireResponse_followup-1
+Instance: CMS2023-SwallowingPanel_ASHA_NOMS.QuestionaireResponse_followup-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/SwallowingPanel_ASHA_NOMS.QuestionaireResponse_followu
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = SwallowingPanel_ASHA_NOMS.QuestionaireResponse_followup-1
@@ -237,11 +237,11 @@ Description: "An instance of USCoreQuestionnaireResponse"
 
 
 
-Instance: P0723-Swallowing_Local.QuestionaireResponse_Followup-1
+Instance: CMS2023-Swallowing_Local.QuestionaireResponse_Followup-1
 InstanceOf: USCoreQuestionnaireResponse
 Description: "An instance of USCoreQuestionnaireResponse"
 * status = completed
-* subject = Reference(Patient/P0723-patientBSJ1)
+* subject = Reference(Patient/CMS2023-patientBSJ1)
 * questionnaire = http://example.org/Questionnaire/Swallowing_Local.QuestionaireResponse_Followup
 * questionnaire.extension.url = http://hl7.org/fhir/StructureDefinition/display
 * questionnaire.extension.valueString = Swallowing_Local.QuestionaireResponse_Followup-1

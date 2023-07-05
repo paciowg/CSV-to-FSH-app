@@ -4,11 +4,11 @@ Alias: UOM = http://unitsofmeasure.org
 Alias: USCCAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 
-Instance: P0723--ObservationLab-73
+Instance: CMS2023-ObservationLab-73
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -19,14 +19,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-57
+Instance: CMS2023-ObservationLab-57
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -37,14 +37,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-19
+Instance: CMS2023-ObservationLab-19
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -55,14 +55,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-13
+Instance: CMS2023-ObservationLab-13
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -73,14 +73,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-4
+Instance: CMS2023-ObservationLab-4
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -91,14 +91,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*6/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*6/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-5
+Instance: CMS2023-ObservationLab-5
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -109,14 +109,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "fL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#fL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-6
+Instance: CMS2023-ObservationLab-6
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -127,14 +127,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "pg"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#pg
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-7
+Instance: CMS2023-ObservationLab-7
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -145,14 +145,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "g/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#g/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-1
+Instance: CMS2023-ObservationLab-1
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -163,14 +163,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*3/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*3/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-2
+Instance: CMS2023-ObservationLab-2
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -181,14 +181,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "g/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#g/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-3
+Instance: CMS2023-ObservationLab-3
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -199,14 +199,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#%
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-8
+Instance: CMS2023-ObservationLab-8
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -217,14 +217,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "fL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#fL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-9
+Instance: CMS2023-ObservationLab-9
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -235,14 +235,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#%
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-41
+Instance: CMS2023-ObservationLab-41
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -253,14 +253,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*3/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*3/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-40
+Instance: CMS2023-ObservationLab-40
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -271,14 +271,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-43
+Instance: CMS2023-ObservationLab-43
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -289,14 +289,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#%
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-42
+Instance: CMS2023-ObservationLab-42
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -307,14 +307,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "g/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#g/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-45
+Instance: CMS2023-ObservationLab-45
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -325,14 +325,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "fL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#fL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-62
+Instance: CMS2023-ObservationLab-62
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -343,14 +343,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-61
+Instance: CMS2023-ObservationLab-61
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -361,14 +361,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-46
+Instance: CMS2023-ObservationLab-46
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -379,14 +379,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "pg"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#pg
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-49
+Instance: CMS2023-ObservationLab-49
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -397,14 +397,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#%
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-48
+Instance: CMS2023-ObservationLab-48
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -415,14 +415,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "fL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#fL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-69
+Instance: CMS2023-ObservationLab-69
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -433,14 +433,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "ng/mL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#ng/mL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-68
+Instance: CMS2023-ObservationLab-68
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -451,14 +451,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-23
+Instance: CMS2023-ObservationLab-23
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -469,14 +469,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-22
+Instance: CMS2023-ObservationLab-22
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -487,14 +487,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-21
+Instance: CMS2023-ObservationLab-21
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -505,14 +505,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-20
+Instance: CMS2023-ObservationLab-20
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -523,14 +523,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mL/min/{1.73_m2}"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mL/min/{1.73_m2}
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-27
+Instance: CMS2023-ObservationLab-27
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -541,14 +541,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "s"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#s
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-26
+Instance: CMS2023-ObservationLab-26
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -559,14 +559,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "{INR}"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#{INR}
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-25
+Instance: CMS2023-ObservationLab-25
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -577,14 +577,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "s"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#s
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-24
+Instance: CMS2023-ObservationLab-24
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -595,14 +595,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-15
+Instance: CMS2023-ObservationLab-15
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -613,14 +613,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-29
+Instance: CMS2023-ObservationLab-29
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -631,14 +631,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "ng/mL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#ng/mL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-28
+Instance: CMS2023-ObservationLab-28
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -649,14 +649,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-67
+Instance: CMS2023-ObservationLab-67
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -667,14 +667,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "s"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#s
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-39
+Instance: CMS2023-ObservationLab-39
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -685,14 +685,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "g/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#g/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-66
+Instance: CMS2023-ObservationLab-66
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -703,14 +703,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "{INR}"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#{INR}
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-65
+Instance: CMS2023-ObservationLab-65
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -721,14 +721,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "s"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#s
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-64
+Instance: CMS2023-ObservationLab-64
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -739,14 +739,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-60
+Instance: CMS2023-ObservationLab-60
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -757,14 +757,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mL/min/{1.73_m2}"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mL/min/{1.73_m2}
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-63
+Instance: CMS2023-ObservationLab-63
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -775,14 +775,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-35
+Instance: CMS2023-ObservationLab-35
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -793,14 +793,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "{ratio}"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#{ratio}
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-44
+Instance: CMS2023-ObservationLab-44
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -811,14 +811,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*6/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*6/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-52
+Instance: CMS2023-ObservationLab-52
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -829,14 +829,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*3/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*3/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-53
+Instance: CMS2023-ObservationLab-53
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -847,14 +847,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-50
+Instance: CMS2023-ObservationLab-50
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -865,14 +865,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*3/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*3/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-51
+Instance: CMS2023-ObservationLab-51
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -883,14 +883,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "fL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#fL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-56
+Instance: CMS2023-ObservationLab-56
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -901,14 +901,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-47
+Instance: CMS2023-ObservationLab-47
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -919,14 +919,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "g/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#g/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-54
+Instance: CMS2023-ObservationLab-54
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -937,14 +937,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-55
+Instance: CMS2023-ObservationLab-55
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -955,14 +955,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-70
+Instance: CMS2023-ObservationLab-70
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -973,14 +973,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#%
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-17
+Instance: CMS2023-ObservationLab-17
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -991,14 +991,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-72
+Instance: CMS2023-ObservationLab-72
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -1009,14 +1009,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-59
+Instance: CMS2023-ObservationLab-59
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -1027,14 +1027,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-12
+Instance: CMS2023-ObservationLab-12
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1045,14 +1045,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*3/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*3/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-18
+Instance: CMS2023-ObservationLab-18
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1063,14 +1063,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-10
+Instance: CMS2023-ObservationLab-10
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1081,14 +1081,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "10*3/uL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#10*3/uL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-11
+Instance: CMS2023-ObservationLab-11
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1099,14 +1099,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "fL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#fL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-34
+Instance: CMS2023-ObservationLab-34
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1117,14 +1117,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-16
+Instance: CMS2023-ObservationLab-16
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1135,14 +1135,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-36
+Instance: CMS2023-ObservationLab-36
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1153,14 +1153,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "[GPL'U]"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#[GPL'U]
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-37
+Instance: CMS2023-ObservationLab-37
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1171,14 +1171,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "ng/mL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#ng/mL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-30
+Instance: CMS2023-ObservationLab-30
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1189,14 +1189,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#%
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-31
+Instance: CMS2023-ObservationLab-31
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1207,14 +1207,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-32
+Instance: CMS2023-ObservationLab-32
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1225,14 +1225,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-33
+Instance: CMS2023-ObservationLab-33
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1243,14 +1243,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-71
+Instance: CMS2023-ObservationLab-71
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -1261,14 +1261,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-38
+Instance: CMS2023-ObservationLab-38
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1279,14 +1279,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mm/h"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mm/h
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-14
+Instance: CMS2023-ObservationLab-14
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -1297,14 +1297,14 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mmol/L"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mmol/L
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
-Instance: P0723--ObservationLab-58
+Instance: CMS2023-ObservationLab-58
 InstanceOf: USCoreLaboratoryResultObservationProfile
 Description: "An instance of USCoreLaboratoryResultObservationProfile"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = USCCAT#laboratory "Laboratory"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -1315,4 +1315,4 @@ Description: "An instance of USCoreLaboratoryResultObservationProfile"
 * valueQuantity.unit = "mg/dL"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#mg/dL
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)

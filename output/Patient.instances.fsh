@@ -5,7 +5,7 @@ Alias: Hl7V2TBL0131 = http://hl7.org/fhir/v2/0131
 Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 
-Instance: P0723-patientBSJ1
+Instance: CMS2023-patientBSJ1
 InstanceOf: USCorePatientProfile
 Description: "An instance of USCorePatientProfile"
 * active = true

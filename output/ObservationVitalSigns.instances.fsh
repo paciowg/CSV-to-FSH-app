@@ -4,11 +4,11 @@ Alias: LNC = http://loinc.org
 Alias: UOM = http://unitsofmeasure.org
 
 
-Instance: P0723--VitalSign-6
+Instance: CMS2023-VitalSign-6
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -19,15 +19,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "mmHg"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"mm[Hg]"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-9
+Instance: CMS2023-VitalSign-9
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -38,15 +38,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"%"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-8
+Instance: CMS2023-VitalSign-8
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -57,15 +57,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "beats/minute"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"/min"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-5
+Instance: CMS2023-VitalSign-5
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -76,15 +76,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "mmHg"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"mm[Hg]"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-4
+Instance: CMS2023-VitalSign-4
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -95,15 +95,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "C"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"Cel"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-7
+Instance: CMS2023-VitalSign-7
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -114,15 +114,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "breaths/minute"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"/min"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-12
+Instance: CMS2023-VitalSign-12
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -133,15 +133,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "mmHg"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"mm[Hg]"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-1
+Instance: CMS2023-VitalSign-1
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -152,15 +152,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "breaths/minute"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"/min"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-3
+Instance: CMS2023-VitalSign-3
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -171,15 +171,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "%"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"%"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-2
+Instance: CMS2023-VitalSign-2
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
@@ -190,15 +190,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "beats/minute"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"/min"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-11
+Instance: CMS2023-VitalSign-11
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -209,15 +209,15 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "mmHg"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"mm[Hg]"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 
 
 
-Instance: P0723--VitalSign-10
+Instance: CMS2023-VitalSign-10
 InstanceOf: observation-vitalsigns
 Description: "An instance of observation-vitalsigns"
-* subject = Reference(patientBSJ1)
-* encounter = Reference(BSJ-Encounter-1)
+* subject = Reference(CMS2023-patientBSJ1)
+* encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
 * category = CATVS#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
@@ -228,5 +228,5 @@ Description: "An instance of observation-vitalsigns"
 * valueQuantity.unit = "C"
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.code = UOM#"Cel"
-* performer = Reference(provider-org-16)
+* performer = Reference(CMS2023-org-PC-Primary-Care-Michigan)
 

@@ -1,6 +1,6 @@
 
 
-Instance: P0723-org-Loc-SpeechLanguage-Clarity-Speech-Center
+Instance: CMS2023-org-Loc-SpeechLanguage-Clarity-Speech-Center
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Clarity Speech Language Center"
@@ -8,7 +8,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-Home-Loc-01
+Instance: CMS2023-Home-Loc-01
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "In Home"
@@ -16,7 +16,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-org-Loc-PC-Primary-Care-Michigan
+Instance: CMS2023-org-Loc-PC-Primary-Care-Michigan
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Michigan Primary Health Care Associates"
@@ -24,7 +24,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-org-Loc-Radiology-Prism-Radiology-Associates
+Instance: CMS2023-org-Loc-Radiology-Prism-Radiology-Associates
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Prism Radiology Associates"
@@ -32,7 +32,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-org-Loc-HH-Sky-Harbor-Home-Health
+Instance: CMS2023-org-Loc-HH-Sky-Harbor-Home-Health
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Sky Harbor Home Health Services"
@@ -40,7 +40,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-org-Loc-SNF-Happy-Nursing-Facility
+Instance: CMS2023-org-Loc-SNF-Happy-Nursing-Facility
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Happy Nursing Facility"
@@ -48,7 +48,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-org-Loc-PSC-Prism-General-Hospital
+Instance: CMS2023-org-Loc-PSC-Prism-General-Hospital
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Prism General Hospital"
@@ -56,7 +56,7 @@ Description: "An instance of Location"
 * status = #active
 
 
-Instance: P0723-org-Loc-Lifeway-Ground-Transport
+Instance: CMS2023-org-Loc-Lifeway-Ground-Transport
 InstanceOf: Location
 Description: "An instance of Location"
 * name = "Lifeway Ground Transport Inc."
