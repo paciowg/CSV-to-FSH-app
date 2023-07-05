@@ -1,0 +1,15 @@
+pfeclinicaltestobservation.performers[key],performers.practitionerRole.reference,performers.practitioner.reference,performers.organization.reference
+Role-OT-JenCadbury,Role-OT-JenCadbury,Practitioner-JenCadbury,org-HH-Sky-Harbor-Home-Health
+Role-SLP-AlexanderKuikhoff,Role-SLP-AlexanderKuikhoff,Practitioner-AlexanderKuikhoff,org-HH-Sky-Harbor-Home-Health
+Role-SLP-MariaGonzalez,Role-SLP-MariaGonzalez,Practitioner-MariaGonzalez,org-HH-Sky-Harbor-Home-Health
+Role-CSW-RayMancioni,Role-CSW-RayMancioni,Practitioner-RayMancioni,org-HH-Sky-Harbor-Home-Health
+Role-PT-ScottDumble,Role-PT-ScottDumble,Practitioner-ScottDumble,org-HH-Sky-Harbor-Home-Health
+Role-PT-LunaBaskins,Role-PT-LunaBaskins,Practitioner-LunaBaskins,org-HH-Sky-Harbor-Home-Health
+Role-HHRN-TamaraRodriguez,Role-HHRN-TamaraRodriguez,Practitioner-TamaraRodriguez,org-HH-Sky-Harbor-Home-Health
+Role-HHRN-JacobHartwell,Role-HHRN-JacobHartwell,Practitioner-JacobHartwell,org-HH-Sky-Harbor-Home-Health
+Role-IMMD-AnitaChu,Role-IMMD-AnitaChu,Practitioner-AnitaChu,org-PC-Primary-Care-Michigan
+Role-SW-MarkPlanner,Role-SW-MarkPlanner,eLTSS-MarkPlanner,org-eLTSS-Support-Planner-Services
+Role-RNCM-SamMonitor,Role-RNCM-SamMonitor,eLTSS-SamMonitor,org-eLTSS-CaseManaging4U
+Role-Driver-BillDriver,Role-Driver-BillDriver,eLTSS-BillDriver,org-Transporter-Inc
+Role-CDCES-eLTSS-LisaEducator,Role-CDCES-eLTSS-LisaEducator,eLTSS-LisaEducator,org-eLTSS-Health-Educators-Inc
+Role-PT-NormaTrainer,Role-PT-NormaTrainer,eLTSS-NormaTrainer,org-eLTSS-Therapists-To-Go

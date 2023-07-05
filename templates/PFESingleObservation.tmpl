@@ -1,4 +1,4 @@
-## Functional Performance Collection Observation Instance Template
+## Personal Functioning and Engagement Single Observation Instance Template
 ##
 ## NOTE:
 ## - Any line starts with'##' is a comment line--will be ignored
@@ -16,34 +16,37 @@
 ##
 ## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
 ##
-## - Any lines starting with '// Pre-load' will be processed (lookups loaded), but not included in the output
-##
 =@>
-Alias: FUNCPERFCAT =  http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
-Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs
+Alias: PFECAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
+Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: SDOH = http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes
 <@=
 
 Instance: @@<instance-id-prefix>@@@<resource.id>@
-InstanceOf: FunctionalPerformanceCollection
-Description: "An instance of Functional Performance Collection"
+InstanceOf: PFESingleObservation
+Description: "An instance of PFESingleObservation"
 * subject = Reference(Patient/@@<instance-id-prefix>@@@<subject.reference>@)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
 // Pre-load code @<category-PFEDomain>@ - Do Not Remove from template
-* category[+] = FUNCPERFCAT#@<category-PFEDomain.code>@ "@<category-PFEDomain.display>@"
+* category[+] = PFECAT#@<category-PFEDomain.code>@ "@<category-PFEDomain.display>@"
 * category[+] = OBSCAT#survey
+// Pre-load code @<category-SocialHistory>@ - Do Not Remove from template
+* category[+] = OBSCAT#@<category-SocialHistory.code>@ "@<category-SocialHistory.display>@"
+// Pre-load code @<category-SDOH>@ - Do Not Remove from template
+* category[+] = SDOH#@<category-SDOH.code>@ "@<category-SDOH.display>@"
 * effectiveDateTime = "@<effectiveDateTime>@"
 * encounter = Reference(Encounter/@@<instance-id-prefix>@@@<encounter.reference>@)
 // Pre-load code @<code>@ - Do Not Remove from template
 * code = @<code.system>@#@<code.code>@ "@<code.display>@"
-* code.text = "@<code.display>@"
 // Pre-load code @<performers>@ - Do Not Remove from template
 * performer[+] = Reference(PractitionerRole/@@<instance-id-prefix>@@@<performers.practitionerRole.reference>@)
 * performer[+] = Reference(Practitioner/@@<instance-id-prefix>@@@<performers.practitioner.reference>@)
 * performer[+] = Reference(Organization/@@<instance-id-prefix>@@@<performers.organization.reference>@)
-* hasMember@<index.hasMember.reference>@ = Reference(Observation/@@<instance-id-prefix>@@@<hasMember.reference>@)
 * derivedFrom@<index.derivedFrom.reference>@ = Reference(QuestionnaireResponse/@@<instance-id-prefix>@@@<derivedFrom.reference>@)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(Location/@@<instance-id-prefix>@@@<extension-event-location.reference>@)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/device-patient-used]@<index.extension-device-patient-used.reference>@.valueReference = Reference(DeviceUseStatement/@@<instance-id-prefix>@@@<extension-device-patient-used.reference>@)
+* extension[http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/event-location].valueReference = Reference(Location/@@<instance-id-prefix>@@@<extension-event-location.reference>@)
+// Pre-load code @<valueCodeableConcept>@ - Do Not Remove from template
+* valueCodeableConcept = @<value.system>@#@<value.code>@ "@<value.display>@"
 * valueQuantity = @<valueQuantity>@
+* dataAbsentReason = @<dataAbsentReason>@

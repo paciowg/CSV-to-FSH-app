@@ -1,2 +1,2 @@
 patient.id,name.family,name.given,identifier.system,identifier.value,telecom.value,gender,birthDate,address.text,maritalStatus,maritalStatus.text,language.coding,contact[->],generalPractitioner
-patientBSJ1,Smith-Johnson,Betsy,http://hl7.org/fhir/sid/us-medicare,10A3D58WH1600,210-222-1111,female,1950-11-01,"111 Maple Ct, San Antonio, TX 78212",U,Not married,LANGVALSET#en,patientBSJ1,pcp-John-Smith
+patientBSJ1,Smith-Johnson,Betsy,http://hl7.org/fhir/sid/us-medicare,10A3D58WH1600,210-222-1111,female,1950-11-01,"111 Maple Ct, Grand Rapids, MI 49503",U,Not married,LANGVALSET#en,patientBSJ1,pcp-John-Smith

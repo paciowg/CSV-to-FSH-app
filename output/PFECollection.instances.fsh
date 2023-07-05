@@ -1,11 +1,11 @@
-Alias: FUNCPERFCAT =  http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
-Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-fp/CodeSystem/fp-functioning-cs
+Alias: PFECAT =  http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
+Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 
 Instance: P0723-BSJ-HHA-SPLASCH-swallow-2SLP
-InstanceOf: FunctionalPerformanceCollection
-Description: "An instance of Functional Performance Collection"
+InstanceOf: PFECollection
+Description: "An instance of PFECollection"
 * subject = Reference(Patient/P0723-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
@@ -21,16 +21,16 @@ Description: "An instance of Functional Performance Collection"
 * hasMember[+] = Reference(Observation/P0723-BSJ-SNFAdm-SPLASCH-swallow-02SLP-Obs-99856-7)
 * hasMember[+] = Reference(Observation/P0723-BSJ-HHA-SwallowScreen-02SLP-Obs-99853-4)
 * hasMember[+] = Reference(Observation/P0723-BSJ-HHA-SwallowScreen-02SLP-Obs-99854-2)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(Location/P0723-Home-Loc-01)
+* extension[http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/event-location].valueReference = Reference(Location/P0723-Home-Loc-01)
 
 
 Instance: P0723-BSJ-HHA-SPLASCH-swallow-1SLP
-InstanceOf: FunctionalPerformanceCollection
-Description: "An instance of Functional Performance Collection"
+InstanceOf: PFECollection
+Description: "An instance of PFECollection"
 * subject = Reference(Patient/P0723-patientBSJ1)
 * status = #final
 * category[+] = FUNCTIONINGCAT#functioning "Functioning"
-* category[+] = FUNCPERFCAT#functions_of_the_digestive_metabolic_and_endocrine_systems  "Functions of the digestive, metabolic and endocrine systems"
+* category[+] = PFECAT#functions_of_the_digestive_metabolic_and_endocrine_systems  "Functions of the digestive, metabolic and endocrine systems"
 * category[+] = OBSCAT#survey
 * effectiveDateTime = "2023-06-12T14:15:00-04:00"
 * encounter = Reference(Encounter/P0723-ENC-HHA)
@@ -43,4 +43,4 @@ Description: "An instance of Functional Performance Collection"
 * hasMember[+] = Reference(Observation/P0723-BSJ-SNFAdm-SPLASCH-swallow-01SLP-Obs-99856-7)
 * hasMember[+] = Reference(Observation/P0723-BSJ-HHA-SwallowScreen-01SLP-Obs-99853-4)
 * hasMember[+] = Reference(Observation/P0723-BSJ-HHA-SwallowScreen-01SLP-Obs-99854-2)
-* extension[http://hl7.org/fhir/us/pacio-fp/StructureDefinition/event-location].valueReference = Reference(Location/P0723-Home-Loc-01)
+* extension[http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/event-location].valueReference = Reference(Location/P0723-Home-Loc-01)

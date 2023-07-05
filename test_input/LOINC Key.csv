@@ -1,0 +1,68 @@
+﻿LL3841-5,Answer,Code,Score,Answer ID
+,Clear,,,LA19732-9
+,Rales (respiratory crackles),,,LA17235-5
+,StridorCopyright http://snomed.info/sct ID:70407001 stridor (finding),,,LA17612-5
+,Rhonchus,,,LA25243-9
+,Wheezes,,,LA25244-7
+,,,,
+,,,,
+,,,,
+LL652-9,Answer,Code,Score,Answer ID
+,Behavior not present,0,,LA61-7
+,"Behavior continuously present, does not fluctuate",1,,LA10992-8
+,"Behavior present, fluctuates (comes and goes, changes in severity)",2,,LA10993-6
+,,,,
+LL653-7,Answer,Code,Score,Answer ID
+,NoCopyright http://snomed.info/sct ID:373067005 No (qualifier value),0,,LA32-8
+,YesCopyright http://snomed.info/sct ID:373066001 Yes (qualifier value),1,,LA33-6
+,No response,9,,LA10996-9
+,,,,
+LL810-3,Answer,Code,Score,Answer ID
+,Able to independently feed self.,0,,LA6133-8
+,"Able to feed self independently but requires: (a) meal set-up; OR (b) intermittent assistance or supervision from another person; OR (c) a liquid, pureed or ground meat diet.",1,,LA12294-7
+,Unable to feed self and must be assisted or supervised throughout the meal/snack.,2,,LA6414-2
+,Able to take in nutrients orally AND receives supplemental nutrients through a nasogastric tube or gastrostomy.,3,,LA6142-9
+,Unable to take in nutrients orally and is fed nutrients through a nasogastric tube or gastrostomy.,4,,LA6422-5
+,Unable to take in nutrients orally or by tube feeding.,5,,LA6423-3
+,,,,
+LL6183-9,Answer,Code,Score,Answer ID
+,0-25% of the time (rarely),,,LA33175-3
+,26-49% of the time (sometimes),,,LA33176-1
+,50-75% of the time (often),,,LA33177-9
+,76-90% of the time (most of the time),,,LA33178-7
+,91-100% of the time (always),,,LA33179-5
+,,,,
+"
+LL6208-4",Answer,Code,Score,Answer ID
+,Regular (no modifications),,,LA33257-9
+,Soft & bite sized,,,LA33256-1
+,Minced & moist,,,LA33255-3
+,Pureed,,,LA33254-6
+,Liquidized,,,LA33253-8
+,No solids,,,LA33252-0
+,,,,
+LL6212-6,Answer,Code,Score,Answer ID
+,Thin liquids (no modifications),,,LA33267-8
+,Slightly thick,,,LA33268-6
+,Mildly thick,,,LA33269-4
+,Moderately thick,,,LA33270-2
+,Extremely thick,,,LA33271-0
+,No liquids,,,LA33272-8
+,,,,
+LL6183-9,Answer,Code,Score,Answer ID
+,0-25% of the time (rarely),,,LA33175-3
+,26-49% of the time (sometimes),,,LA33176-1
+,50-75% of the time (often),,,LA33177-9
+,76-90% of the time (most of the time),,,LA33178-7
+,91-100% of the time (always),,,LA33179-5
+,,,,
+LL5571-6,Answer,Code,Score,Answer ID
+,Independent - Person completes the activity by themself with no assistance from a helper.,6,,LA30909-8
+,Setup or cleanup assistance - Helper sets up or cleans up; person completes activity. Helper assists only prior to or following the activity.,5,,LA30910-6
+,Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently.,4,,LA30911-4
+,"Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.",3,,LA10055-4
+,Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.,2,,LA11759-0
+,"Dependent - Helper does all of the effort. Person does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the person to complete the activity.",1,,LA30914-8
+,Person refused.,7,,LA30915-5
+,Not applicable - Person does not usually do this activity.,11,,LA30916-3
+,Not attempted due to short-term medical condition or safety concerns.,90,,LA30917-1

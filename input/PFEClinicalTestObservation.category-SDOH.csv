@@ -1,0 +1,19 @@
+pfeclinicaltestobservation.category-SDOH[key],category-SDOH.code,category-SDOH.display
+sdoh-category-unspecified,sdoh-category-unspecified,SDOH Category Unspecified
+food-insecurity,food-insecurity,Food Insecurity
+housing-instability,housing-instability,Housing Instability
+homelessness,homelessness,Homelessness
+inadequate-housing,inadequate-housing,Inadequate Housing
+transportation-insecurity,transportation-insecurity,Transportation Insecurity
+financial-insecurity,financial-insecurity,Financial Insecurity
+material-hardship,material-hardship,Material Hardship
+educational-attainment,educational-attainment,Educational Attainment
+employment-status,employment-status,Employment Status
+veteran-status,veteran-status,Veteran Status
+stress,stress,Stress
+social-connection,social-connection,Social Connection
+intimate-partner-violence,intimate-partner-violence,Intimate Partner Violence
+elder-abuse,elder-abuse,Elder Abuse
+personal-health-literacy,personal-health-literacy,Personal Health Literacy
+health-insurance-coverage-status,health-insurance-coverage-status,Health Insurance Coverage Status
+medical-cost-burden,medical-cost-burden,Medical Cost Burden

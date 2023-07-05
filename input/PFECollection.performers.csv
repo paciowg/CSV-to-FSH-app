@@ -1,4 +1,4 @@
-fpcollection.performers[key],performers.practitionerRole.reference,performers.practitioner.reference,performers.organization.reference
+pfecollection.performers[key],performers.practitionerRole.reference,performers.practitioner.reference,performers.organization.reference
 Role-RN-JudySmiley,Role-RN-JudySmiley,Practitioner-JudySmiley,org-Hosp-San-Antonio-General
 Role-PT-RonMarble,Role-PT-RonMarble,Practitioner-RonMarble,org-Hosp-San-Antonio-General
 Role-OT-LisaGreene,Role-OT-LisaGreene,Practitioner-LisaGreene,org-Hosp-San-Antonio-General

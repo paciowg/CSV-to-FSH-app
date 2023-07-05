@@ -99,27 +99,45 @@ jobs:
 - resource: EpisodeOfCare
   dataFile: EpisodeOfCare.data.csv
 
-- resource: FPCollection
-  dataFile: FPCollection.data.csv
+- resource: PFECollection
+  dataFile: PFECollection.data.csv
   otherInputFiles:
-    - FPCollection.code.csv
-    - FPCollection.category-functioning.csv
-    - FPCollection.category-PFEDomain.csv
-    - FPCollection.category-survey.csv
-    - FPCollection.performers.csv
+    - PFECollection.code.csv
+    - PFECollection.category-functioning.csv
+    - PFECollection.category-PFEDomain.csv
+    - PFECollection.category-survey.csv
+    - PFECollection.performers.csv
 
-- resource: FPObservation
-  dataFile: FPObservation.data.csv
+- resource: PFESingleObservation
+  dataFile: PFESingleObservation.data.csv
   otherInputFiles:
-    - FPObservation.code.csv
-    - FPObservation.category-functioning.csv
-    - FPObservation.category-PFEDomain.csv
-    - FPObservation.category-survey.csv
-    - FPObservation.category-SocialHistory.csv
-    - FPObservation.category-SDOH.csv
-    - FPObservation.valueCodeableConcept.csv
-    - FPObservation.valueQuantity.csv
-    - FPObservation.performers.csv
+    - PFESingleObservation.code.csv
+    - PFESingleObservation.category-functioning.csv
+    - PFESingleObservation.category-PFEDomain.csv
+    - PFESingleObservation.category-survey.csv
+    - PFESingleObservation.category-SocialHistory.csv
+    - PFESingleObservation.category-SDOH.csv
+    - PFESingleObservation.valueCodeableConcept.csv
+    - PFESingleObservation.valueQuantity.csv
+    - PFESingleObservation.performers.csv
+
+- resource: PFEClinicalTestObservation
+  dataFile: PFEClinicalTestObservation.data.csv
+  otherInputFiles:
+    - PFEClinicalTestObservation.code.csv
+    - PFEClinicalTestObservation.category-functioning.csv
+    - PFEClinicalTestObservation.category-PFEDomain.csv
+    - PFEClinicalTestObservation.category-survey.csv
+    - PFEClinicalTestObservation.category-SocialHistory.csv
+    - PFEClinicalTestObservation.category-SDOH.csv
+    - PFEClinicalTestObservation.valueCodeableConcept.csv
+    - PFEClinicalTestObservation.valueQuantity.csv
+    - PFEClinicalTestObservation.performers.csv
+
+- resource: QuestionnaireResponse
+  dataFile: QuestionnaireResponse.data.csv
+  otherInputFiles:
+    - QuestionnaireResponse.item.csv
 
 - resource: Device
   dataFile: Device.data.csv
@@ -127,8 +145,8 @@ jobs:
 - resource: DiagnosticReport
   dataFile: DiagnosticReport.data.csv
 
-- resource: FPDeviceUseStatement
-  dataFile: FPDeviceUseStatement.data.csv
+- resource: PFEDeviceUseStatement
+  dataFile: PFEDeviceUseStatement.data.csv
 
 - resource: Organization
   dataFile: Organization.data.csv

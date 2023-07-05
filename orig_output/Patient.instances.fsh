@@ -23,14 +23,14 @@ Description: "An instance of USCorePatientProfile"
 
 
 
-* address.text = "111 Maple Ct, Grand Rapids, MI 49503"
+* address.text = "111 Maple Ct, San Antonio, TX 78212"
 
 
 * contact[0].name.text = "Charles Johnson"
 * contact[1].name.text = "Debra Johnson"
 * contact[0].relationship@<index.contact.relationship.coding>@.coding = V3ROLECODE#SONC/Hl7V2TBL0131#C/V3ROLECODE#GUARD
 * contact[1].relationship@<index.contact.relationship.coding>@.coding = V3ROLECODE#DAUC
-* contact[0].address.text = "111 Maple Ct, Grand Rapids, MI 49503"
+* contact[0].address.text = "100 Montana St., San Antonio, TX 78203"
 * contact[1].address.text = "333 W. Camden St., Baltimore, MD 21201"
 * contact[0].telecom.system = #phone
 * contact[1].telecom.system = #phone

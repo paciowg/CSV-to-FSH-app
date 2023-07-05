@@ -32,7 +32,7 @@ Description: "An instance of Practitioner"
 * name.text = "Scott Dumble"
 * active = true
 * telecom.system = #phone
-* telecom.value = "(210) 555-1399"
+* telecom.value = "(210) 555 1399"
 
 
 Instance: P0723-eLTSS-MarkPlanner
@@ -54,7 +54,7 @@ Description: "An instance of Practitioner"
 * name.text = "Tamara Rodriguez"
 * active = true
 * telecom.system = #phone
-* telecom.value = "(210) 555-2089"
+* telecom.value = "(210) 555 2089"
 
 
 Instance: P0723-Practitioner-RayMancioni
@@ -98,7 +98,7 @@ Description: "An instance of Practitioner"
 * name.text = "Jen Cadbury"
 * active = true
 * telecom.system = #phone
-* telecom.value = "(210) 555-1871"
+* telecom.value = "(210) 555 1871"
 
 
 Instance: P0723-Practitioner-JacobHartwell
