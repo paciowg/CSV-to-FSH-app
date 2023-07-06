@@ -28,8 +28,8 @@ Description: "An instance of USCorePatientProfile"
 
 * contact[0].name.text = "Charles Johnson"
 * contact[1].name.text = "Debra Johnson"
-* contact[0].relationship@<index.contact.relationship.coding>@.coding = V3ROLECODE#SONC/Hl7V2TBL0131#C/V3ROLECODE#GUARD
-* contact[1].relationship@<index.contact.relationship.coding>@.coding = V3ROLECODE#DAUC
+* contact[0].relationship.coding = Hl7V3ROLE#SONC/Hl7V2TBL0131#C/Hl7V3ROLE#GUARD
+* contact[1].relationship.coding = Hl7V3ROLE#DAUC
 * contact[0].address.text = "111 Maple Ct, Grand Rapids, MI 49503"
 * contact[1].address.text = "333 W. Camden St., Baltimore, MD 21201"
 * contact[0].telecom.system = #phone

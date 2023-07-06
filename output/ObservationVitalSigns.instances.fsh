@@ -1,5 +1,5 @@
 Alias: OBVS = http://hl7.org/fhir/StructureDefinition/vitalsigns
-Alias: CATVS = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: LNC = http://loinc.org
 Alias: UOM = http://unitsofmeasure.org
 
@@ -10,7 +10,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
 * code = LNC#8462-4
 * code.text = "Diastolic Blood Pressure"
@@ -29,7 +29,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
 * code = LNC#2708-6
 * code.text = "Oxygen saturation in Arterial blood"
@@ -48,7 +48,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
 * code = LNC#8867-4
 * code.text = " Heart Rate"
@@ -67,7 +67,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
 * code = LNC#8480-6
 * code.text = "Systolic Blood Pressure"
@@ -86,7 +86,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
 * code = LNC#8310-5
 * code.text = "Body Temperature"
@@ -105,7 +105,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
 * code = LNC#9279-1
 * code.text = "Respiratory Rate"
@@ -124,7 +124,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
 * code = LNC#8462-4
 * code.text = "Diastolic Blood Pressure"
@@ -143,7 +143,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
 * code = LNC#9279-1
 * code.text = "Respiratory Rate"
@@ -162,7 +162,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
 * code = LNC#2708-6
 * code.text = "Oxygen saturation in Arterial blood"
@@ -181,7 +181,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-08T17:28:00-05:00"
 * code = LNC#8867-4
 * code.text = " Heart Rate"
@@ -200,7 +200,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
 * code = LNC#8480-6
 * code.text = "Systolic Blood Pressure"
@@ -219,7 +219,7 @@ Description: "An instance of observation-vitalsigns"
 * subject = Reference(CMS2023-patientBSJ1)
 * encounter = Reference(CMS2023-BSJ-Encounter-1)
 * status = #final
-* category = CATVS#"vital-signs" "Vital Signs"
+* category = CAT#"vital-signs" "Vital Signs"
 * effectiveDateTime = "2020-07-11T01:16:00-05:00"
 * code = LNC#8310-5
 * code.text = "Body Temperature"

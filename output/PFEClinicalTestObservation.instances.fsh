@@ -2,6 +2,7 @@ Alias: PFECAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
 Alias: FUNCTIONINGCAT = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-functioning-cs
 Alias: OBSCAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: SDOH = http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes
+Alias: SNOMED_CT = http://snomed.info/sct
 
 
 Instance: CMS2023-BSJ-HHA1-SPLASCH-Commrec-01SLP-Obs-99839-3

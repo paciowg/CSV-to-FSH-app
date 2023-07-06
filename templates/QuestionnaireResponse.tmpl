@@ -19,6 +19,7 @@
 
 =@>
 Alias: LNC = http://loinc.org
+Alias: SNOMED_CT = http://snomed.info/sct
 <@=
 
 Instance: @@<instance-id-prefix>@@@<questionnaireresponse.id>@
@@ -30,9 +31,10 @@ Description: "An instance of USCoreQuestionnaireResponse"
 * questionnaire.extension.url = @<questionnaire.extension.url>@
 * questionnaire.extension.valueString = @<questionnaire.extension.valueString>@
 * authored = @<authored>@
-* author = @<author>@
+* author = Reference(PractitionerRole/@@<instance-id-prefix>@@@<author>@)
 
-* item@<index.item>@.linkId = @<linkId>@
+* item.linkId = "Section-37"
+* item@<index.item>@.linkId = Section-37/@<linkId>@
 * item@<index.item>@.text = "@<text>@"
 * item@<index.item>@.answer.valueCoding.code = @<answer.valueCoding.code>@
 * item@<index.item>@.answer.valueCoding.system = @<answer.valueCoding.system>@
